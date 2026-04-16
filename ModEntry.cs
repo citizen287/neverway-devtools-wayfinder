@@ -17,6 +17,7 @@ public class ModEntry
     private static Harmony? _harmony;
     private static bool _resolverInstalled;
     private static readonly HashSet<string> _resolverDebugOnce = new(StringComparer.OrdinalIgnoreCase);
+    private static bool _loggedCimguiLoad;
 
     public static void Start()
     {
@@ -143,6 +144,38 @@ public class ModEntry
             Assembly? imguiNetAsm = null;
             foreach (var dll in new[] { "ImGui.NET.dll" })
             {
+                // On Windows, the native loader + mod loader arrangement frequently expects managed
+                // dependencies to live next to the game executable.
+                // Ensure we try the game directory first.
+                try
+                {
+                    var mainModule = System.Diagnostics.Process.GetCurrentProcess().MainModule;
+                    var gameDir = Path.GetDirectoryName(mainModule?.FileName);
+                    if (!string.IsNullOrWhiteSpace(gameDir) && Directory.Exists(gameDir))
+                    {
+                        var depInGameDir = Path.Combine(gameDir, dll);
+                        if (File.Exists(depInGameDir))
+                        {
+                            try
+                            {
+                                imguiNetAsm = modAlc.LoadFromAssemblyPath(depInGameDir);
+                                Console.WriteLine($"[Neverway DevTools] Loaded managed dependency '{dll}' from game dir: {depInGameDir}");
+                            }
+                            catch
+                            {
+                                // ignore; we'll fall back to probeDirs below
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    // ignore
+                }
+
+                if (imguiNetAsm is not null)
+                    break;
+
                 foreach (var dir in probeDirs)
                 {
                     if (string.IsNullOrWhiteSpace(dir) || !Directory.Exists(dir))
@@ -158,8 +191,15 @@ public class ModEntry
 
                     try { imguiNetAsm = modAlc.LoadFromAssemblyPath(dep); }
                     catch { /* ignore */ }
+                    if (imguiNetAsm is not null)
+                        Console.WriteLine($"[Neverway DevTools] Loaded managed dependency '{dll}' from: {dep}");
                     break;
                 }
+            }
+
+            if (imguiNetAsm is null)
+            {
+                Console.WriteLine($"[Neverway DevTools] Warning: ImGui.NET.dll was not found in the game directory or probe paths. Probed: {string.Join("; ", probeDirs)}");
             }
 
             // Ensure the ImGui.NET native library (cimgui) is resolved from our probe dirs.
@@ -349,7 +389,11 @@ public class ModEntry
                             try
                             {
                                 _ = NativeLibrary.GetExport(handle, "igGetIO");
-                                Console.WriteLine($"[Neverway DevTools] Loaded native cimgui from: {fullPath}");
+                                if (!_loggedCimguiLoad)
+                                {
+                                    _loggedCimguiLoad = true;
+                                    Console.WriteLine($"[Neverway DevTools] Loaded native cimgui from: {fullPath}");
+                                }
                                 return handle;
                             }
                             catch

@@ -36,5 +36,6 @@
 
   <ItemGroup>
     <EmbeddedResource Include="UI\entities.json" />
+    <EmbeddedResource Include="UI\items.json" />
   </ItemGroup>
 </Project>

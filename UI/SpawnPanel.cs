@@ -1,6 +1,7 @@
 using System.Reflection;
 using System.Text.Json;
 using Bang;
+using Bang.Components;
 using DevTools.Core;
 using ImGuiNET;
 using Murder.Core;
@@ -24,6 +25,9 @@ public static class SpawnPanel
     private static string _search = string.Empty;
     private static int _selected;
 
+    private static string _lastSpawnStatus = string.Empty;
+    private static System.Numerics.Vector4 _lastSpawnStatusColor = UIColors.Text;
+
     public static void Render()
     {
         EnsureLoaded();
@@ -36,6 +40,12 @@ public static class SpawnPanel
         }
 
         ImGui.TextDisabled($"Loaded: {_all.Count} entries");
+
+        if (!string.IsNullOrWhiteSpace(_lastSpawnStatus))
+        {
+            ImGui.SameLine();
+            ImGui.TextColored(_lastSpawnStatusColor, _lastSpawnStatus);
+        }
 
         ImGui.SetNextItemWidth(-1);
         if (ImGui.InputTextWithHint("##spawn_search", "Search...", ref _search, 128))
@@ -162,6 +172,64 @@ public static class SpawnPanel
             return;
 
         var pos = player.GetPosition();
-        EntityServices.Spawn(world, new System.Numerics.Vector2(pos.X, pos.Y), guid, 1, 0f);
+
+        var spawnPos = new System.Numerics.Vector2(pos.X, pos.Y);
+
+        try
+        {
+            // Murder's helper tries to find a collision-free position by querying the entity's collider.
+            // Some prefabs don't have a ColliderComponent, which makes GetCollider throw.
+            EntityServices.Spawn(world, spawnPos, guid, 1, 0f);
+
+            _lastSpawnStatus = "Spawned";
+            _lastSpawnStatusColor = UIColors.Success;
+        }
+        catch (KeyNotFoundException)
+        {
+            // Fallback path: create the prefab directly and place it at the target location.
+            // This skips the collision-resolution step that requires a collider.
+            if (TrySpawnWithoutCollider(world, spawnPos, guid))
+            {
+                _lastSpawnStatus = "Spawned (no collider)";
+                _lastSpawnStatusColor = UIColors.Warning;
+            }
+            else
+            {
+                _lastSpawnStatus = "Spawn failed";
+                _lastSpawnStatusColor = UIColors.Error;
+            }
+        }
+        catch (Exception ex)
+        {
+            DevToolsMod.LogError($"Spawn failed: {ex}");
+            ConsoleEngine.AddInfo($"Spawn error: {ex.Message}");
+            _lastSpawnStatus = "Spawn error";
+            _lastSpawnStatusColor = UIColors.Error;
+        }
+    }
+
+    private static bool TrySpawnWithoutCollider(MonoWorld world, System.Numerics.Vector2 spawnPos, Guid guid)
+    {
+        try
+        {
+            // AssetServices is in Murder.dll but (surprisingly) in the global namespace.
+            var e = AssetServices.TryCreate(world, guid);
+            if (e is null)
+            {
+                DevToolsMod.LogWarning($"AssetServices.TryCreate returned null for {guid}");
+                return false;
+            }
+
+            // Ensure it has a position at the requested location.
+            e.AddOrReplaceComponent(new PositionComponent(spawnPos), typeof(PositionComponent));
+
+            DevToolsMod.LogWarning($"Spawned {guid} using fallback path (no ColliderComponent)");
+            return true;
+        }
+        catch (Exception ex)
+        {
+            DevToolsMod.LogError($"Fallback spawn failed for {guid}: {ex}");
+            return false;
+        }
     }
 }
