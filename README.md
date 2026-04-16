@@ -55,6 +55,9 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 - Spawn Characters/entities into the world
 - Built in search funtion
 
+### Item giver 
+- Give youself any item in the game
+
 ## Requirements
 
 - [Neverway](https://store.steampowered.com/app/2318330/Neverway/)
@@ -63,7 +66,7 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 
 ## Quick Start
 
-Just drag and drop the dll into the mods folder
+Just extract the zip into the game's folder
 
 ## Building from Source
 
