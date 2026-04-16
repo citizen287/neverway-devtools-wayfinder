@@ -63,6 +63,12 @@ public static class DevToolsOverlay
                     ImGui.EndTabItem();
                 }
 
+                if (ImGui.BeginTabItem("Items"))
+                {
+                    ItemsPanel.Render();
+                    ImGui.EndTabItem();
+                }
+
                 ImGui.EndTabBar();
             }
         }

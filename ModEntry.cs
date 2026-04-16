@@ -73,12 +73,12 @@ public class ModEntry
 
             // Directories to probe for sibling DLLs.
             // Primary is the directory containing this mod DLL.
-            var probeDirs = new[]
-            {
-                modDir,
-                AppContext.BaseDirectory,
-                Environment.CurrentDirectory
-            };
+            //
+            // IMPORTANT: In Wayfinder/Neverway the mod may be loaded from /GameDir/Mods/<mod>/,
+            // while shared/native libs might live in the game root (e.g. /GameDir/).
+            // Some loaders also run with AppContext.BaseDirectory pointing at /GameDir/.modded/.
+            // So we probe a handful of "likely game root" locations derived from what we can see.
+            var probeDirs = BuildProbeDirs(modDir);
 
             Assembly? Resolver(AssemblyLoadContext alc, AssemblyName name)
             {
@@ -105,7 +105,13 @@ public class ModEntry
 
                     string candidatePath = Path.Combine(dir, $"{name.Name}.dll");
                     if (!File.Exists(candidatePath))
-                        continue;
+                    {
+                        // Linux is typically case-sensitive and some distributions/modpacks ship
+                        // different casing (e.g. imgui.net.dll). Try a case-insensitive match.
+                        candidatePath = TryFindFileCaseInsensitive(dir, $"{name.Name}.dll") ?? candidatePath;
+                        if (!File.Exists(candidatePath))
+                            continue;
+                    }
 
                     try
                     {
@@ -134,6 +140,7 @@ public class ModEntry
 
             // Proactively load common managed dependencies if present.
             // This avoids relying on the resolver event firing in some edge cases.
+            Assembly? imguiNetAsm = null;
             foreach (var dll in new[] { "ImGui.NET.dll" })
             {
                 foreach (var dir in probeDirs)
@@ -143,9 +150,13 @@ public class ModEntry
 
                     string dep = Path.Combine(dir, dll);
                     if (!File.Exists(dep))
-                        continue;
+                    {
+                        dep = TryFindFileCaseInsensitive(dir, dll) ?? dep;
+                        if (!File.Exists(dep))
+                            continue;
+                    }
 
-                    try { modAlc.LoadFromAssemblyPath(dep); }
+                    try { imguiNetAsm = modAlc.LoadFromAssemblyPath(dep); }
                     catch { /* ignore */ }
                     break;
                 }
@@ -153,7 +164,7 @@ public class ModEntry
 
             // Ensure the ImGui.NET native library (cimgui) is resolved from our probe dirs.
             // Without this, the process may pick up an incompatible cimgui from elsewhere.
-            InstallImGuiNativeResolver(probeDirs);
+            InstallImGuiNativeResolver(imguiNetAsm, probeDirs);
 
             // Some loaders still rely on AppDomain resolution in certain cases.
             AppDomain.CurrentDomain.AssemblyResolve += (_, args) =>
@@ -177,20 +188,112 @@ public class ModEntry
         }
     }
 
-    private static void InstallImGuiNativeResolver(string[] probeDirs)
+    private static string[] BuildProbeDirs(string modDir)
     {
-        try
+        var dirs = new List<string>(capacity: 8);
+
+        void Add(string? d)
         {
-            Assembly imguiAssembly;
+            if (string.IsNullOrWhiteSpace(d))
+                return;
             try
             {
-                imguiAssembly = Assembly.Load("ImGui.NET");
+                d = Path.GetFullPath(d);
             }
             catch
             {
-                // If ImGui.NET isn't present, we can't install a resolver.
-                return;
+                // ignore invalid paths
             }
+
+            if (!Directory.Exists(d))
+                return;
+
+            if (!dirs.Contains(d, StringComparer.OrdinalIgnoreCase))
+                dirs.Add(d);
+        }
+
+        Add(modDir);
+        Add(AppContext.BaseDirectory);
+        Add(Environment.CurrentDirectory);
+
+        // Directory containing the game executable (when available).
+        try
+        {
+            var mainModule = System.Diagnostics.Process.GetCurrentProcess().MainModule;
+            Add(Path.GetDirectoryName(mainModule?.FileName));
+        }
+        catch
+        {
+            // may be blocked in some sandboxed environments
+        }
+
+        // If mods live under /GameDir/Mods/<mod>/, probe /GameDir and /GameDir/Mods too.
+        // If base dir is /GameDir/.modded/, probe /GameDir.
+        foreach (var seed in new[] { modDir, AppContext.BaseDirectory })
+        {
+            if (string.IsNullOrWhiteSpace(seed))
+                continue;
+
+            try
+            {
+                var d = new DirectoryInfo(seed);
+                for (int i = 0; i < 4 && d.Parent != null; i++)
+                {
+                    // Look for known folder names and probe their parent as "game root".
+                    string name = d.Name;
+                    if (name.Equals("Mods", StringComparison.OrdinalIgnoreCase) ||
+                        name.Equals(".modded", StringComparison.OrdinalIgnoreCase))
+                    {
+                        Add(d.Parent.FullName);
+                        Add(Path.Combine(d.Parent.FullName, "Mods"));
+                        Add(Path.Combine(d.Parent.FullName, ".modded"));
+                        break;
+                    }
+
+                    d = d.Parent;
+                }
+            }
+            catch
+            {
+                // ignore
+            }
+        }
+
+        return dirs.ToArray();
+    }
+
+    private static string? TryFindFileCaseInsensitive(string dir, string fileName)
+    {
+        try
+        {
+            if (!Directory.Exists(dir))
+                return null;
+
+            // Avoid enumerating huge dirs if we can.
+            // We'll just scan direct children and compare case-insensitively.
+            foreach (var f in Directory.EnumerateFiles(dir))
+            {
+                if (string.Equals(Path.GetFileName(f), fileName, StringComparison.OrdinalIgnoreCase))
+                    return f;
+            }
+        }
+        catch
+        {
+            // ignore
+        }
+
+        return null;
+    }
+
+    private static void InstallImGuiNativeResolver(Assembly? imguiAssembly, string[] probeDirs)
+    {
+        try
+        {
+            // IMPORTANT: ImGui.NET must be resolved in the *same* AssemblyLoadContext as the mod.
+            // Using Assembly.Load("ImGui.NET") can load it into the Default ALC, which means the
+            // DllImportResolver we install won't be used by the actual ImGui.NET instance.
+            if (imguiAssembly is null)
+                return;
 
             NativeLibrary.SetDllImportResolver(imguiAssembly, (libraryName, assembly, searchPath) =>
             {
@@ -198,7 +301,11 @@ public class ModEntry
                 if (!string.Equals(libraryName, "cimgui", StringComparison.OrdinalIgnoreCase))
                     return IntPtr.Zero;
 
+                bool sawIncompatibleCandidate = false;
+
                 // Candidate filenames across platforms.
+                // NOTE: We also probe common ImGui.NET nuget/native folder layouts to make it
+                // easier to drop the runtimes folder next to the game or mod.
                 string[] candidates =
                 [
                     // Prefer uniquely named binaries shipped with this mod to avoid collisions with
@@ -207,10 +314,19 @@ public class ModEntry
                     "libcimgui.neverway-devtools.so",
                     "libcimgui.neverway-devtools.dylib",
 
+                    // Standard names
                     "cimgui.dll",        // Windows
                     "libcimgui.so",      // Linux
+                    "cimgui.so",         // Linux (some builds ship without the lib prefix)
                     "libcimgui.dylib",   // macOS
-                    "cimgui"             // some loaders
+
+                    // Some loaders/packaging use these layouts
+                    Path.Combine("runtimes", "linux-x64", "native", "libcimgui.so"),
+                    Path.Combine("runtimes", "win-x64", "native", "cimgui.dll"),
+                    Path.Combine("runtimes", "win-arm64", "native", "cimgui.dll"),
+                    Path.Combine("runtimes", "osx", "native", "libcimgui.dylib"),
+
+                    "cimgui"             // last resort
                 ];
 
                 foreach (var dir in probeDirs)
@@ -238,6 +354,8 @@ public class ModEntry
                             }
                             catch
                             {
+                                Console.WriteLine($"[Neverway DevTools] Found native cimgui at '{fullPath}' but it did not export 'igGetIO' (likely incompatible build). Trying next candidate...");
+                                sawIncompatibleCandidate = true;
                                 try { NativeLibrary.Free(handle); } catch { }
                                 continue;
                             }
@@ -247,6 +365,16 @@ public class ModEntry
                             // try next
                         }
                     }
+                }
+
+                // If we saw at least one cimgui binary but it was incompatible, do NOT fall back to
+                // the runtime's default native library resolution (which might load that incompatible
+                // binary anyway and then crash later with EntryPointNotFound).
+                if (sawIncompatibleCandidate)
+                {
+                    throw new DllNotFoundException(
+                        $"Found one or more '{libraryName}' native libraries, but none were compatible (missing export 'igGetIO'). " +
+                        $"Install the ImGui.NET-provided libcimgui for your platform next to the mod. Probed: {string.Join("; ", probeDirs)}");
                 }
 
                 Console.WriteLine($"[Neverway DevTools] Failed to resolve native library '{libraryName}'. Probed: {string.Join("; ", probeDirs)}");
