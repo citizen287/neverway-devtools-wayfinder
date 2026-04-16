@@ -55,8 +55,8 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 - Spawn Characters/entities into the world
 - Built in search funtion
 
-### Item giver 
-- Give youself any item in the game
+### Item Giver
+- Give yourself any Item in the game
 
 ## Requirements
 
@@ -66,7 +66,8 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 
 ## Quick Start
 
-Just extract the zip into the game's folder
+Just extract the zip from the [releases](https://github.com/citizen287/neverway-devtools-wayfinder/releases/tag/mod) into the game's folder
+
 
 ## Building from Source
 
