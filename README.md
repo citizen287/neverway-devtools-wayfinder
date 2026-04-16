@@ -2,7 +2,7 @@
 
 <img src="assets/example.webp" alt="Neverway DevTools screenshot" width="800">
 
-Developer tools mod for [Neverway](https://store.steampowered.com/app/2318330/Neverway/), built with [murder-mod-loader](https://github.com/yuna0x0/murder-mod-loader).
+Developer tools mod for [Neverway](https://store.steampowered.com/app/2318330/Neverway/).
 
 Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 
@@ -22,7 +22,7 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 - **Economy**: Money, gems, mortgage
 - **Time**: Time slider, skip, end day, pause, set day
 - **Stamina**: Slider (base max 6 + modifiers)
-- **Inventory**: Debug inventory, sword, learn all recipes
+- **Inventory**: learn all recipes
 - **Levels**: Set all trace levels
 - **NPCs**: Meet/know all, per-NPC actions, quest progress
 - **Blackboard**: List and set gameplay variables
@@ -50,80 +50,25 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 - Browse all available worlds with search
 - Switch scenes by clicking
 
+### Spawn Menu
+- Spawn in game objects into the world
+- Spawn Characters/entities into the world
+- Built in search funtion
+
 ## Requirements
 
 - [Neverway](https://store.steampowered.com/app/2318330/Neverway/)
 - .NET 8 SDK
-- [murder-unpack](https://github.com/yuna0x0/murder-unpack) (`uv tool install murder-unpack`)
-- [murder-mod-install](https://github.com/yuna0x0/murder-mod-loader) (`dotnet tool install -g murder-mod-install`)
+- [Wayfinder](https://store.steampowered.com/app/2318330/Neverway/)
 
 ## Quick Start
 
-```bash
-# Install prerequisites
-uv tool install murder-unpack
-dotnet tool install -g murder-mod-install
-
-# Install mod loader into the game
-murder-mod-install "/path/to/Neverway"
-
-# Install the mod directly from the latest release
-murder-mod-install add https://github.com/yuna0x0/neverway-devtools/releases/download/v0.1.3/neverway-devtools-v0.1.3-macos-universal.zip "/path/to/Neverway"    # macOS
-murder-mod-install add https://github.com/yuna0x0/neverway-devtools/releases/download/v0.1.3/neverway-devtools-v0.1.3-windows-x64.zip "/path/to/Neverway"        # Windows x64
-murder-mod-install add https://github.com/yuna0x0/neverway-devtools/releases/download/v0.1.3/neverway-devtools-v0.1.3-windows-arm64.zip "/path/to/Neverway"      # Windows ARM64
-murder-mod-install add https://github.com/yuna0x0/neverway-devtools/releases/download/v0.1.3/neverway-devtools-v0.1.3-linux-x64.zip "/path/to/Neverway"          # Linux
-
-# Launch
-"/path/to/Neverway/launch-modded.sh"    # macOS / Linux
-"/path/to/Neverway/launch-modded.bat"   # Windows
-```
+Just drag and drop the dll into the mods folder
 
 ## Building from Source
 
 ```bash
-git clone https://github.com/yuna0x0/neverway-devtools.git
-cd neverway-devtools
-murder-mod-install build . "/path/to/Neverway"
-```
-
-Or build manually with `dotnet`:
-
-```sh
-dotnet build -p:GameAssemblyPath="/path/to/Neverway/.modded"
-```
-
-## Packaging a Release
-
-Build platform-specific release zips using the package script:
-
-```bash
-# macOS / Linux
-./scripts/package.sh "/path/to/Neverway" v0.1.3
-
-# Windows (PowerShell)
-.\scripts\package.ps1 "C:\path\to\Neverway" v0.1.3
-```
-
-This builds the mod and creates zips for all platforms in `dist/`.
-
-To upload the zips to a GitHub release:
-
-```bash
-gh release upload v0.1.3 dist/*.zip --clobber
-```
-
-## Manual Installation
-
-Copy to the game's mods directory:
-
-```
-<game-dir>/mods/devtools/
-  mod.yaml
-  NeverwayMod.DevTools.dll
-  ImGui.NET.dll
-  libcimgui.dylib    (macOS)
-  cimgui.dll         (Windows)
-  libcimgui.so       (Linux)
+add later
 ```
 
 ## Controls

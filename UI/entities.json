@@ -1,0 +1,8924 @@
+{
+  "521c616d-ad20-413d-a262-67923b95827f": [
+    {
+      "text": "AC-amb"
+    }
+  ],
+  "a845b47e-1fee-45d5-91ad-b4bd57b062c7": [
+    {
+      "text": "Ai/Pathfind Carve"
+    }
+  ],
+  "8d77fdb4-c930-468b-91a4-6c1e5085be2b": [
+    {
+      "text": "Blackboard/Area reaction"
+    }
+  ],
+  "5285f02d-3dd5-46e8-872b-a2dc7a4d0b38": [
+    {
+      "text": "Blackboard/TriggerVariable"
+    }
+  ],
+  "770f4ea8-a931-4d5b-b5e9-6bd258cbf0dd": [
+    {
+      "text": "Blocks/Coal",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "ef744b84-8dcd-4a8a-9cb0-ea8467742540": [
+    {
+      "text": "Blocks/MetalOre",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "738e50e3-5d76-4bb2-840b-ba431cb7c934": [
+    {
+      "text": "Bosses\\zealot_corpse"
+    }
+  ],
+  "795ca79d-ed69-4e6a-b744-8f6a45ef5a20": [
+    {
+      "text": "Buildings/Apiary",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "151dcb71-fc9f-49fb-9562-cfe7e5356c4b": [
+    {
+      "text": "Buildings/Bio-Reactor",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "8a3466fd-b954-42b0-925a-d16ebd65f97c": [
+    {
+      "text": "Buildings/Bio-Reactor-Empty",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "b6592f04-48fb-4c89-b5a7-d50560fd056f": [
+    {
+      "text": "Buildings/Bio-Reactor-processing",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "84e36ae9-30d0-4929-8da9-3ec20f438725": [
+    {
+      "text": "Buildings/Bio-Reactor-wip",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "b2689fa8-2fb9-41f3-8de2-13cccc92ec5b": [
+    {
+      "text": "Buildings/Cabinet",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "b1b14560-ba20-4bcd-9df1-9e33e1a57a88": [
+    {
+      "text": "Buildings/Chemical",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "934acd6e-d075-4c6d-99f4-478bcdb706b3": [
+    {
+      "text": "Buildings/Chest",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "0ba18b29-4a5e-4693-abbe-5707ccf4ea93": [
+    {
+      "text": "Buildings/Forge",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3328d57b-5da8-4671-bbb5-1806ee016039": [
+    {
+      "text": "Buildings/Greed gate",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "70f11c1c-ec6c-4083-bcba-4846ec23f8e1": [
+    {
+      "text": "Buildings/Meal-Table(clean)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "de1dcec5-34f4-4eba-9680-1c50639ef68c": [
+    {
+      "text": "Buildings/Meal-Table(dirty-fast-food)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "610751f1-ba1f-40e1-9626-19078db23df3": [
+    {
+      "text": "Buildings/Meal-Table(dirty-plates)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "2e09b01a-77a4-4a72-8a87-eefef6ba3ffb": [
+    {
+      "text": "Buildings/Mimic chest - permanent",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d9928613-1945-476a-9897-58b793675204": [
+    {
+      "text": "Buildings/Mimic chest - temporary",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3c67f6ca-4403-45d1-b833-8f2bfa1bd836": [
+    {
+      "text": "Buildings/Pressure-cooker",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3ab48815-30a4-4c61-bbab-84d56e98cefd": [
+    {
+      "text": "Buildings/Sawmill",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ea63a4cd-6cc8-40f1-900b-62234b6dada5": [
+    {
+      "text": "Buildings/Tailor",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "c07e03e4-bb14-457f-8d58-5f06469ee99f": [
+    {
+      "text": "Buildings/Teleporter",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "22ebbf18-c152-478e-805a-1e84d45a7863": [
+    {
+      "text": "Buildings/Teleporter (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "c54bd13a-2fcc-46c2-8eb2-871b15f3f2f1": [
+    {
+      "text": "Buildings/Tinkerer",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e7a8053d-f495-4fcd-9654-1f06e9234d97": [
+    {
+      "text": "Buildings/Watercooler",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "350e7a0f-841f-4b87-b101-684dd1ea4bdb": [
+    {
+      "text": "Buildings/Woodwork",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "21ee7f7b-5795-49d1-8870-47aa8bfa8e8f": [
+    {
+      "text": "Buildings\\Bio-Reactor",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "f6e28dcc-d3ee-455b-8a96-77195dadf3e8": [
+    {
+      "text": "Buildings\\Cabinet",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "0d9f31a1-71ea-4c3a-adbf-290a157be187": [
+    {
+      "text": "Buildings\\Cabinet (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "cfddcf66-eeca-4863-8ef6-8db23cfcdbf8": [
+    {
+      "text": "Buildings\\Carpenter",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "f62a9c35-d7d2-447f-a30d-50ff269e02e6": [
+    {
+      "text": "Buildings\\Carpenter (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "d26a4bc2-3763-4515-a568-d7edc20e5e4b": [
+    {
+      "text": "Buildings\\Carpenter (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "34c99930-f941-4285-9379-a6f104872ebc": [
+    {
+      "text": "Buildings\\Chemical",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "0832fd5b-6dc9-4ce1-a6aa-87a42ca68596": [
+    {
+      "text": "Buildings\\Chemical (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "9a181308-1b47-4449-8e78-4e38f353378c": [
+    {
+      "text": "Buildings\\Chemical(Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "08eaee6e-ec86-4c8c-b257-f00ccf2fad7f": [
+    {
+      "text": "Buildings\\Chest",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "3b0c78d4-e290-4c24-b1a8-8beada36ab32": [
+    {
+      "text": "Buildings\\Chest (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "12e65df7-ed54-458f-9c28-4b14432bf400": [
+    {
+      "text": "Buildings\\Compost",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "700143b2-71fb-4538-9731-4dd9486d1083": [
+    {
+      "text": "Buildings\\Compost (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "7d349d80-b40f-40a8-b28c-f4409f7ca05a": [
+    {
+      "text": "Buildings\\Compost (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "0ecc2ea4-39ac-4b37-a071-80ae758343fe": [
+    {
+      "text": "Buildings\\Compost Pile",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d6f7d652-da6e-4344-ab8a-3975bd94c1d6": [
+    {
+      "text": "Buildings\\Disassemble",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "29bb4157-7c37-4f0c-9263-bfd75b87e966": [
+    {
+      "text": "Buildings\\Forge",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "eff8f2b6-1f58-4ed3-83a5-b2ac3a899a60": [
+    {
+      "text": "Buildings\\Forge (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "fbf6a7d2-0c9e-47bb-95d3-28d29d69d125": [
+    {
+      "text": "Buildings\\Forge (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "d6b6e47b-2e25-4537-9a9e-a7d549c44425": [
+    {
+      "text": "Buildings\\Hunter oven",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "97415024-0b98-49c9-acda-745d873be8e8": [
+    {
+      "text": "Buildings\\Hunter oven (Cooking)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "1371fb8b-edee-4200-8e40-78512356e1db": [
+    {
+      "text": "Buildings\\Hunter oven (Preparing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "b78d7208-bb13-49d3-81f8-bd31b5eaf5e8": [
+    {
+      "text": "Buildings\\Indoor Workbench",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "6b3c2d53-67be-47d2-926e-2e8484e8f43b": [
+    {
+      "text": "Buildings\\Mushroom sprout",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "36723779-a442-4eb6-9bfa-1ae275c4f9ce": [
+    {
+      "text": "Buildings\\OnBuildEffect",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "66366a4c-ffe5-4db5-8197-231da6489a04": [
+    {
+      "text": "Buildings\\Oven",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "7d1639b1-e6c8-4901-b808-5a245cbc5ea2": [
+    {
+      "text": "Buildings\\Oven (Cooking)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "fda5b74c-7fda-4a37-9d85-a4366a1b4edc": [
+    {
+      "text": "Buildings\\Oven (Preparing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "884d5283-0b6e-43f6-8e7f-d6011aa0fd1c": [
+    {
+      "text": "Buildings\\Press",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "7ffc07de-f73c-420c-a424-c97c9682ccac": [
+    {
+      "text": "Buildings\\Press (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "eea306b9-1d90-4454-bba4-3c205e9b2f09": [
+    {
+      "text": "Buildings\\Press (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "90400469-5b84-4a27-b12b-2e1faa4bbd79": [
+    {
+      "text": "Buildings\\Pressure cooker",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "00b94ee7-a316-41f3-8f46-01e1858a5057": [
+    {
+      "text": "Buildings\\Pressure cooker (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "c30a414e-6d66-44b2-a259-17585c9dd81b": [
+    {
+      "text": "Buildings\\Pressure cooker (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "ea34512b-96b5-48e9-9bca-00c5f3b1ac29": [
+    {
+      "text": "Buildings\\Sawmill",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "3a4a7b5a-390b-4190-baca-d85bceb923fa": [
+    {
+      "text": "Buildings\\Sawmill (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "65f1af8b-4e33-495f-a906-a7b5b3750107": [
+    {
+      "text": "Buildings\\Sawmill (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "a358b321-4c49-405b-8036-b472df4a4461": [
+    {
+      "text": "Buildings\\Sprinkler",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "f9e565d0-0f91-4aef-9efe-5316dfde4e57": [
+    {
+      "text": "Buildings\\Study",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "1e09df28-d01e-42df-8931-6d943b6bbdaa": [
+    {
+      "text": "Buildings\\Study (Broken)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "7a0fb4ca-099b-4c99-b1cd-2ed7425eee25": [
+    {
+      "text": "Buildings\\Study (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "63a628cf-4398-4b25-abd7-d1191e65d4cd": [
+    {
+      "text": "Buildings\\Study (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "182ceb74-2021-47fb-82a6-5ed42578302c": [
+    {
+      "text": "Buildings\\Tailor",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "fca4a2bd-4255-4aff-9c3a-4838c75ad3d1": [
+    {
+      "text": "Buildings\\Tailor (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "e21ed4c7-cf1e-4b0b-9adc-560741af04b5": [
+    {
+      "text": "Buildings\\Tailor (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "9acd342d-7917-49d5-9eaa-0e7fad3ddd14": [
+    {
+      "text": "Buildings\\Teleporter",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "34d5501b-4356-4f9b-b492-b49b11d44c9b": [
+    {
+      "text": "Buildings\\TinkererDesk",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "2622f392-ea9a-4905-8891-af8ca758382a": [
+    {
+      "text": "Buildings\\TinkererDesk (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "02918ae3-0f66-4bdd-9e85-4acbf27fcd4b": [
+    {
+      "text": "Buildings\\TinkererDesk (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "7e0b6136-8141-45e3-ac71-669d8f0b4bfd": [
+    {
+      "text": "Buildings\\Watercooler",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "4772b270-611c-4423-9f22-4ac5f19c9be6": [
+    {
+      "text": "Buildings\\Watercooler (Building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "8c951675-bef8-435a-91c1-be1841b44fa5": [
+    {
+      "text": "Buildings\\Watercooler WIP",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "df2ee2ad-9bd8-4fde-9340-91b9112f42f3": [
+    {
+      "text": "Buildings\\Workbench",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "f216ee2a-f326-4604-bdbf-1da464ed8f8e": [
+    {
+      "text": "Buildings\\Workbench (Processing)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "0f0148d7-8979-4d47-9091-1717fc0da9ea": [
+    {
+      "text": "Buildings\\Workbench simulation",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "4e46588b-7b56-4f70-be64-e05bc7faea83": [
+    {
+      "text": "Buildings\\bees_apiary (building)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "36f7bcd3-5122-4152-8040-3ccc29eb78e4": [
+    {
+      "text": "Buildings\\mimic-chest",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "d1088975-d9c1-41d4-8761-18f3cd39217d": [
+    {
+      "text": "Buildings\\mimic-chest (empty)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "ce66d9d9-13ab-4c9b-8eb4-4595936bc48d": [
+    {
+      "text": "Buildings\\mimic-chest (planted)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "2f409a9a-4815-4111-a2cb-d458a54fca52": [
+    {
+      "text": "Buildings\\mimic-chest-permanent (waiting)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "ad118932-0dd4-439e-beec-dfe0e6a3f55f": [
+    {
+      "text": "Buildings\\mimic-chest-temporary (waiting)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "cf8686b3-9d18-4053-8bab-245b011bb4de": [
+    {
+      "text": "Camera man"
+    }
+  ],
+  "ecc95457-38ca-4de3-ba4a-575726dc6185": [
+    {
+      "text": "Characters/Corpses/corpse-clay-smasher"
+    }
+  ],
+  "5a6e4180-c003-45e1-8a97-f958d5ac9522": [
+    {
+      "text": "Characters/Corpses/corpse-explosive-beetle"
+    }
+  ],
+  "dcc3e15f-6886-4214-84da-fd62630c3357": [
+    {
+      "text": "Characters/Corpses/corpse-md-beetle"
+    }
+  ],
+  "4926d22d-3dcd-40f7-9edd-664105156696": [
+    {
+      "text": "Characters/Corpses/corpse-md-cyborg"
+    }
+  ],
+  "88476baf-096a-4074-b32f-2f46198cee15": [
+    {
+      "text": "Characters/Corpses/corpse-mole"
+    }
+  ],
+  "d64450c7-39eb-48ae-a63d-720dfa523d4d": [
+    {
+      "text": "Characters/Corpses/corpse-robot-area"
+    }
+  ],
+  "42abb37e-9237-44db-86ef-ca6d7beaf92c": [
+    {
+      "text": "Characters/Corpses/corpse-shooter-beetle"
+    }
+  ],
+  "43989fbf-3f8a-41ab-8f6e-4f9cb10face6": [
+    {
+      "text": "Characters/Corpses/digital-skull-corpse"
+    }
+  ],
+  "c92c9281-a6b0-46c3-a623-ca8e6c6f65cd": [
+    {
+      "text": "Characters/Corpses/mindworm-corpse"
+    }
+  ],
+  "aa46028f-c401-41c7-ac54-99da125b5f1c": [
+    {
+      "text": "Characters/Corpses/ranged_mushroom (Corpse)"
+    }
+  ],
+  "d37e17a4-da24-4e31-898c-23ef73b57b1e": [
+    {
+      "text": "Characters/Corpses/sm_beetle_corpse"
+    }
+  ],
+  "a2719699-3bf2-4b55-a980-7ef3dc11809f": [
+    {
+      "text": "Characters/Corpses\\corpse-blob"
+    }
+  ],
+  "043ec4d1-35b6-4083-abc2-818602b151a5": [
+    {
+      "text": "Characters/Corpses\\corpse-choir"
+    }
+  ],
+  "f82747fd-0357-4226-8f19-7bff826b80a2": [
+    {
+      "text": "Characters/Corpses\\corpse-flower"
+    }
+  ],
+  "dd44994c-9dd9-4b21-a555-0b9e866a6360": [
+    {
+      "text": "Characters/Corpses\\corpse-robot-amalgam-sm"
+    }
+  ],
+  "f68d97a8-fd18-4353-bffd-100aaefddd12": [
+    {
+      "text": "Characters/Corpses\\robot-amalgam-merge"
+    }
+  ],
+  "24efb152-a302-4cbf-859d-6419e2b8b8dd": [
+    {
+      "text": "Characters/Corpses\\swarm_corpse"
+    }
+  ],
+  "e55b3014-a897-4e8c-9035-8b7150ebe5f2": [
+    {
+      "text": "Characters/Corpses\\swarm_corpse(single)"
+    }
+  ],
+  "f924d6e5-863e-49a3-aae6-d668cab1d3bb": [
+    {
+      "text": "Characters/Enemy/Enemy Base"
+    }
+  ],
+  "6c8b7278-40f0-4a60-a965-09b3fa2c51b9": [
+    {
+      "text": "Characters/Enemy/boss-centipede-segment"
+    }
+  ],
+  "6f089d60-af41-4168-877c-29a6844c49f6": [
+    {
+      "text": "Characters/Enemy/boss-centipede-segment(vulnerable)"
+    }
+  ],
+  "5c21d2cd-1eae-43c5-9289-0e7a68ed5bcf": [
+    {
+      "text": "Characters/Enemy/en-beetle-md"
+    }
+  ],
+  "052afb7f-5bbc-4dfb-9204-fc857f5b519a": [
+    {
+      "text": "Characters/Enemy/en-beetle-shooter"
+    }
+  ],
+  "b3d612e7-7de5-467b-aab0-155577fe3906": [
+    {
+      "text": "Characters/Enemy/en-beetle-sm"
+    }
+  ],
+  "ce8ae59a-fe27-4d3d-a054-361500cd3994": [
+    {
+      "text": "Characters/Enemy/en-bomber"
+    }
+  ],
+  "6b183bda-3268-441e-9491-78d417c32f62": [
+    {
+      "text": "Characters/Enemy/en-charger-mushroom"
+    }
+  ],
+  "628686ba-0485-4a02-8fd4-d9e79b65696a": [
+    {
+      "text": "Characters/Enemy/en-clay-smasher"
+    }
+  ],
+  "205bd5e0-ffa2-454c-8140-6e70f0d3cba6": [
+    {
+      "text": "Characters/Enemy/en-cyborg"
+    }
+  ],
+  "8f9bc851-552a-4af8-bf91-449dd4908bec": [
+    {
+      "text": "Characters/Enemy/en-dark-stalker"
+    }
+  ],
+  "3c2055ca-a182-402d-b01f-b3f3a164d422": [
+    {
+      "text": "Characters/Enemy/en-digital-skull"
+    }
+  ],
+  "e19e8828-15e2-4e35-9d71-660edbe8c8db": [
+    {
+      "text": "Characters/Enemy/en-digital-skull-stronger"
+    }
+  ],
+  "9fca997f-e516-4f9b-9bb2-b8166c86cf77": [
+    {
+      "text": "Characters/Enemy/en-mole"
+    }
+  ],
+  "f7247b5e-977b-49bf-8265-c8de2a8c71f7": [
+    {
+      "text": "Characters/Enemy/en-mushroom-explosive"
+    }
+  ],
+  "35d01818-a9f0-47b2-ae3b-b143fe284e91": [
+    {
+      "text": "Characters/Enemy/en-ram"
+    }
+  ],
+  "3b1babf8-e8d9-442a-ae95-6d70dcd973e1": [
+    {
+      "text": "Characters/Enemy/en-robot-amalgam-lrg"
+    }
+  ],
+  "87793946-839b-4888-8ed8-74dfa8a1226a": [
+    {
+      "text": "Characters/Enemy/en-robot-amalgam-mid"
+    }
+  ],
+  "f34bfb2a-32e9-495e-84d9-fa3a7adb68b2": [
+    {
+      "text": "Characters/Enemy/en-robot-amalgam-sm"
+    }
+  ],
+  "a1652fb1-b794-4573-aac0-ff1640aeca3e": [
+    {
+      "text": "Characters/Enemy/en-robot-area"
+    }
+  ],
+  "a2269130-0e14-4893-8e6c-9d68f9ab20be": [
+    {
+      "text": "Characters/Enemy/en-robot-area-sleepy"
+    }
+  ],
+  "38d002c4-cb17-4049-b467-bcf954d52478": [
+    {
+      "text": "Characters/Enemy/en-shadow"
+    }
+  ],
+  "6db3d57c-9c94-40fb-85b8-4e08e0017a25": [
+    {
+      "text": "Characters/Enemy/en-shadow-knight"
+    }
+  ],
+  "dfca5a36-d1f6-4254-8436-bcd73883a249": [
+    {
+      "text": "Characters/Enemy/en-shadow-ranged"
+    }
+  ],
+  "71a49b00-427d-448a-9dd2-27d4ab384177": [
+    {
+      "text": "Characters/Enemy/en-turret"
+    }
+  ],
+  "54990200-f310-4d2a-a42e-cdcaefe9ceb3": [
+    {
+      "text": "Characters/Enemy\\en-choir"
+    }
+  ],
+  "22819503-25f3-48ca-b666-dcc94ff07bcb": [
+    {
+      "text": "Characters/Enemy\\en-flower"
+    }
+  ],
+  "8ce5ea31-643f-4206-bd41-5cb2a965dad3": [
+    {
+      "text": "Characters/Enemy\\giant-bug"
+    }
+  ],
+  "105df2a5-dbf3-4fdc-b302-dba0f72b597c": [
+    {
+      "text": "Characters/NPC/Aurora"
+    }
+  ],
+  "9c9f8bee-f037-40e9-b0ed-7810e39770e0": [
+    {
+      "text": "Characters/NPC/Baleos"
+    }
+  ],
+  "0434c2cf-24a0-4300-b395-42790dabb68e": [
+    {
+      "text": "Characters/NPC/Bianca"
+    }
+  ],
+  "57c007dc-777c-4d45-9ae4-d6de732fb8cd": [
+    {
+      "text": "Characters/NPC/Cosmo"
+    }
+  ],
+  "6e78ba78-cf39-40ec-892c-a5ecc8f16262": [
+    {
+      "text": "Characters/NPC/Deprecated/Bartender"
+    }
+  ],
+  "7bac070b-38ce-4ba2-ac52-c647d67eb4ec": [
+    {
+      "text": "Characters/NPC/Deprecated/lumberjack"
+    }
+  ],
+  "c1d92a3c-41a6-4594-b407-46c244c8c2b9": [
+    {
+      "text": "Characters/NPC/Edgar"
+    }
+  ],
+  "edfd877e-3362-41b4-b7c6-991d8d8cfe90": [
+    {
+      "text": "Characters/NPC/Gunter"
+    }
+  ],
+  "c5b05fcc-eab4-4e06-870f-0a9d59e55b8d": [
+    {
+      "text": "Characters/NPC/Helena"
+    }
+  ],
+  "05e322b1-993e-4ede-942c-33ecee33e24e": [
+    {
+      "text": "Characters/NPC/Hunter"
+    }
+  ],
+  "ff180b9f-e8d2-4abe-887c-fa837157ac6b": [
+    {
+      "text": "Characters/NPC/Insect-merchant"
+    }
+  ],
+  "8fad2448-6e5b-420f-b107-4a0b94db52c0": [
+    {
+      "text": "Characters/NPC/Jacques"
+    }
+  ],
+  "6508da34-baac-4912-ab1d-a4a47902d0b4": [
+    {
+      "text": "Characters/NPC/Laika"
+    }
+  ],
+  "ec671273-f79e-4f17-b360-f9add06ec0aa": [
+    {
+      "text": "Characters/NPC/Monica"
+    }
+  ],
+  "cb459744-40e7-4a2b-a1ea-e5181656a5ab": [
+    {
+      "text": "Characters/NPC/Thomas"
+    }
+  ],
+  "5debf5d0-15ca-4f19-a503-eb66f9041c15": [
+    {
+      "text": "Characters/NPC\\Cat"
+    }
+  ],
+  "ee073a17-9933-4512-8624-bb5b49114edc": [
+    {
+      "text": "Characters/NPC\\Sword-Flying"
+    }
+  ],
+  "6c58cf10-6322-486c-a914-fb170c64a4e0": [
+    {
+      "text": "Characters/NPC\\Wall buddy"
+    }
+  ],
+  "f4a87287-d9a5-4aae-a8cb-eb215964007c": [
+    {
+      "text": "Characters/Neutral/clay_cutscene"
+    }
+  ],
+  "2d03a9dc-a04b-4071-a607-6164f60fcbc4": [
+    {
+      "text": "Characters/Neutral\\Chicken"
+    }
+  ],
+  "d43ebe5a-3635-4015-b254-7e8215b2f266": [
+    {
+      "text": "Characters/Neutral\\Clay Fish"
+    }
+  ],
+  "74781d85-2445-4100-85a2-3230fa58d1f3": [
+    {
+      "text": "Characters/Neutral\\Sheep"
+    }
+  ],
+  "525550b1-1a1f-439d-84d6-391ce0f3ff91": [
+    {
+      "text": "Characters\\City NPC\\Ex"
+    }
+  ],
+  "f32d750b-2091-494b-b8a5-85cf7e6fec0d": [
+    {
+      "text": "Characters\\City NPC\\Little guy"
+    }
+  ],
+  "56e35140-d0ba-4a4c-ad90-66d689f285f0": [
+    {
+      "text": "Characters\\City NPC\\Little guy 2"
+    }
+  ],
+  "a00c5387-1227-4a33-a1ac-4da6a278b8fe": [
+    {
+      "text": "Characters\\Corpses\\Player (corpse)"
+    }
+  ],
+  "df353f46-ac12-41a0-91b2-ede439d0c181": [
+    {
+      "text": "Characters\\Corpses\\Player clone (corpse)"
+    }
+  ],
+  "da3a3a97-f347-4129-94bd-fd29681b85a6": [
+    {
+      "text": "Characters\\Corpses\\corpse-boss-luminous"
+    }
+  ],
+  "31c2775a-7a4d-4e3f-a1d2-dc24422d5808": [
+    {
+      "text": "Characters\\Corpses\\corpse-charger-mushroom"
+    }
+  ],
+  "df4f3553-dfdf-458c-9f8c-e277313260cc": [
+    {
+      "text": "Characters\\Corpses\\corpse-eye-explosive"
+    }
+  ],
+  "15b282cc-8559-42e8-bf18-a55a1f716449": [
+    {
+      "text": "Characters\\Corpses\\corpse-mushroom-explosive"
+    }
+  ],
+  "d6969691-2822-4183-8348-333fb29b9da5": [
+    {
+      "text": "Characters\\Corpses\\corpse-ram"
+    }
+  ],
+  "691fa9d3-1e1f-4646-af45-7445f4525748": [
+    {
+      "text": "Characters\\Corpses\\corpse-sm-mushroom"
+    }
+  ],
+  "b24c90cf-fb22-410e-bf15-88c0d0557854": [
+    {
+      "text": "Characters\\Enemy\\blob_small"
+    }
+  ],
+  "3191b1ab-0f73-417b-a25c-1a9140d87459": [
+    {
+      "text": "Characters\\Enemy\\boss-luminous"
+    }
+  ],
+  "7500b9f2-8f0c-450c-bf43-9fb1b9f328b9": [
+    {
+      "text": "Characters\\Enemy\\en-eye-explosive"
+    }
+  ],
+  "e0385bd6-f18d-4a0d-95ae-c568eccad9a3": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Boatman"
+    }
+  ],
+  "3271010b-0d0e-4093-8388-a018e7a12d54": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Boatman with boat"
+    }
+  ],
+  "e5b97513-ddf3-4a26-aa4a-9e94d8e0f882": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Gunn"
+    }
+  ],
+  "6f23a504-512e-4f6a-8ceb-d2b468e414f8": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Kid"
+    }
+  ],
+  "dc539e8e-0b74-4230-8a0d-26fc309d4310": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Traveler"
+    }
+  ],
+  "96f6744c-07f9-415d-b989-5b9ca9ef64cf": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\Villain"
+    }
+  ],
+  "e1973834-1afd-4090-ac9c-dbf1ddccad26": [
+    {
+      "text": "Characters\\NPC\\Deprecated\\boat-tied"
+    }
+  ],
+  "9696eee3-8560-4b80-9f1f-ff7b53fa3f64": [
+    {
+      "text": "Characters\\NPC\\Luna"
+    }
+  ],
+  "a15708e5-74f2-40b8-8db2-7a73916e8b9b": [
+    {
+      "text": "Characters\\NPC\\Luna-Formal"
+    }
+  ],
+  "4671b0a1-ffd9-4e0e-b713-c97ef1330135": [
+    {
+      "text": "Characters\\NPC\\Luna-subway"
+    }
+  ],
+  "ba7fc361-5b1f-4a1c-a2ed-3468110d00fd": [
+    {
+      "text": "Characters\\NPC\\Subway-girl"
+    }
+  ],
+  "a7c54c59-ecd4-4e5d-a203-482827f6d8a1": [
+    {
+      "text": "Characters\\NPC\\Sword"
+    }
+  ],
+  "714e2b14-e37a-42ef-bf26-971b3841e270": [
+    {
+      "text": "Characters\\NPC\\Sword-digital"
+    }
+  ],
+  "16bac654-778e-4f8b-945e-378e8c995608": [
+    {
+      "text": "Characters\\NPC\\Zealot"
+    }
+  ],
+  "f46ce860-2ba8-446c-9a3f-9abdfd702c7b": [
+    {
+      "text": "Characters\\NPC\\Zealot-Blood"
+    }
+  ],
+  "4f5cc471-709c-4487-90b7-15b982a0f1b5": [
+    {
+      "text": "Characters\\NPC\\frog"
+    }
+  ],
+  "ea96c39c-15dd-4bb5-a7c1-aae9cbf99903": [
+    {
+      "text": "Characters\\Neutral\\Clay"
+    }
+  ],
+  "aa0669bf-ca60-479b-86bc-cf6507bbc555": [
+    {
+      "text": "Characters\\Neutral\\Clay 2"
+    }
+  ],
+  "d61f2d6f-0c63-44c1-baad-96acdbc4abcb": [
+    {
+      "text": "Characters\\Neutral\\Mindworm_adult"
+    }
+  ],
+  "b909c9d4-2b0b-4a45-bf2e-a83593c9fd7d": [
+    {
+      "text": "Characters\\Neutral\\cricket"
+    }
+  ],
+  "48088ee3-e032-41d1-905a-e536209737ab": [
+    {
+      "text": "Characters\\Neutral\\henchman"
+    }
+  ],
+  "faafe8bf-b6a6-46f0-8e4a-51953ce516af": [
+    {
+      "text": "Characters\\Neutral\\thief guy"
+    }
+  ],
+  "10e2b498-e27a-40f3-91fd-b291d9039ab6": [
+    {
+      "text": "Characters\\neutral\\giant_choir"
+    }
+  ],
+  "6fdd2bbe-2e4c-40ab-bea5-385b38ea4be0": [
+    {
+      "text": "Characters\\neutral\\weird_clays_weird_1"
+    }
+  ],
+  "ddc06045-21fa-4860-b43d-d4c30bf8b4eb": [
+    {
+      "text": "Chest\\car with trunk"
+    }
+  ],
+  "74c7d944-b355-4a29-bcaa-686546966974": [
+    {
+      "text": "Collectibles/Money"
+    }
+  ],
+  "d2f1b3f2-33af-4000-b6d5-a574b9ed93ad": [
+    {
+      "text": "Collectibles/Xp Small"
+    }
+  ],
+  "fdaac033-e235-452d-9d41-aafae2f6c32b": [
+    {
+      "text": "Collectibles/mushroom-seeds"
+    }
+  ],
+  "52318870-9b25-47b8-aec1-582a827dca2a": [
+    {
+      "text": "Collectibles\\DigPile",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "b250c45a-b2cb-4db9-a283-faea7b123f94": [
+    {
+      "text": "Collectibles\\Heart",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "78778870-46ee-4925-9031-d47846bf39ec": [
+    {
+      "text": "Collectibles\\Item-drop-base",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "5cf02f13-9316-4858-a535-b27268c97dfd": [
+    {
+      "text": "Collectibles\\Maple syrup",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "fe84dee0-45fe-4fb1-a841-c9e56855456e": [
+    {
+      "text": "Collectibles\\Small Key",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "eee5747c-837e-495f-aff2-b91a34a56bc6": [
+    {
+      "text": "Collectibles\\Ticket-1",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "21faf171-49fb-43b0-be77-ab56d2d9d545": [
+    {
+      "text": "Computer/BarducManager"
+    }
+  ],
+  "b0a46e54-ce93-4c7a-a1d7-1445a796d553": [
+    {
+      "text": "Computer/Pawn"
+    }
+  ],
+  "fe8137db-673f-4af0-a0f7-58b2af41784c": [
+    {
+      "text": "Computer\\CrossSimulationStarter"
+    }
+  ],
+  "ce42dc75-f065-4db6-b5d8-112080225ec4": [
+    {
+      "text": "Cutscenes/VomitArea"
+    }
+  ],
+  "6c12c03c-10e5-4239-8fb3-47e90d98721a": [
+    {
+      "text": "Cutscenes\\Hunter Cocoon Cutscene"
+    }
+  ],
+  "050e6551-71a0-485e-837b-d38786462040": [
+    {
+      "text": "Cutscenes\\Moth death full cutscene"
+    }
+  ],
+  "79edb5cd-8c8f-4a91-857a-b0bcbdd68f47": [
+    {
+      "text": "Cutscenes\\Wake up full cutscene"
+    }
+  ],
+  "5a98fdfc-c065-490a-9374-454282b609d4": [
+    {
+      "text": "Dresser"
+    }
+  ],
+  "ed29859d-ec38-47f2-a238-e90a9e209def": [
+    {
+      "text": "Elevator"
+    }
+  ],
+  "14353655-3fce-4526-a5f6-17b20d299b5c": [
+    {
+      "text": "Enemies/Explosive-beetle"
+    }
+  ],
+  "3d39e659-159e-4638-aaa9-cac8419b6c8d": [
+    {
+      "text": "Enemies/Fragment"
+    }
+  ],
+  "f295a141-9cba-42a8-8313-c1dff3f7b1b1": [
+    {
+      "text": "Enemies/Fragment(Head)"
+    }
+  ],
+  "03972f6e-93bd-441e-ae49-2f09fa82d355": [
+    {
+      "text": "Enemies/Fragment(dead)"
+    }
+  ],
+  "b29dad9d-052a-4675-88fd-0cb9da94b51a": [
+    {
+      "text": "Enemies/Fragment(dead-head)"
+    }
+  ],
+  "720660db-f3c4-4fd6-864d-8adf07e78755": [
+    {
+      "text": "Enemies/Fragment-harmless"
+    }
+  ],
+  "b08a37fa-6287-46ae-bbe2-ebfd90fe67d7": [
+    {
+      "text": "Enemies/fang-dash-afterimage"
+    }
+  ],
+  "730279e6-fcba-4e24-8075-cfa60e6ffeef": [
+    {
+      "text": "Enemies/fang-dash-afterimage-boss"
+    }
+  ],
+  "8b00978c-bfa0-490d-b89e-da39bbb053d7": [
+    {
+      "text": "Enemies\\DMG_Zealot_Smash"
+    }
+  ],
+  "3ba01a74-8207-46c6-909f-648b69444346": [
+    {
+      "text": "Enemies\\Dreamer_tree"
+    }
+  ],
+  "016373d7-cfe6-4415-9d4b-6e40b692aa70": [
+    {
+      "text": "Enemies\\blob"
+    }
+  ],
+  "60c75b88-a05f-4a92-83a6-e301f4325c02": [
+    {
+      "text": "Enemy/Luppa"
+    }
+  ],
+  "e169b747-d3ac-4c1b-9968-c88ec513e21c": [
+    {
+      "text": "Enemy\\Luppa(dead)"
+    }
+  ],
+  "eba1a564-9412-472d-a596-d5f3823f0b47": [
+    {
+      "text": "Equipments\\Pipe"
+    }
+  ],
+  "e80aa9d4-d1ad-4480-8f6d-d94c1e671b53": [
+    {
+      "text": "Equipments\\Stick"
+    }
+  ],
+  "0f4c0284-c0f3-4571-bb41-a3eaea6d8764": [
+    {
+      "text": "Furniture/Edgar tv",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "0f7698b4-0593-44cb-aaec-3ac76fecedd1": [
+    {
+      "text": "Furniture\\FloorLamp",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "397f711f-037e-4b64-8d24-65fb2734ddf9": [
+    {
+      "text": "Furniture\\Mirror",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "b9fdd0ca-dd99-4f81-a5c4-04bf6833c36c": [
+    {
+      "text": "Furniture\\PottedTree",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ea6b8e7a-0064-46e9-9507-cb5650ebf2b9": [
+    {
+      "text": "Furniture\\Sofa",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "eb3fe264-e6f1-4b83-aed0-15991962e379": [
+    {
+      "text": "Furniture\\Sofa_up",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "a7cea150-1c21-46fc-9535-884e852b0ded": [
+    {
+      "text": "Furniture\\chair(s)",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "9bec7815-7c86-4aab-b5c0-34e5f9db15d2": [
+    {
+      "text": "Furniture\\nightstand",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "3668fdf9-9a94-4260-9445-927216147c75": [
+    {
+      "text": "Furniture\\paint-walls",
+      "notes": null,
+      "file": "data0"
+    }
+  ],
+  "e710b4f9-9622-478f-bbe8-9fe2a19a3a3b": [
+    {
+      "text": "Furniture\\scented-candle",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e2508d78-90a1-438a-8805-2dfcb7d1ae9a": [
+    {
+      "text": "Harvest/Berry-Bush"
+    }
+  ],
+  "3824b95c-6e5d-4db0-89f5-0d638a9fe9b7": [
+    {
+      "text": "Harvest/Carrot On Ground"
+    }
+  ],
+  "f27fed12-75db-421e-a640-2bf920fbfa4d": [
+    {
+      "text": "Harvest/Fish_After_Sword"
+    }
+  ],
+  "e65c441d-349f-4f4a-a813-5ecd0e844f20": [
+    {
+      "text": "Harvest/Fish_bones"
+    }
+  ],
+  "f68ab169-fb94-4fcc-968d-deacaa41c7d6": [
+    {
+      "text": "Harvest/Stones"
+    }
+  ],
+  "921a2020-5acf-4f23-bd5d-121c3225d032": [
+    {
+      "text": "Harvest/Wood"
+    }
+  ],
+  "c6f218b8-71de-4219-94f5-efa0be217aeb": [
+    {
+      "text": "Harvest\\Dumpster"
+    }
+  ],
+  "b6b4465d-5edc-446b-af1a-ae86c08be191": [
+    {
+      "text": "Harvest\\Farm Plant Area"
+    }
+  ],
+  "92c37bf7-dfc1-4257-94e5-6b753d223d6f": [
+    {
+      "text": "Harvest\\Farm Plant Area (WIP)"
+    }
+  ],
+  "1fc9d37e-ef79-434b-8576-ebe5520bb0a2": [
+    {
+      "text": "Harvest\\Farm Plant Preview Tile"
+    }
+  ],
+  "7e8c4787-c688-44eb-ac87-87e67aac2b4d": [
+    {
+      "text": "Harvest\\Farm Plant Tile"
+    }
+  ],
+  "bb5bb66f-1eb4-4630-a9b4-d919a8d827f0": [
+    {
+      "text": "Harvest\\Farm Plant Tile (Npc)"
+    }
+  ],
+  "0b0ef29d-9bc4-4698-bb51-1697fc9ca95d": [
+    {
+      "text": "Harvest\\Farm Plant Tile (Processing)"
+    }
+  ],
+  "847eb800-e40f-49c4-8aa0-3d580812c8d5": [
+    {
+      "text": "Harvest\\Farm post"
+    }
+  ],
+  "c4b6b009-1715-4c35-b67c-38c0c33b2bce": [
+    {
+      "text": "Harvest\\Grass"
+    }
+  ],
+  "2810a485-9b30-4c56-9db7-fed95aae3806": [
+    {
+      "text": "Harvest\\Junk_pile"
+    }
+  ],
+  "608657d0-a470-425b-a793-b9c441a4bc9c": [
+    {
+      "text": "Harvest\\Plants\\Crop base"
+    }
+  ],
+  "7d7f904a-abe5-4a83-96b5-dd0bd73d1af7": [
+    {
+      "text": "Harvest\\Toxic-Flower"
+    }
+  ],
+  "46ff0e5d-9901-4a06-a485-464b43f105b7": [
+    {
+      "text": "Harvest\\bees_apiary"
+    }
+  ],
+  "959eb230-8677-47cd-87ae-d9038b099e82": [
+    {
+      "text": "Harvest\\bees_beehive"
+    }
+  ],
+  "0ea7633a-5a75-4e86-91eb-f5079a622644": [
+    {
+      "text": "Harvest\\farm-area"
+    }
+  ],
+  "c1c822eb-a6fe-4e32-9424-57e1c52f2b61": [
+    {
+      "text": "Harvest\\tree-medium"
+    }
+  ],
+  "1a489d05-22ac-4855-948a-20ff0b5e8c20": [
+    {
+      "text": "Interactions/Talk to"
+    }
+  ],
+  "edd975b0-7be9-4f8e-be07-bb99a57eceb1": [
+    {
+      "text": "Interactions\\Environment interaction"
+    }
+  ],
+  "9bf25b90-cb57-4b62-b4c8-3fc5bdf1b8b0": [
+    {
+      "text": "Interactions\\Fishing Spot"
+    }
+  ],
+  "60135db1-f9ef-4c6f-9cdd-f040359dcc6e": [
+    {
+      "text": "Interactions\\Pickup"
+    }
+  ],
+  "6fd2c7ef-3b3b-4664-be79-139e00f4453e": [
+    {
+      "text": "Interactions\\inventory_items_book"
+    }
+  ],
+  "8261d138-50f5-47a9-bc31-a93a4c757bc3": [
+    {
+      "text": "Interactions\\sit_up"
+    }
+  ],
+  "85f6edf1-9a95-4f16-bd21-e30be097589d": [
+    {
+      "text": "Lighthouse_upstairs"
+    }
+  ],
+  "6af7fdc0-2035-4a72-99aa-ef00c5a1588e": [
+    {
+      "text": "Menu/Main Menu"
+    }
+  ],
+  "a293fc0f-74a2-49c2-ba5c-8aecb612ba39": [
+    {
+      "text": "Menu\\Demo Over"
+    }
+  ],
+  "644a1671-9012-4d31-8763-8abe0e5b2ffb": [
+    {
+      "text": "Object/BombPod",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4a530cc6-3094-42bb-98da-8375ad20cf2f": [
+    {
+      "text": "Object/Buttons/Ground Button",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "65d3b142-cbca-44d2-9612-a15329f68b62": [
+    {
+      "text": "Object/Buttons/Ground Button (Hidden)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "5bbadc6e-b2d0-4f14-b394-7a40dc037056": [
+    {
+      "text": "Object/Buttons/Ground Button (door)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "f3a94606-1ee1-4693-bcc2-6ff47d92c988": [
+    {
+      "text": "Object/Buttons/Long Button (Hidden)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "77af7937-6b8f-4d98-b66f-decff01ed208": [
+    {
+      "text": "Object/Buttons/small-button",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "6bfe6f37-81a0-4133-9001-917cbf46034e": [
+    {
+      "text": "Object/Chests/backpack",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "bfbafac9-2249-4153-ab8d-737e6de1abcc": [
+    {
+      "text": "Object/Chests/bookshelf (tall)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "1bd2c5c8-505c-4a13-9099-6915ee490d24": [
+    {
+      "text": "Object/Chests/soldier_corpse",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "6ae42883-205a-495a-837c-d6990ec8cc80": [
+    {
+      "text": "Object/Door/Security_h",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "d12fb295-16e0-4782-b8b8-d3439f799545": [
+    {
+      "text": "Object/Door/Security_v",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "3f2a2ee2-f1f2-4652-81b9-3b0e81716afa": [
+    {
+      "text": "Object/Door\\Apartment Elevator",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "52ae7250-b7b0-4483-ab3e-c8b28f6b97c5": [
+    {
+      "text": "Object/Doors/Drawbridge (Empty)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "93a24081-f772-4388-b9e9-e7971e590a11": [
+    {
+      "text": "Object/Doors/Drawbridge (hole)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "26dea61b-7797-4b41-b658-4af7f4ac989d": [
+    {
+      "text": "Object/Doors/Ui/Door Npc",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "a41dfa2c-14bd-4caa-b7c9-d726fd6a97f9": [
+    {
+      "text": "Object/Doors/Ui/Door Open Times",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "ddceed5a-b6e0-4f61-b6ec-24837c1645a0": [
+    {
+      "text": "Object/Doors/Ui\\Door interact indoor",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "120ef5fd-f69e-4461-b419-5f819e917eff": [
+    {
+      "text": "Object/Doors/door_spike_single",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "f2ba10e8-c0ad-4a20-88ed-ab55d8e9d4f0": [
+    {
+      "text": "Object/Doors/server-door",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "baed0faf-c2e4-40aa-a3c2-09ea334abf9e": [
+    {
+      "text": "Object/Doors\\Door-Mugs",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "ffb53447-8721-4c41-b070-99529126e8fc": [
+    {
+      "text": "Object/Doors\\Fence_V",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "aa0f2812-04f8-4134-aebe-2402fafef661": [
+    {
+      "text": "Object/Doors\\door_spike_horizontal",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "d8ec8245-a494-4f40-84cd-f3fb5667fe73": [
+    {
+      "text": "Object/Doors\\door_spike_vertical",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "722bdd23-2f10-4aca-8967-d8a9ff161e0e": [
+    {
+      "text": "Object/Doors\\door_temple_vertical",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "6ebc5f00-9d2d-4afd-880c-7382f4518f44": [
+    {
+      "text": "Object/Doors\\shop-door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "126d41b0-b4c7-44e9-a893-13e6cffa6ee2": [
+    {
+      "text": "Object/Dungeon\\Firefly Cage",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "9243e704-6300-437b-97c3-5cd57043bb50": [
+    {
+      "text": "Object/Dungeon\\Firefly Cage (Used)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "98a5b1c5-0374-448a-a4fc-40c3db56f994": [
+    {
+      "text": "Object/Jacques-House",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d65cf75d-d9af-4680-af5f-e0c95c1d417c": [
+    {
+      "text": "Object/Npc\\Machine Parts",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "e65e5705-666e-48a2-a4cf-28f32045b3b5": [
+    {
+      "text": "Object/Outhouse",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "53d6b046-d414-4e25-9ac4-e6981f902b9d": [
+    {
+      "text": "Object/Puzzle/Barrel",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "fcbf4973-0950-4ce0-84e2-b867ef4b205d": [
+    {
+      "text": "Object/Puzzle/Bomb Sign",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "1944aa13-cd8a-4767-844d-5eb67d414e91": [
+    {
+      "text": "Object/Puzzle/Duplicator",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "1f13c84c-6d91-46bc-a658-4c91b86e55b8": [
+    {
+      "text": "Object/Puzzle/Duplicator Effect",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "51e64d8d-446c-46d4-af2f-65083c29dc43": [
+    {
+      "text": "Object/Puzzle/moth",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "cc220613-2260-4833-bdc5-76de192205c2": [
+    {
+      "text": "Object/Puzzle\\Hookshot-pole",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "b1e3e8bf-b4c7-4cf8-8266-88126bbeff7e": [
+    {
+      "text": "Object/Puzzle\\Rotten Meat",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "087c9f84-861a-482d-bd38-b93bc0015087": [
+    {
+      "text": "Object/Puzzle\\block-toggle",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "aa245883-8ee9-4188-b8f3-29a5f4f7f905": [
+    {
+      "text": "Object/Puzzle\\block-toggle (Inverted)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "3d032203-25ea-47fb-9cfa-7848debf7dad": [
+    {
+      "text": "Object/Puzzle\\block-toggle-simple",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "1fe06096-5b21-46e0-b7cc-bf845173e2fa": [
+    {
+      "text": "Object/Puzzle\\orb-toggle",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1a141c9a-ddec-4c3d-95c3-b006a1d1d422": [
+    {
+      "text": "Object/Puzzle\\switch-hit",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "4454ea23-190d-4d3e-b78e-09fd0aa9bb32": [
+    {
+      "text": "Object/Spike Trap",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "deead4f4-e50c-4b00-ac21-89adee07e72a": [
+    {
+      "text": "Object/Spike Trap (H)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "fb94f86a-fbf7-4985-8722-3bf05054f6a5": [
+    {
+      "text": "Object/Spike Trap (V)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e599111a-464c-4494-99a8-8db0146d52f5": [
+    {
+      "text": "Object/Train gate",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "194112fd-2ecf-47d3-8f49-820384c55aae": [
+    {
+      "text": "Object/Village/Bath_house",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "3d0c72a4-7fdd-44e9-a1a5-a05874c02a61": [
+    {
+      "text": "Object/Village\\Sell-mart-roof",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3c9100aa-2549-4b69-9446-a5057e7a472c": [
+    {
+      "text": "Object/Village\\Ship",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7ad5ea56-02b5-4a9b-8881-db715182a090": [
+    {
+      "text": "Object/Village\\bridge-broken",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "39955159-9a0f-4d66-b342-9fa6ce52c4b5": [
+    {
+      "text": "Object/Village\\bridge-broken-vertical",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "99e347fd-d74a-4b8c-b332-8de2724538cf": [
+    {
+      "text": "Object/Village\\bridge-fixed",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "24140056-c778-4abe-8dc8-dfd5415e48c7": [
+    {
+      "text": "Object/Village\\bridge-fixed-vertical",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "b29d16b3-379a-4786-9205-51405512ef75": [
+    {
+      "text": "Object/Village\\jukebox",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "ef695636-d947-45b2-8fa5-5ad58531fc95": [
+    {
+      "text": "Object/Village\\passport-booth",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "62314e6f-cd11-4ba7-a8fe-457a14c2104e": [
+    {
+      "text": "Object/Village\\river-hook",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c3ced213-ea75-45a7-bb3b-70f56149b440": [
+    {
+      "text": "Object/Village\\sell-mart",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9887469d-fae2-4c29-8bfe-0fdcfdba81db": [
+    {
+      "text": "Object/Web",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "88dacdfe-9e1b-4ab9-a58b-9d4ea805ff98": [
+    {
+      "text": "Object/bug_swarm",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "928d112d-94e3-45d8-9dfb-53c4588bfb7c": [
+    {
+      "text": "Object/door_sword",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e031a8a0-7000-40b4-805e-47c929117d3c": [
+    {
+      "text": "Object/dungeon_bath",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "67ba68ac-7c14-4d4d-ae8a-f965ba7aae9f": [
+    {
+      "text": "Object/p1-sulfur",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "f3dd0d6e-8df6-47ab-8c19-7b3240edbd2a": [
+    {
+      "text": "Object/subway-cables",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ae293c5d-5a47-45bf-ac89-c5e055c49030": [
+    {
+      "text": "Object/subway-cables(open)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "45dd7bde-3922-408f-8bbf-ca5952897eff": [
+    {
+      "text": "Object/subway-cables(open)-flip",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "764514d5-012b-4dc5-8e0f-80ab64a97922": [
+    {
+      "text": "Object/temple/plaque",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "c2b39651-6e8e-4ff5-817f-8e2621597056": [
+    {
+      "text": "Object/temple/saferoom_gate",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "9742e710-8132-49ca-b70b-66dfd5fc8777": [
+    {
+      "text": "Object/temple/torch",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "322d1693-8c66-4b7e-8ef0-6124e8efe046": [
+    {
+      "text": "Object/vine-blockage",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "c24f8b0f-70ce-4a7e-a309-1b7e6ef2bdf0": [
+    {
+      "text": "Object/vine-blockage(open)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "a8a25a1b-963b-48a3-935a-28930b6af111": [
+    {
+      "text": "Object\\Bottle-message",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e63fdb5d-9dba-4d7d-b9ba-bc341fbd527d": [
+    {
+      "text": "Object\\Checkpoint",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "093b91b0-7deb-4ffc-bd31-12a24593dfcc": [
+    {
+      "text": "Object\\Checkpoint (Friend)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "8622f2bd-67ba-41d6-bfcb-dd1cd2d52c47": [
+    {
+      "text": "Object\\Checkpoint (Skeleton)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "c16b50d5-71c8-4d1d-8fc3-c1a4d0ecbf18": [
+    {
+      "text": "Object\\Chest",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "f5dec796-5a1e-4576-9cd7-0a8394d4add1": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard (0)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "af314840-7944-416d-8516-d8a4b43139ed": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard (1)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "caf67cde-37ef-40c9-b2ea-de75e037a80f": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard (2)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "26d68374-5d12-40b7-9e8e-9b150857ddde": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard (3)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "11695b18-3b82-4435-b35a-8985b8bdc664": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard (4)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "9af0be99-68f0-45ce-93c3-f2cbe8cc1ea2": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard-Breakable (0)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "1ac35fbe-eec7-470f-938f-7213dfac9e4e": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard-Breakable (1)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "5d0f855b-06ec-42ae-a9c4-a16cb0417b0f": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard-Breakable (2)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "8147b28c-d3a5-405d-a4a6-4f297d658231": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard-Breakable (3)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "a44abc08-5f9a-448a-9c15-9eef6753d51c": [
+    {
+      "text": "Object\\Chests\\Box-Cardboard-Breakable (4)",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "231e0118-2d78-4b21-9e31-8ef6f75c40a6": [
+    {
+      "text": "Object\\Chests\\mimic-chest-npc",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "a962732d-97b2-4cbf-b3e9-f0c3a08ddfa6": [
+    {
+      "text": "Object\\Door",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e3cbeb49-95e0-4929-979f-0ec43df3e3c0": [
+    {
+      "text": "Object\\Doors/door-mushroom",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "dc71d385-64eb-410c-8aec-f173a8d12862": [
+    {
+      "text": "Object\\Doors/door-sliding",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "9305d8e6-6404-4e29-a4d7-8ae7acc7f8e9": [
+    {
+      "text": "Object\\Doors\\Bookshop Door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "ad1e3b62-c7e3-4d9f-8eda-f652c83b764b": [
+    {
+      "text": "Object\\Doors\\Door-family",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "bf27e878-3e4f-4af8-911f-cadf20c98db6": [
+    {
+      "text": "Object\\Doors\\Door-helena",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "eb1f61df-e423-4a21-b20f-f28e0aeab014": [
+    {
+      "text": "Object\\Doors\\Door-jacques",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "b74c5c56-b579-42ba-8ed3-8914a6d4b4b1": [
+    {
+      "text": "Object\\Doors\\DoorMedic",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "48ad35a4-59c1-4ada-892e-a8c4b2c63142": [
+    {
+      "text": "Object\\Doors\\Monica Door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "7b43d4d6-a6fc-42fb-a261-0ecf9bb7d6f8": [
+    {
+      "text": "Object\\Doors\\SwanDoor",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "8975c6b3-8239-49a7-a3b8-ee9d39df91a1": [
+    {
+      "text": "Object\\Doors\\airlock",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "84e154c5-fea6-4c7e-ad01-7ed5f5fe13b6": [
+    {
+      "text": "Object\\Doors\\airlock_trigger",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "714420e3-4154-46e3-b321-c95ca804364c": [
+    {
+      "text": "Object\\Doors\\airlock_trigger_simpler",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "f31b9872-13e6-4100-98bc-4dab13c79ff7": [
+    {
+      "text": "Object\\Doors\\airlock_v",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "147674b1-7f7c-4dde-adb0-579e73bf0994": [
+    {
+      "text": "Object\\Doors\\airlock_v_trigger",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "34ddee76-82b0-429e-80b9-32056d032c50": [
+    {
+      "text": "Object\\Doors\\airlock_v_trigger_simpler",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "82700c4a-9aee-4432-a3c1-ff34c8b5ac15": [
+    {
+      "text": "Object\\Doors\\cosmo-door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "06edf24f-fb67-4c9e-ad4e-58a44f5c3574": [
+    {
+      "text": "Object\\Doors\\door_clay_kids",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "fe376ea2-5569-4bbf-80ac-74cbe1a1e791": [
+    {
+      "text": "Object\\Doors\\thomas-door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "7a05dc1f-e173-4bc3-b661-fc090745bf9f": [
+    {
+      "text": "Object\\Dungeon\\Beetle_door",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "7ce6558a-c787-4976-b2c8-cba4c1f15b40": [
+    {
+      "text": "Object\\Exploding Mushroom",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3a1fe237-38cd-454f-9a48-9181cffc6e89": [
+    {
+      "text": "Object\\Exploding Mushroom (Explosion)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "36a9c7fc-3b7e-4512-9067-5c77a7efe3f1": [
+    {
+      "text": "Object\\Farm/Roof1",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "289a15cb-5623-4a01-9c99-cb70db1573db": [
+    {
+      "text": "Object\\Farm/Roof2",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "49d7f69c-5075-4c88-861e-74805207d8a0": [
+    {
+      "text": "Object\\Farm\\soapwort_wild",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "22fdd603-2424-4e99-adea-ece12a5dd1d5": [
+    {
+      "text": "Object\\Farm_builder",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "940a30dc-dd2f-4008-96a9-bc94fc37f4e4": [
+    {
+      "text": "Object\\Farm_hoe",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "968f0e75-e431-4814-9282-596b462d2772": [
+    {
+      "text": "Object\\Farm_hoe(broken)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e5112031-06f8-4ed1-a45e-a1bb245b78e4": [
+    {
+      "text": "Object\\Fix\\broken_cable",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8d4036c3-4056-42b0-b52b-cef5e8d66809": [
+    {
+      "text": "Object\\Fix\\fixed_cable",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "6bdd4d0f-b55b-47f5-af10-6c351b3cfe3e": [
+    {
+      "text": "Object\\Flickering Flame",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "fdfed79f-f554-492c-96db-3c0a08248d48": [
+    {
+      "text": "Object\\House Door",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "83c7ba35-b87e-40b1-a5da-bbf808b33538": [
+    {
+      "text": "Object\\Hunter\\Fix wall",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "ee848829-b9cb-42ae-8cf4-5421f5bdc38b": [
+    {
+      "text": "Object\\Junk",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "30b83498-6faf-4417-9328-451f06dd7bc9": [
+    {
+      "text": "Object\\Locked Door",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3a9a5a81-d35e-4acd-9339-32c1ff772386": [
+    {
+      "text": "Object\\Meat Pile",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "be25e493-e8a6-4675-8582-9415d50b3c15": [
+    {
+      "text": "Object\\Mines\\Cart-broken",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "9c364325-9494-4222-8ec0-2b02ae32cac8": [
+    {
+      "text": "Object\\Movable target",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "34fe681c-268f-4be8-b68b-ed334a4f1876": [
+    {
+      "text": "Object\\Npc\\Scooter",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "29093a44-8c9e-4132-8c53-90282fa16bbb": [
+    {
+      "text": "Object\\Pot",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "9235090d-d483-4a25-89e2-388cd15f6de2": [
+    {
+      "text": "Object\\Puzzle\\Boulder",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "d97d7ae3-bc72-4494-be37-d55d500825d2": [
+    {
+      "text": "Object\\Sign",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "dddaba6c-1b0a-4997-88da-b7ed0c568262": [
+    {
+      "text": "Object\\Target",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d4343daf-2b0a-4836-99fc-6989f94f9258": [
+    {
+      "text": "Object\\Target-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6c811c3d-24eb-4ccd-be85-e0a7e2a0dd9c": [
+    {
+      "text": "Object\\Toilet",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "31b8f668-2fc0-43bd-9aaf-42538e6b1700": [
+    {
+      "text": "Object\\Train",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "7fa81c28-ede4-4f99-870d-e5898ebccd3b": [
+    {
+      "text": "Object\\Train sign",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3f56ac29-1dda-40e7-b5bc-a2125213fc05": [
+    {
+      "text": "Object\\Village/Key and Note",
+      "notes": null,
+      "file": "data3"
+    }
+  ],
+  "106e5d47-44e5-4bf7-96ac-9bc193e85d56": [
+    {
+      "text": "Object\\Village\\Letter",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "91b126b5-47e6-4c9e-8407-d658f19a94ca": [
+    {
+      "text": "Object\\Village\\Present",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1e32e220-c107-4776-868f-00b4ac2ccd07": [
+    {
+      "text": "Object\\Village\\water-pump-broken",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c60f35ac-afe8-476a-8aff-3940a3b912e4": [
+    {
+      "text": "Object\\Village\\water-pump-fixed",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e6fe247f-9b11-4a48-8c9f-795ba54773bf": [
+    {
+      "text": "Object\\door-smash-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4aa4f535-9423-41cc-bc95-3cb28d7f7e25": [
+    {
+      "text": "Object\\dummy1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6778d477-8c54-45ee-848a-542e3fac40ac": [
+    {
+      "text": "Object\\lever",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "86af1b29-6b00-465c-bafd-4d602d6005e4": [
+    {
+      "text": "Object\\p1-Bloated Coprse",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d65d6af6-8183-42ac-bd99-3aa743758eff": [
+    {
+      "text": "Object\\press_airlock_button",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "99c45c93-e96d-4186-95c2-233e9e13fc88": [
+    {
+      "text": "Object\\press_button",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "deccc042-ba2a-42d8-8f8a-0d27727f3ac6": [
+    {
+      "text": "Object\\rope_ladder",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "8a6e2b40-4033-48ac-9395-d6943ab8e954": [
+    {
+      "text": "Object\\rope_ladder_open",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e336e120-2cbd-45f3-b524-7ba31e94ebd2": [
+    {
+      "text": "Object\\shortcut-stairs_top",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "841c489e-f48b-43f6-8382-17ce232f4600": [
+    {
+      "text": "Object\\shortcut-stairs_top(Done)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "a0e9b47b-ce71-4abc-8cab-a1a1545ac077": [
+    {
+      "text": "Object\\shortcut-stairs_top(WIP)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6e9fad10-6700-4233-acc7-1848942da097": [
+    {
+      "text": "Object\\stairs-platform",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "7b2c6ce6-c400-4ef4-8630-e5f0b6f5feee": [
+    {
+      "text": "Object\\stairs-platform (Broken)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "b45e9556-ca94-4fcf-a253-3b52d1d38f02": [
+    {
+      "text": "Object\\stairs-platform (fixing)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "5d82ab51-ffc5-4a84-8f0b-5cff9aa94210": [
+    {
+      "text": "Object\\trap_spike_plate",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "aaa77c3f-ac6f-49b9-90ef-d1ec25d1d486": [
+    {
+      "text": "Object\\trap_spike_plate_auto",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "26656d7a-2ecf-4f53-bf34-58124540c1df": [
+    {
+      "text": "Object\\trap_spike_single",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4e5ee4ef-3230-4541-9b5b-d8c54937faa3": [
+    {
+      "text": "Objects\\greedsGate",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "f918444d-1fea-4d34-9c1f-0e95adc10a35": [
+    {
+      "text": "Objects\\hunter_chair_left",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "85213704-f16c-490e-9f93-f86825e77454": [
+    {
+      "text": "Objects\\hunter_table",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4cfd625c-6663-4bc7-935f-df1b46334df4": [
+    {
+      "text": "Objects\\hunter_table_messy",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "fb1bf8a4-f613-49c3-99b7-ca322ce84f46": [
+    {
+      "text": "Objects\\lever",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "16ca921a-bb19-4557-b16b-44b3a382d6a6": [
+    {
+      "text": "Player"
+    }
+  ],
+  "aabf1924-367b-4eee-ad62-527cc1242c47": [
+    {
+      "text": "Projectiles/Poison-Gas"
+    }
+  ],
+  "860a1578-ad3e-4e6f-bd6f-66908ba509d7": [
+    {
+      "text": "Projectiles\\dreamer_weapon"
+    }
+  ],
+  "f717ec9e-1366-4b20-a980-6ef46401688f": [
+    {
+      "text": "Prop/Farm\\chicken-feeder",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6c2cf787-f490-4816-b8cd-4f58a13bb861": [
+    {
+      "text": "Prop/Farm\\chicken-feeder2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d3d65d7f-ddfc-4f21-bd36-28ade9eb0be6": [
+    {
+      "text": "Prop/Farm\\chicken-scraps",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "119e2bee-cf0b-47d6-85ed-44aadf423f9e": [
+    {
+      "text": "Prop/Farm\\flower-vase2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3219c3d9-bdec-4223-b8f2-8bee93d03aa4": [
+    {
+      "text": "Prop/Farm\\flower-vase3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "eb70828c-0d45-4662-99f4-6861ca69de9e": [
+    {
+      "text": "Prop/Farm\\village-rug",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8d20a7a0-435b-4da5-bd11-ca965857f6fd": [
+    {
+      "text": "Prop/Neverway/Fly",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "993226d8-9ffb-44a4-9380-2e18a3f73b17": [
+    {
+      "text": "Prop/Neverway/blood-bush-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "aea8ef40-bd0c-4b2b-ac07-39bd10c1a1de": [
+    {
+      "text": "Prop/Neverway/blood-bush-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "083e1098-a9ce-45f9-a274-b5de8dff1267": [
+    {
+      "text": "Prop/Neverway/blood-bush-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "39f066e1-ff0f-4f08-87f5-04c52d8048a0": [
+    {
+      "text": "Prop/Neverway/fly-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7797e0ed-f180-467b-ac3f-a576fa569fa9": [
+    {
+      "text": "Prop/Neverway/shy-plant-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c36bb730-9558-42c2-a98e-268b3a6943b7": [
+    {
+      "text": "Prop/Neverway/simple_arch_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "13d1d46a-acc7-4ae7-94c1-27dec5fa2c78": [
+    {
+      "text": "Prop/Neverway/white-tree-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2e04234e-0570-4caa-b9a1-361904387051": [
+    {
+      "text": "Prop/Neverway/white-tree-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c148fe2b-2819-45a6-b0b1-c576bf079624": [
+    {
+      "text": "Prop/Neverway\\house of keep door",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "cebb2b0e-49de-43cf-b304-7d1bcd12b23a": [
+    {
+      "text": "Prop/Outskirts/pond-medium",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "135c3e0a-45cb-4be8-84db-620e9b1a3c33": [
+    {
+      "text": "Prop/Outskirts/pond-puddles",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3b35a049-f2de-4721-a4de-3c5a0a87cba5": [
+    {
+      "text": "Prop/Outskirts/pond-spread",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9d8391a0-cb87-4a1e-b6a2-ce02058ce521": [
+    {
+      "text": "Prop/Outskirts/puddles_small",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "f6ec819d-0114-4c7a-a5a7-d78c2103bb84": [
+    {
+      "text": "Prop/Outskirts\\Grass-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "87b51fdd-88f8-457b-8f01-3d7f57fd54e2": [
+    {
+      "text": "Prop/Outskirts\\Grass-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3b3ed061-0972-4faa-9b74-0f2dc197dfb9": [
+    {
+      "text": "Prop/Outskirts\\Grass-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "155a178f-2792-4d91-bc29-00990a15913a": [
+    {
+      "text": "Prop/Outskirts\\Grass-4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "957a1e12-8ca0-4d33-8ca3-3f17104a2bb4": [
+    {
+      "text": "Prop/Outskirts\\Wood-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "21ed40be-0945-448a-a80b-968b1bc5d09b": [
+    {
+      "text": "Prop/Outskirts\\pole",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9837bbd6-1742-47ec-a21c-e38e7e89c131": [
+    {
+      "text": "Prop/Outskirts\\skull-pile",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "73d84e8d-f719-4da2-bc3b-0c8031cbc879": [
+    {
+      "text": "Prop/Parallax/fg_leaves_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "95c30f2b-fa35-414d-84ed-3b135258abc9": [
+    {
+      "text": "Prop/Parallax/fg_leaves_1_v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "5f1284a9-dc75-4b64-a46a-f445f32b7b0d": [
+    {
+      "text": "Prop/Village/Electric_poles_d1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "80ccc58b-14dd-4a50-bf3a-dd3ff380b80e": [
+    {
+      "text": "Prop/Village/Electric_poles_h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "44376e91-c1b6-4407-b8a2-d0fd15e0ce36": [
+    {
+      "text": "Prop/Village/Electric_poles_v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "cc7efe87-18b7-4aef-8ce9-b71c02cc427a": [
+    {
+      "text": "Prop/Village/Fence_2_door",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "b352dce9-44fc-4515-a5fc-e7ff7d2e47ff": [
+    {
+      "text": "Prop/Village/Fence_2_h1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2dfe9a63-7ca1-4823-aa9c-6bdade1d3180": [
+    {
+      "text": "Prop/Village/Fence_2_h2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9d270784-1939-4c23-8a61-349bed4c0cf2": [
+    {
+      "text": "Prop/Village/Fence_2_v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7cf7b72c-6a64-448e-95d2-5fb29758eff3": [
+    {
+      "text": "Prop/Village/Fence_h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3d01485b-931e-4439-ab0e-5d4feec06961": [
+    {
+      "text": "Prop/Village/ParkingSign",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "51fc0535-4824-470b-b53d-7c50a0ecd4eb": [
+    {
+      "text": "Prop/Village/bonsai-flowers",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "96b62b0e-29a2-4237-9665-30490059caaf": [
+    {
+      "text": "Prop/Village/cable_wall_to_ground",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "811a08c4-21a1-4ec0-a9ff-c8d40a85cd06": [
+    {
+      "text": "Prop/Village/counter-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1147d732-3141-4a07-b186-dde6e4c92035": [
+    {
+      "text": "Prop/Village/dinner-table",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "377c207e-fe6a-4ae6-ba9a-27a3af6539f2": [
+    {
+      "text": "Prop/Village/fence_h_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0e2a5365-44eb-474b-a72a-f333e379435b": [
+    {
+      "text": "Prop/Village/fence_v_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "331e5582-0f08-4a22-99b1-0e96e450ebb9": [
+    {
+      "text": "Prop/Village/floor_cable",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1824d58a-f0f7-4aae-ad55-987c535e1c2c": [
+    {
+      "text": "Prop/Village/house-thomas",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "668b64f8-bdf4-4d60-8ae9-3b8a4feb6e78": [
+    {
+      "text": "Prop/Village/oven",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4b613fbc-ebdd-47ea-a5ff-59a69df6ae6a": [
+    {
+      "text": "Prop/Village/warning_sign_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "ad5ce044-41b1-45e5-8e4f-bdf7be693a10": [
+    {
+      "text": "Prop/Village/warning_sign_2",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "83eb57cc-7063-4bb8-b821-377c6c503c21": [
+    {
+      "text": "Prop/Village\\Bath_house_large",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7f60af7f-8658-4586-8e5c-aa65f3f0f2e5": [
+    {
+      "text": "Prop/Village\\Electric_pole_single",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7fb1d331-6798-45e2-9d94-c5e4cfba8573": [
+    {
+      "text": "Prop/Village\\Workbench-Large",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "f608d79c-e31a-4217-af71-ebacc341d130": [
+    {
+      "text": "Prop/Village\\barn",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "cde50ac5-bc2c-482d-9c1e-c8aa392619e9": [
+    {
+      "text": "Prop/Village\\barn_stall",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e57b4d97-4e06-4efc-bd11-768f5b360339": [
+    {
+      "text": "Prop/Village\\bath_collunmn",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "bb6b3209-ee8e-49a3-a925-eb6e6a8c0e98": [
+    {
+      "text": "Prop/Village\\beach_billboard",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "002d595a-06dc-4a75-b17f-5fcf043eaf8b": [
+    {
+      "text": "Prop/Village\\bed",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "f9fa9d27-943b-409c-9eb2-11dddfc85670": [
+    {
+      "text": "Prop/Village\\bed (aurora)",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "ef9548d2-15e8-426e-8b0c-6c6cbcf62303": [
+    {
+      "text": "Prop/Village\\bed_start",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d0711cc9-d3eb-4847-9096-7eeca84b943c": [
+    {
+      "text": "Prop/Village\\bedside_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "09da1ccd-9d6f-47fc-806b-03b0aff16804": [
+    {
+      "text": "Prop/Village\\bench1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "f0ad4d49-9844-448c-a4b3-2691fa8433fc": [
+    {
+      "text": "Prop/Village\\bench2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6b33cf8b-f27c-43c0-8cf5-2f8d72eb3a0b": [
+    {
+      "text": "Prop/Village\\bench2_flip",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "48d0d8e5-a604-4e2e-b6be-eaf2597d42cb": [
+    {
+      "text": "Prop/Village\\book-pile",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "203ea6d1-0b81-491f-a08e-444c60598a8c": [
+    {
+      "text": "Prop/Village\\book-pile-empty",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "174efae6-46e0-4148-8675-458724163dc4": [
+    {
+      "text": "Prop/Village\\bookshelf",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "04e44bcf-2598-4862-a55a-fae344da644b": [
+    {
+      "text": "Prop/Village\\bookshelf (D)",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3c9d50c3-7e58-42d9-a092-43eed5beba4c": [
+    {
+      "text": "Prop/Village\\bookshelf (D-flip)",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "de7d9408-30ea-463d-91e2-566369af7d9c": [
+    {
+      "text": "Prop/Village\\bookshelf (tall)",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "645461dd-461c-4e76-af02-62b3d97f4ee1": [
+    {
+      "text": "Prop/Village\\bookshop",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3d6a7c34-7838-4287-bd29-926a1ad9f478": [
+    {
+      "text": "Prop/Village\\bookshop-roof",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c5c1fac1-ff78-48e0-b2b1-630d3a1e6fd2": [
+    {
+      "text": "Prop/Village\\chair-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "26096dc7-84ca-4412-9a93-1740b9c6fa58": [
+    {
+      "text": "Prop/Village\\computer-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d915cbe1-487e-4119-9c41-18f7729c531c": [
+    {
+      "text": "Prop/Village\\computer-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "de3ca7e9-968e-427c-9a77-19302ca0e651": [
+    {
+      "text": "Prop/Village\\computer-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9e6b5f31-9f8a-4f32-bd7a-e22b537b8dc3": [
+    {
+      "text": "Prop/Village\\debris-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1f3acaf8-f09f-49d6-992a-f5cb5708085d": [
+    {
+      "text": "Prop/Village\\giant-footsteps",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0f5dd715-fb2e-491e-938e-c60cf0af6784": [
+    {
+      "text": "Prop/Village\\lamp",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "073b7bf7-724e-494b-8c00-75ae20a71837": [
+    {
+      "text": "Prop/Village\\line_pole_h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "07add1da-ee91-45a9-bfd4-e9b6e9ee397f": [
+    {
+      "text": "Prop/Village\\line_pole_v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "70568d14-14dc-4d48-bff4-379b0caddfaf": [
+    {
+      "text": "Prop/Village\\mugs-buffet",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4cc1366b-2865-4f85-8f7f-358c963b6cab": [
+    {
+      "text": "Prop/Village\\mugs-counter",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "5ba2b578-df26-474f-aa42-d2161de03af0": [
+    {
+      "text": "Prop/Village\\mugs_sign",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3ef5a9cb-1242-4c35-bd18-eada202699ad": [
+    {
+      "text": "Prop/Village\\night_light",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "54628e8a-9193-4c55-9e25-4d89012e89ed": [
+    {
+      "text": "Prop/Village\\palisade-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "68a4c463-65e6-46cd-b0f0-3300f62954ed": [
+    {
+      "text": "Prop/Village\\shop-bin",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7dc6f706-ccff-4447-a827-5290e1e0d7d1": [
+    {
+      "text": "Prop/Village\\shop-counter",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "68a4c25d-23ba-4732-8f8a-26df58e19a2b": [
+    {
+      "text": "Prop/Village\\shop-item",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "15f5f447-699f-458f-9d1c-59787d4d521e": [
+    {
+      "text": "Prop/Village\\shop-postcards",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "15897168-018b-4b55-b4bd-bddd638f6d7a": [
+    {
+      "text": "Prop/Village\\shop-products",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "42f24bfa-ca58-42b1-8043-5d1f97296ca9": [
+    {
+      "text": "Prop/Village\\sign-arrows",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e09faed0-4f29-48bd-b2f8-9746966cea06": [
+    {
+      "text": "Prop/Village\\smith-house",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "5dc73c1e-ee13-42eb-a235-9a5d1479ec5c": [
+    {
+      "text": "Prop/Village\\spa_bed",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1f7cc83b-9f7b-42d2-92df-da927b87efc6": [
+    {
+      "text": "Prop/Village\\spike-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3e0cb4df-912f-487b-aaee-d5168a77c4b0": [
+    {
+      "text": "Prop/Village\\spike-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8b132a75-9514-4ece-8d2d-88d067a6d00f": [
+    {
+      "text": "Prop/Village\\stool",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0cc781f2-d894-488f-8299-f7867a9305de": [
+    {
+      "text": "Prop/Village\\study-table",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1283e12c-7c71-43c6-b4b2-151ee9cd3cb9": [
+    {
+      "text": "Prop/Village\\table-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2f0c667b-7dba-4db9-82a3-314b62f265a8": [
+    {
+      "text": "Prop/Village\\table_start",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0c0b5c06-acf9-429f-bd89-b2754e71f8ea": [
+    {
+      "text": "Prop/bush_group",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "43047624-66c6-48bb-9ded-65944f07e627": [
+    {
+      "text": "Prop/bush_single",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "eec7da5e-f821-47f1-a5f4-b634e51b90a1": [
+    {
+      "text": "Prop/christmas_lights",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e1e37b79-9a6b-43e4-96f2-e901d7f31bb9": [
+    {
+      "text": "Prop/city/bench_h_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7a178788-1ab0-4dd6-bb86-ef24bc251b70": [
+    {
+      "text": "Prop/city/big_machine_cable",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "bcd19149-ae18-43bc-874a-a7196fe39725": [
+    {
+      "text": "Prop/city/car-on",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "88afc582-ffd8-4788-99bb-14b42d187f40": [
+    {
+      "text": "Prop/city/car-parked-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "5fcf9a82-435b-4b05-9904-483b6f69f469": [
+    {
+      "text": "Prop/city/interactions/train_seat_d_interaction",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "0ce8fbf4-94d2-4471-a890-18f99dbd4305": [
+    {
+      "text": "Prop/city/junk_pile_medium",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2a8ccf62-72a2-4b37-b304-17f739ba3f2c": [
+    {
+      "text": "Prop/city/metro_sign",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3e2628c0-c936-4eef-b592-8486d6ca944d": [
+    {
+      "text": "Prop/city/pipe_corner_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "40cd99a0-99a2-4018-a716-758c6f712fac": [
+    {
+      "text": "Prop/city/pipe_v_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "26b41c50-1761-4f79-b6cc-73b2770a931e": [
+    {
+      "text": "Prop/city/rubble_chunk",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e1b248c2-c6c5-455d-8325-76379daa1ff5": [
+    {
+      "text": "Prop/city/sidewalk_corner_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0cb3f617-58ad-45f0-963f-fdca12a324b6": [
+    {
+      "text": "Prop/city/sidewalk_corner_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "94d390a4-db7c-4ceb-80aa-232515be6bbb": [
+    {
+      "text": "Prop/city/sidewalk_detail_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1482b66b-097f-43a5-b549-09f5c0ecc95e": [
+    {
+      "text": "Prop/city/sidewalk_detail_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9e618ffb-93f7-418a-b977-5d9feea48f45": [
+    {
+      "text": "Prop/city/sidewalk_detail_3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "fedde0f2-6f94-4632-b8a8-9ca63ea80805": [
+    {
+      "text": "Prop/city/sidewalk_detail_4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "946a43d9-a59f-4050-8dab-fd26a662900f": [
+    {
+      "text": "Prop/city/sidewalk_detail_5",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "f673cddb-36f1-4d8b-ab17-9804b2169416": [
+    {
+      "text": "Prop/city/sidewalk_detail_6",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "44119f1b-63be-43cd-839b-12d67bb1a826": [
+    {
+      "text": "Prop/city/sidewalk_detail_7",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3bc53bb6-ac92-43a0-af74-49cf8176e90b": [
+    {
+      "text": "Prop/city/sidewalk_detail_8",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "65eb5305-e1e9-4164-840f-86d12e8fd50f": [
+    {
+      "text": "Prop/city/sidewalk_h_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6cf7e2ca-fe4f-4e50-9985-ca31ccf62bed": [
+    {
+      "text": "Prop/city/sidewalk_v_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "97068f36-84cc-4aa9-8d08-57f60d4e425a": [
+    {
+      "text": "Prop/city/sidewalk_v_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "02d61d7e-3724-4979-8d3f-1f20860e353b": [
+    {
+      "text": "Prop/city/street_lines_corner",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "555043ef-722c-4317-8d48-0d7bf4fbdd30": [
+    {
+      "text": "Prop/city/street_lines_h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "39a847d3-f08b-48d9-904d-c334a6880047": [
+    {
+      "text": "Prop/city/street_lines_v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3177dc16-fba4-4708-b018-ddaaf253b302": [
+    {
+      "text": "Prop/city/train-handle",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "af03cff1-a182-4cb4-9c82-f38a44ee35bc": [
+    {
+      "text": "Prop/city/train-trash",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6d79a299-f7e9-482b-a9a8-3be41869b6e2": [
+    {
+      "text": "Prop/city/train_seats_d1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8900d718-f1e0-4af7-b986-c6ae487bbd2e": [
+    {
+      "text": "Prop/city/train_seats_d2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7a99dd2d-e5e6-4aa7-8996-cbbe6e3b5fb3": [
+    {
+      "text": "Prop/city/train_seats_u2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "a2666acb-55ca-47ab-b7b5-e51926b41bc6": [
+    {
+      "text": "Prop/city/train_seats_up1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "404765ba-dca0-429f-967f-47d086be77ef": [
+    {
+      "text": "Prop/city/trash_can",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e9201d5f-113d-4fa3-a3a9-30cf0a601bc8": [
+    {
+      "text": "Prop/city/ventilation_wall",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "914d1f4d-9062-435d-9425-1f19b71037cd": [
+    {
+      "text": "Prop/electronics/cable-ground-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4a7232fa-09fa-47f0-aeff-c683637ae6db": [
+    {
+      "text": "Prop/electronics/cable-ground-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8860195d-98b9-49a7-82ba-2e1f730ceef1": [
+    {
+      "text": "Prop/electronics/cable-ground-4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "46fcddf8-b0e5-4389-808b-4972d5da165b": [
+    {
+      "text": "Prop/electronics/cable-ground-5",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e8952f16-6253-4817-8431-e91a1c97bff5": [
+    {
+      "text": "Prop/electronics/wall-lamp",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d7cb2b83-9e46-4fbc-bafe-26b36e7f5e44": [
+    {
+      "text": "Prop/fg_leaves",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "56ca1184-6418-49dd-abfa-0edb63b86361": [
+    {
+      "text": "Prop/fg_leaves_large",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "ff75555d-8691-40a6-b51d-cf9cd54d531a": [
+    {
+      "text": "Prop/fg_leaves_large (Transparent)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "45bf0f28-bd17-4103-9567-e4e285c2d5ce": [
+    {
+      "text": "Prop/fg_leaves_long_h",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "edb48709-9517-4942-8bcb-69bb0738ed68": [
+    {
+      "text": "Prop/fg_leaves_long_h_r",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d4e8061b-3eba-4050-a0a4-8f20e8ae9699": [
+    {
+      "text": "Prop/fg_leaves_long_h_u",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4f711875-77c9-4ac5-9523-ffdee3e49fc2": [
+    {
+      "text": "Prop/fg_leaves_long_h_v",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "ed60a13b-70ba-4e7c-86fb-a7435982a248": [
+    {
+      "text": "Prop/floor-spots-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "2d3a2b52-15a7-43d1-b713-437cbf8a199b": [
+    {
+      "text": "Prop/floor-spots-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "bf3bd823-cff9-478a-aefd-80d91516e137": [
+    {
+      "text": "Prop/floor-spots-3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "07c2e63c-b2e9-42c4-93d5-6169862101c0": [
+    {
+      "text": "Prop/fx/weak_light",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "da2e1eac-fb30-4e67-af2a-df399c3f77ae": [
+    {
+      "text": "Prop/house-of-keep/circuits-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e649015f-bf91-4b5c-ad89-a947bedc5af8": [
+    {
+      "text": "Prop/house-of-keep/circuits-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3a125c8b-5da0-44fa-9030-d235a9b053d8": [
+    {
+      "text": "Prop/house_edgar_bianca",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e11420da-7260-4e98-859c-ef8723bd378c": [
+    {
+      "text": "Prop/machine-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "9db6ac02-d878-4a40-b773-ea0e22f794c4": [
+    {
+      "text": "Prop/manor/Bookshelf_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "77010599-56bf-4ad4-9538-6eff530a15d8": [
+    {
+      "text": "Prop/manor/bookshelf_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0185e3ed-bc80-480f-b6d3-ddd676d88f77": [
+    {
+      "text": "Prop/metal-shelf",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "678b65d4-2c27-4fae-a35b-0567e522e5b4": [
+    {
+      "text": "Prop/metal-shelf-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "15714405-8ca5-4546-8d60-a69235fcc2e8": [
+    {
+      "text": "Prop/mines/platform-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "61440fe6-361f-4a3b-bcdb-ec110b9fde16": [
+    {
+      "text": "Prop/mines\\antenna_terminal",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "af89f22f-7ddd-4614-8c4a-582b3a905c88": [
+    {
+      "text": "Prop/mines\\bridge-v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "9688c482-7ccd-4615-865d-de6d5c4d2ad4": [
+    {
+      "text": "Prop/mines\\bucket",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0a22a210-35e6-4502-94f8-ccd7d25d6155": [
+    {
+      "text": "Prop/mines\\canteen",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "b6720489-1548-4d50-8f47-fa8cbfdad442": [
+    {
+      "text": "Prop/mines\\chains",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "633a1d93-581b-4e81-a819-72d4c665658f": [
+    {
+      "text": "Prop/mines\\crystal-rock",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "b0fbc45e-0233-4aa1-ae0a-1680f244d5b3": [
+    {
+      "text": "Prop/mines\\dark-antenna",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "81283847-5865-44c4-a3a7-e7253ee0afd1": [
+    {
+      "text": "Prop/mines\\dark-tree",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6c4faeec-f251-4264-96b7-19da2f86f8d8": [
+    {
+      "text": "Prop/mines\\debris_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d9fa4b73-7e3b-4c18-b22f-9d47f847b837": [
+    {
+      "text": "Prop/mines\\fence-h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "dc18d361-5616-4dbb-97fc-493b4d95a2c6": [
+    {
+      "text": "Prop/mines\\fence-v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d619845e-2b1e-4b5f-9921-1ab1e6d21719": [
+    {
+      "text": "Prop/mines\\fence-v (flipped)",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1b5568a8-a508-4ef3-a29b-b71cd64d2494": [
+    {
+      "text": "Prop/mines\\generator",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4c2c7dd3-d9ce-4af8-b965-ce76ee912bbd": [
+    {
+      "text": "Prop/mines\\lantern",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "a3b2bce2-ce47-4516-83ee-282d936df57b": [
+    {
+      "text": "Prop/mines\\platform-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "5b2a5fd2-dc0b-4891-b1f6-d25e0b3ab3c9": [
+    {
+      "text": "Prop/mines\\rock",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e10d7fcb-cd68-4a10-803d-ee255292b18c": [
+    {
+      "text": "Prop/mines\\tracks-v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6c2feb32-183a-492d-aeec-812423ef55b6": [
+    {
+      "text": "Prop/mines\\tracks-v-curve",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "60257e2d-de1b-40ba-811c-7291da2bdfdd": [
+    {
+      "text": "Prop/mines\\tracks-v-end",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "eddc3db8-5f57-45ec-a149-35a219d3374f": [
+    {
+      "text": "Prop/mines\\vines-wall",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "be4e0d99-1d98-4fbe-82c1-6a9b4e213753": [
+    {
+      "text": "Prop/pc-desktop",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "7960c57d-8e98-4ea5-8fa4-d2e660a2e44b": [
+    {
+      "text": "Prop/server-cables-v1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "d9d27f85-e494-4210-a0d5-ce9dfa108b55": [
+    {
+      "text": "Prop/server-rack",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "43db1f87-4c6c-47f7-b6af-2e45727f0159": [
+    {
+      "text": "Prop/temple/cocoon-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "da824332-adbd-46f4-a7ca-d2bd72ce4746": [
+    {
+      "text": "Prop/temple/cocoon-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "7ed073c1-88fa-4d6c-83bf-5907f819a677": [
+    {
+      "text": "Prop/temple/cocoon-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e7dc637c-07e8-423d-967e-8f1390ab0a11": [
+    {
+      "text": "Prop/temple/cocoon-4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "14d6d1ee-35ad-41b9-82d7-15edfe776882": [
+    {
+      "text": "Prop/temple/cocoon-5",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4d738c12-b4ea-42e8-bc21-66e15585cc89": [
+    {
+      "text": "Prop/temple/dead_bug_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "ab7ca7b3-6281-4b10-bf0f-51c5ad1323c5": [
+    {
+      "text": "Prop/temple/dead_bug_2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "08c3c34a-4b39-4b7d-8e8d-5f9ee3ad6bcb": [
+    {
+      "text": "Prop/temple/dead_bug_3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "bec2d707-4c37-4f0b-95f5-e7005f27cd1f": [
+    {
+      "text": "Prop/temple/dead_bug_4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0d2b5cc6-793b-492f-94a5-070c2675704b": [
+    {
+      "text": "Prop/temple/floor-huge",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "4498c43c-691d-4d10-b7b9-d877bb97cbdf": [
+    {
+      "text": "Prop/temple/floor_big_circle",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "6c9b867f-d3de-46d0-868b-028d2ffb96fa": [
+    {
+      "text": "Prop/temple/floor_bricks",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "ed19147d-bf32-4c2f-96f5-2cf67547c5de": [
+    {
+      "text": "Prop/temple/floor_half_spiral",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3a103bb8-775c-4d0e-9b90-ffa01cf94de0": [
+    {
+      "text": "Prop/temple/floor_spiral_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "8e677e8f-7849-4e7d-b992-7694604ec7ef": [
+    {
+      "text": "Prop/temple/jar-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "a72339d4-3049-44c3-b03e-3d73aa2749f0": [
+    {
+      "text": "Prop/temple/jar-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "c6adc0c3-e464-4dd0-bc72-740725e60a5e": [
+    {
+      "text": "Prop/temple/jar-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d3f61c9e-1f44-4b04-9cd4-09b1b10ae473": [
+    {
+      "text": "Prop/temple/silo-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "76fff258-fee4-476c-b19b-0a224b6b57ff": [
+    {
+      "text": "Prop/temple/silo-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "b0ece225-0f98-4cd6-87bf-e450b9d46753": [
+    {
+      "text": "Prop/temple/torch_bulb",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "b79d9b96-9717-4f28-a296-8a9ffe03b458": [
+    {
+      "text": "Prop/temple/trail_1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "681ada22-583e-493d-af53-2a9505ade7d4": [
+    {
+      "text": "Prop/tree_group",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "234f3248-0d48-4efc-8abf-9e73c2436191": [
+    {
+      "text": "Prop/tree_single",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "bb0cae4a-a92d-4138-baaf-a98bd216c706": [
+    {
+      "text": "Prop/tree_single_fruit",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "ff465576-28e8-4a9d-97c4-a5c30bae0ac1": [
+    {
+      "text": "Prop/tree_single_no_collider",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "597c1a4f-0e30-45e1-9743-a5819681a08f": [
+    {
+      "text": "Prop\\Dungeon\\Beetle-Entrance",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "3f38535e-a184-4de5-b313-901903887069": [
+    {
+      "text": "Prop\\Dungeon\\cocoon",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "00e7ed99-e5b0-4d2b-a770-80aa2c182d10": [
+    {
+      "text": "Prop\\Farm\\flower-vase",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e1a38574-198b-4935-8ccb-a45b875376f8": [
+    {
+      "text": "Prop\\Mushroom_5",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "c28bf2bd-6fad-4148-8253-0421ead6e329": [
+    {
+      "text": "Prop\\Mushroom_6",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "4d989a95-54dd-4b55-9f95-cec49175f50b": [
+    {
+      "text": "Prop\\Mushroom_7",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "e8d610b7-4eed-4fa5-85c5-01998994e861": [
+    {
+      "text": "Prop\\Mushroom_8",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "affe884c-65e8-479b-8af5-d561c71fda1e": [
+    {
+      "text": "Prop\\Mushroom_small_1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "36ad7805-5de1-42c2-8267-d2a3f4d4da4c": [
+    {
+      "text": "Prop\\Mushroom_small_2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "72aecbc1-ba71-43d7-bdf1-84c2e3f2e50e": [
+    {
+      "text": "Prop\\Mushroom_small_3",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "33c60ac0-6e38-440b-a707-e3768df1bb12": [
+    {
+      "text": "Prop\\Mushroom_small_4",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "9929fc86-50ac-480e-8009-f4414766f303": [
+    {
+      "text": "Prop\\Neverway\\Dungeon 1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "56187dbc-3a37-458f-b6e7-f4d6dfa53ae8": [
+    {
+      "text": "Prop\\Neverway\\Wall",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "46a59250-09d3-41ff-9f90-d706bedd16f6": [
+    {
+      "text": "Prop\\Outskirts/pond1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2d6a0dd7-9597-4c9f-9545-475b1af0f2eb": [
+    {
+      "text": "Prop\\Village/house_start",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "a5aea968-3f79-4e4a-a02e-4eb1575b2ca6": [
+    {
+      "text": "Prop\\Village\\shop-furniture_display",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "eac25505-b82c-4ccc-803b-7197db601e10": [
+    {
+      "text": "Prop\\Village\\table-round",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "1c50d697-287a-41ab-93f6-2bc05fc5157e": [
+    {
+      "text": "Prop\\barrel_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "101c3a8b-0d33-4bf9-bd91-c37b1e90514e": [
+    {
+      "text": "Prop\\barrel_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "1a948dcb-f1d7-4430-8d55-65070621981e": [
+    {
+      "text": "Prop\\barrel_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "94e647cb-0b33-4b7f-ba27-2f61e52cdd53": [
+    {
+      "text": "Prop\\barrel_5",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "30279696-b28d-4fac-98d3-e7396b81a75e": [
+    {
+      "text": "Prop\\box_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "df280edf-3e8b-41a1-b353-14358b0124e5": [
+    {
+      "text": "Prop\\box_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "9007e850-70e4-4b87-9826-651b649b2971": [
+    {
+      "text": "Prop\\box_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d0015d27-eacc-466b-9242-5b67b0f1ee51": [
+    {
+      "text": "Prop\\box_3(Disassemble)",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6a3162d0-d6fd-40ef-aa86-695ebb03c526": [
+    {
+      "text": "Prop\\bridge",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "cc2a22ff-3e05-4afb-ba78-b84119c5f687": [
+    {
+      "text": "Prop\\bridge-h",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ffbbad13-299f-41a2-ab00-3ff8b2f6685e": [
+    {
+      "text": "Prop\\car_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "8f07e10f-946c-4ae3-bf06-a37fc330c267": [
+    {
+      "text": "Prop\\car_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "89e82f0d-ffb1-40bb-b866-2d66c5355578": [
+    {
+      "text": "Prop\\chair",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "631974da-1917-47bc-be61-5f6e660fa218": [
+    {
+      "text": "Prop\\cliff-h-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "85b374fc-7806-4f93-9e79-01f4928e4a75": [
+    {
+      "text": "Prop\\cliff-h-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "50247986-434b-413a-80bd-e4da37b6e603": [
+    {
+      "text": "Prop\\farm-fence-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "25d53dcd-0230-43bc-ab5e-6a7e97fbbfea": [
+    {
+      "text": "Prop\\farm-fence-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ea557216-63ef-4917-bdd2-d0f63f204b42": [
+    {
+      "text": "Prop\\farm-fence-3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "978d354d-51f6-48f7-89dc-72cfe9ca7e2e": [
+    {
+      "text": "Prop\\farm-fence-4",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "7d7bf90a-afc3-4c27-a47c-0e5d35ae1e67": [
+    {
+      "text": "Prop\\farm-silo-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4b9bf2a7-d77b-4a17-88d6-58965af7b8f7": [
+    {
+      "text": "Prop\\farm-silo-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "c760255e-9927-419c-a117-1fae8b990610": [
+    {
+      "text": "Prop\\farm_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "409593fb-8632-40ce-98de-87d433972a45": [
+    {
+      "text": "Prop\\fireflies_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "880a45cd-4890-44fe-89f0-e50118869369": [
+    {
+      "text": "Prop\\flower_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "7e080818-437d-4015-b7da-b2f80d438b7f": [
+    {
+      "text": "Prop\\flower_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6e56bd75-5b13-4b66-bb13-e820ad693822": [
+    {
+      "text": "Prop\\flower_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ad53891d-bf1c-4024-895d-ae8bbb7f42b9": [
+    {
+      "text": "Prop\\flower_4",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "810259f8-a834-45b0-9223-7666c4db1ff3": [
+    {
+      "text": "Prop\\flower_5",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d8264cdc-f7d8-4c01-91d0-0e5b3f77d9c5": [
+    {
+      "text": "Prop\\flower_6",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "0cfa1c8c-2f57-44c9-9fb4-254ff82194e8": [
+    {
+      "text": "Prop\\flower_harvest_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e4d7eca5-9689-47b4-846e-1a31c01d1970": [
+    {
+      "text": "Prop\\flower_harvest_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e0134d05-bfda-4e11-90f6-8437d6581e89": [
+    {
+      "text": "Prop\\flower_harvest_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "0e2557e2-872e-4447-bc60-d599cdc6ffd5": [
+    {
+      "text": "Prop\\flower_harvest_4",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "7850c485-0de1-4676-9035-21d82982ceb4": [
+    {
+      "text": "Prop\\grave_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "bbb29207-0e45-4f19-a305-69a17e72de1f": [
+    {
+      "text": "Prop\\grave_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d422442e-c5b1-4ec9-bc7d-f8afce1e5178": [
+    {
+      "text": "Prop\\grave_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "96d13a6b-8666-4076-b94d-4000989eb61d": [
+    {
+      "text": "Prop\\grave_4",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "3e83faa0-864e-4828-854e-9e479a92efd0": [
+    {
+      "text": "Prop\\haystack_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "aaa286d3-d8ca-4a08-9f46-084e879c230c": [
+    {
+      "text": "Prop\\haystack_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "8e7ca2f3-13b1-44c8-9b76-60ec97392821": [
+    {
+      "text": "Prop\\hole_h",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "884f0597-7c96-465e-ac09-a5407672f298": [
+    {
+      "text": "Prop\\house-bag-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "b0803e0e-8282-42fb-b196-e2072cc53fbf": [
+    {
+      "text": "Prop\\house-bag-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d21d1a77-2333-4d6e-b9f8-5463b64da8f3": [
+    {
+      "text": "Prop\\house-rug-1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "28f1aa80-dceb-4d0e-af3c-b6cb10f5fffa": [
+    {
+      "text": "Prop\\house-rug-2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "798eac31-6544-44ca-b28a-91dcbee76c7e": [
+    {
+      "text": "Prop\\house_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "c5086d55-9a02-4805-b098-f047cc0f55df": [
+    {
+      "text": "Prop\\house_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "349dc3a5-c89b-4e9e-b7d3-2a5d592f6bc4": [
+    {
+      "text": "Prop\\house_3_behind",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "cf43d432-5b1d-422f-83bd-ed3c6c390871": [
+    {
+      "text": "Prop\\house_4_side",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ee12f597-3869-45f7-a13b-f99f1735fe44": [
+    {
+      "text": "Prop\\house_5_front",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "eeb416a4-d332-475e-9e63-7ceaa1551cbf": [
+    {
+      "text": "Prop\\houuse_painting_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "b20154e8-d226-41cc-828d-bed62eaec958": [
+    {
+      "text": "Prop\\houuse_painting_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "5c66b93e-8168-47db-967c-e02c637f9959": [
+    {
+      "text": "Prop\\houuse_painting_3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ce4ebb7f-50c5-430f-a9ff-5c9729865e52": [
+    {
+      "text": "Prop\\mall_bites",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "0201da6f-bc21-4b17-ba41-1ec2af47bc21": [
+    {
+      "text": "Prop\\mall_chair",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "d44eb5e0-bb23-40f5-be0b-5cc71bf6e712": [
+    {
+      "text": "Prop\\mall_cone",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "6697ce62-0461-43d1-9b13-91cbb58eb4ed": [
+    {
+      "text": "Prop\\mall_empty",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e32ba9a2-06ae-44bd-ad8f-dfbed0802bce": [
+    {
+      "text": "Prop\\mall_empty2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "03698287-2f57-4f5d-a1c7-2206277fe303": [
+    {
+      "text": "Prop\\mall_garbage",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "22ede317-8983-43f9-b027-c514b079b26c": [
+    {
+      "text": "Prop\\mall_sign",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "ceee648f-88fb-4192-90bb-6ca3237c32fe": [
+    {
+      "text": "Prop\\mall_table",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "6a97166a-71be-482e-a766-8531fc9129e9": [
+    {
+      "text": "Prop\\mall_table2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "29679efd-437c-4ee2-a1cc-c1dbb2e8f93b": [
+    {
+      "text": "Prop\\mall_table3",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "4072e7de-a1f5-4ad1-b66d-217de8ddc524": [
+    {
+      "text": "Prop\\mines\\tracks-h",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "dd49b155-105d-4890-b2dc-b1a22031da61": [
+    {
+      "text": "Prop\\mines\\tunnel-tracks-v",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "23f7a314-374d-40d1-ab77-298c1519fa3a": [
+    {
+      "text": "Prop\\mushroom_1",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "b42d6974-3b1d-4437-b65f-bbc03eba1b0a": [
+    {
+      "text": "Prop\\mushroom_2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "861f4f2d-9564-437b-9502-e7febf4cb1c5": [
+    {
+      "text": "Prop\\mushroom_3",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "052d57fc-f77e-43ea-9d34-46da78630cfe": [
+    {
+      "text": "Prop\\mushroom_4",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "5171d730-abec-4b9e-95d5-f61643c4084e": [
+    {
+      "text": "Prop\\mushroom_large_1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "4db24aa0-573c-4d5a-a899-6ac27c6437b9": [
+    {
+      "text": "Prop\\mushroom_large_2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "7d72014d-c5d6-4de4-a4cc-7548d3b6464c": [
+    {
+      "text": "Prop\\pier_h",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "95d2d3d8-2d9f-407b-a8ee-dd0777a87dff": [
+    {
+      "text": "Prop\\pier_v",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "84c9f5ef-a8ff-4d59-b6cb-7748e1372db7": [
+    {
+      "text": "Prop\\skull_1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "b2255d93-0c39-42d2-9cd2-5d2c94d7ce7c": [
+    {
+      "text": "Prop\\skull_2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "98fd499a-6b5d-4c38-9eca-a0ec0a02b361": [
+    {
+      "text": "Prop\\skull_3",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "fed70433-4cac-4704-b278-06ef4bc4d00a": [
+    {
+      "text": "Prop\\stump_1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "58a9b3fc-8ab6-48db-a79c-83e68e4e66e5": [
+    {
+      "text": "Prop\\stump_2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "76f73af3-57a8-4345-9e89-a5f0125fd609": [
+    {
+      "text": "Prop\\sword_scene_ground",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "16ea097e-5ac2-4d28-a2d1-fe6506d23dcd": [
+    {
+      "text": "Prop\\tree_fallen",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "5677c291-f3fe-4baf-9ab9-a328d7bbba94": [
+    {
+      "text": "Prop\\tree_fallen_flipped",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "2b80176a-ddde-4069-b280-c54ad8db1858": [
+    {
+      "text": "Prop\\water-rock-1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "5e9c506d-4ed3-497c-9fb4-4c6133bf9ceb": [
+    {
+      "text": "Prop\\waves-1",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "ae932561-695b-4996-870c-d0cc5938317a": [
+    {
+      "text": "Prop\\waves-2",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "a1f7e2fa-8e1b-4d99-8310-5f956cf10051": [
+    {
+      "text": "Prop\\waves-3",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "7cca0509-66c5-4090-aab2-9d21d063e336": [
+    {
+      "text": "Props/hint-h",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "4a0c19fe-3362-4cb0-b79f-4a7f343717d9": [
+    {
+      "text": "Props/hint-v",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "c3bbf5d3-5c5f-4226-b0c7-481f2436b333": [
+    {
+      "text": "Props/houses/house-monica",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "eeb5cee3-4882-4072-a440-dc92926cc016": [
+    {
+      "text": "Props/temple/throne-1",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "1cda9a2e-d401-4eba-8a50-73ba754d427c": [
+    {
+      "text": "Props/temple/throne-2",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "d40aa1cf-b92a-4f5f-a709-41c18dd023ef": [
+    {
+      "text": "Props/temple/throne-3",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "2f39adcf-894b-4d87-89b6-697945ff1da1": [
+    {
+      "text": "Props/temple/throne-4",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "e0c5ce6c-b6e3-46e2-8ff0-b64120c23609": [
+    {
+      "text": "Props/temple/throne-5",
+      "notes": null,
+      "file": "data5"
+    }
+  ],
+  "2767cad5-fe07-48df-9073-6c846e6ea9f2": [
+    {
+      "text": "Props\\Monitor"
+    }
+  ],
+  "1c2355ba-5cad-4179-ab3f-89d8919284f1": [
+    {
+      "text": "Shop/sell box"
+    }
+  ],
+  "63b6a43b-46a2-45d7-a291-8b8247bb4501": [
+    {
+      "text": "Shop\\Item slot"
+    }
+  ],
+  "48549389-215c-4b1e-bf0b-231d7c18e132": [
+    {
+      "text": "Skills/Enemy/dmg-charge"
+    }
+  ],
+  "f80b908e-5c4a-4d4b-858c-8f71908e887f": [
+    {
+      "text": "Skills/Enemy/dmg-mole"
+    }
+  ],
+  "3f624983-d37b-40f0-9703-9bd80e5e1fd7": [
+    {
+      "text": "Skills/Enemy/dmg-simple"
+    }
+  ],
+  "471991bd-2628-447c-86d1-88c90b20622e": [
+    {
+      "text": "Skills/Enemy\\Projectile-Bomb"
+    }
+  ],
+  "b10eb375-efcf-4052-b826-d359c9053bbe": [
+    {
+      "text": "Skills/Enemy\\Projectile-Bomb(enemy)"
+    }
+  ],
+  "1ec8f846-6ddc-4c83-96c9-b4d0a0ffbe99": [
+    {
+      "text": "Skills/Enemy\\Projectile-Bomb-Bulb"
+    }
+  ],
+  "9ef753b8-8b21-41b2-b37e-c7276a8a5cc1": [
+    {
+      "text": "Skills/Enemy\\Projectile-Bomb-Road"
+    }
+  ],
+  "bd489913-703f-41a0-b7ae-09a7abb9def5": [
+    {
+      "text": "Skills/Enemy\\Projectile-Head"
+    }
+  ],
+  "d3bec743-b5af-4481-b36e-8178c3d4a2ba": [
+    {
+      "text": "Skills/Items/Lantern"
+    }
+  ],
+  "2faff72a-a246-4607-a18b-4315474c74e5": [
+    {
+      "text": "Skills/Items/Scooter"
+    }
+  ],
+  "0e01c254-8344-4546-af39-cd063de3c8b3": [
+    {
+      "text": "Skills/Items/Shield"
+    }
+  ],
+  "7544856f-326a-4bcd-932a-a8b8e50ccf03": [
+    {
+      "text": "Skills/Items/Umbrella"
+    }
+  ],
+  "4368827b-f491-4e93-a70d-3b214ce457b9": [
+    {
+      "text": "Skills/Items\\FishingRod"
+    }
+  ],
+  "90ed042e-f1c7-4e88-993f-4114ae932a1d": [
+    {
+      "text": "Skills/Items\\Molotov"
+    }
+  ],
+  "b8316861-d6bb-4fe0-9471-199525315a6b": [
+    {
+      "text": "Skills/Items\\Projectile-Molotov"
+    }
+  ],
+  "42855fb5-52bc-45fd-9ab4-0cac762681f5": [
+    {
+      "text": "Skills/Items\\Teleporter (Entrance)-legacy"
+    }
+  ],
+  "f2c84e20-37f3-4ba9-822d-b2d6ed093c27": [
+    {
+      "text": "Skills/Items\\Teleporter-legacy"
+    }
+  ],
+  "eecfd45d-aa77-4dee-aca2-02a133257102": [
+    {
+      "text": "Skills/Items\\Watering Can"
+    }
+  ],
+  "8c4c806a-eeed-431b-b6ec-e162b41090df": [
+    {
+      "text": "Skills/Player\\PipeColliders"
+    }
+  ],
+  "64670809-32aa-4482-a7ab-971c0e2a513a": [
+    {
+      "text": "Skills/Player\\PlayerSwordPrefab"
+    }
+  ],
+  "2b82e9ba-008e-4bf3-8aa2-991427f45370": [
+    {
+      "text": "Skills/Player\\SwordColliders"
+    }
+  ],
+  "30c91361-fd45-4706-97eb-56448504a181": [
+    {
+      "text": "Skills/Rogue/Bolt Hit"
+    }
+  ],
+  "b3877949-801a-4ff8-b79b-8ee12952c48f": [
+    {
+      "text": "Skills/Rogue/Bolt Shot"
+    }
+  ],
+  "ac994bfd-210d-4177-b985-fdf9b19c8692": [
+    {
+      "text": "Skills/Rogue/Bolt Shot Lv2"
+    }
+  ],
+  "fa94b4c1-d4ab-410a-8333-0356b73724a7": [
+    {
+      "text": "Skills/Rogue/FanOfKnifes"
+    }
+  ],
+  "9cfb0917-07c0-4359-88a1-6d1ac27d4062": [
+    {
+      "text": "Skills/Rogue/Knife"
+    }
+  ],
+  "3196181b-0ce1-477b-b36a-6349fa3c64ec": [
+    {
+      "text": "Skills/Rogue/Lunge"
+    }
+  ],
+  "8b205f8f-da92-445e-8cec-10cf0a6cae3e": [
+    {
+      "text": "Skills/Rogue/Lunge (Lv2)"
+    }
+  ],
+  "8d7dcd87-995c-4519-87c7-6dbc2add8bf0": [
+    {
+      "text": "Skills/Rogue/Lunge DmgArea"
+    }
+  ],
+  "17706dd6-7f6e-4c03-97a3-4dfb0c1c6012": [
+    {
+      "text": "Skills/Rogue/Lunge DmgArea (Lv2)"
+    }
+  ],
+  "beebe527-a3cf-4043-8a75-197b197fc1aa": [
+    {
+      "text": "Skills/Rogue/magnectic-knife"
+    }
+  ],
+  "30612579-8ccf-43c4-b8c0-649f4f3ca98d": [
+    {
+      "text": "Skills/Rogue\\Hookshot"
+    }
+  ],
+  "df6e7906-d904-472c-9084-9a9cb63dd0ce": [
+    {
+      "text": "Skills/Rogue\\attack-slash"
+    }
+  ],
+  "81527145-cbbc-4717-b499-c5a144432820": [
+    {
+      "text": "Skills/Rogue\\skill-mag-knife"
+    }
+  ],
+  "f642170e-e084-42c9-bedc-5d2d40d05519": [
+    {
+      "text": "Skills/Rogue\\skill-sword"
+    }
+  ],
+  "d23f3037-429f-4589-88e5-edd64e371919": [
+    {
+      "text": "Skills\\Enemy\\Projectile Mushroom"
+    }
+  ],
+  "1ae218a1-6b50-4932-941e-a384a4000e0f": [
+    {
+      "text": "Skills\\Enemy\\Projectile Mushroom (Death)"
+    }
+  ],
+  "79379c1b-e701-4e98-adb0-d97c7c9e7a55": [
+    {
+      "text": "Skills\\Enemy\\Projectile Mushroom (Faster)"
+    }
+  ],
+  "5bc34ed5-c78c-4a9d-8640-3b22823afc13": [
+    {
+      "text": "Skills\\Enemy\\Projectile(Poisonous)"
+    }
+  ],
+  "0d8f61e2-c6c8-451b-9dfd-40956bcd5274": [
+    {
+      "text": "Skills\\Items/Shovel"
+    }
+  ],
+  "3b1908b4-e217-4240-a454-6121b08485b5": [
+    {
+      "text": "Skills\\Player/Run"
+    }
+  ],
+  "3617c8ef-edf0-4646-aa16-f96b4ff9bfe1": [
+    {
+      "text": "Skills\\Rogue\\Knife Ground"
+    }
+  ],
+  "8f1c7332-103e-438f-8cdc-b0696182691a": [
+    {
+      "text": "Skills\\Sword\\Slash"
+    }
+  ],
+  "f7790c39-ae0e-43d8-9f3f-6f336f211a24": [
+    {
+      "text": "Skills\\dmg-boss-hit-ground"
+    }
+  ],
+  "4a4428e8-e475-4c5f-b82b-aedb025c4e10": [
+    {
+      "text": "Spawners/Spawner Base"
+    }
+  ],
+  "aa14526a-6589-4410-9c12-d8b3357a90b8": [
+    {
+      "text": "Spawners/corpse-spawner-carcass"
+    }
+  ],
+  "c22b8b57-d3b6-43bf-8890-070ae8377d6f": [
+    {
+      "text": "Spawners/corpse-spawner-mushroom"
+    }
+  ],
+  "a6fd0227-4321-4921-93a8-e550eb3d25ca": [
+    {
+      "text": "Spawners/spawner-carcass"
+    }
+  ],
+  "0181af45-139e-4e80-839e-f149afdc7ec5": [
+    {
+      "text": "Spawners/spawner-mushroom"
+    }
+  ],
+  "20de22f2-031c-4ca9-ad79-d3f61b85a465": [
+    {
+      "text": "Spawners\\spawn-area-shadow"
+    }
+  ],
+  "8552f105-0ec1-4884-a871-79f6d2d7d2cb": [
+    {
+      "text": "Spawners\\spawn-area-shadow (single)"
+    }
+  ],
+  "f35ce4ef-46f8-435c-83e6-aa4d4344fa5b": [
+    {
+      "text": "SwampArea"
+    }
+  ],
+  "9c2fd74e-9a9b-4f8e-a68a-b699b15382e0": [
+    {
+      "text": "Trash"
+    }
+  ],
+  "96283ade-f5df-4f4b-b9b6-68ce025ca902": [
+    {
+      "text": "Ui/Button_Next"
+    }
+  ],
+  "7188cd00-59c5-4e45-9ea5-5d573ce1b401": [
+    {
+      "text": "Ui/Heart"
+    }
+  ],
+  "80b7a612-a6cd-493b-8210-67d06f88ebdf": [
+    {
+      "text": "Ui\\Advance time prompt"
+    }
+  ],
+  "12cec03c-0510-4764-9322-1a093ea0bd56": [
+    {
+      "text": "Ui\\Fang speaking"
+    }
+  ],
+  "115b24e7-0c4c-4ca9-bbe8-0c64bd15cb9f": [
+    {
+      "text": "Ui\\Pause"
+    }
+  ],
+  "f6ce6c43-22c3-4766-a3bd-9636f6c898b1": [
+    {
+      "text": "Ui\\msg-equip-tutorial"
+    }
+  ],
+  "9fa71dc1-9d36-4754-b881-0c0b2414ad43": [
+    {
+      "text": "Util/Scene Transition"
+    }
+  ],
+  "5f81a050-20a7-4c93-ab0e-62ffc551f7b6": [
+    {
+      "text": "Util\\Dark Area(1st Night)"
+    }
+  ],
+  "990ea92e-5765-4985-b940-c01ad52e455f": [
+    {
+      "text": "Util\\SimpleSolid"
+    }
+  ],
+  "05c8d01a-c15c-43c4-b5e2-818ebd87d1c9": [
+    {
+      "text": "Village/Props/bathtub-v"
+    }
+  ],
+  "3664cd60-e25f-4382-ad29-1b1bcbafc360": [
+    {
+      "text": "Village/Props/flower-bed"
+    }
+  ],
+  "8f8c3e5c-366e-4d7b-9b01-53685589d71e": [
+    {
+      "text": "archives-door-emergency"
+    }
+  ],
+  "7ed29630-6bf2-45c8-9105-9717a521dfaf": [
+    {
+      "text": "farm_hoe_area"
+    }
+  ],
+  "80b54fb1-408f-46e6-bfd3-3173f2dc4590": [
+    {
+      "text": "highway\\Bike",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "a190de44-2cef-461a-9af4-7b6694fe863a": [
+    {
+      "text": "highway\\barrier",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "1f6f2be7-307b-453e-a066-5c23956187a4": [
+    {
+      "text": "highway\\bike_workshop",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "82a0eb07-5eb6-4215-b641-83b9af02bf50": [
+    {
+      "text": "highway\\damaged_road",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "adf8c810-3ddc-45af-ba25-efe5af1de164": [
+    {
+      "text": "highway\\damaged_road_2",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "a2d1dfbd-2f25-4d69-bd42-b6bcaf9a210f": [
+    {
+      "text": "highway\\kepo_run",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "26b58abf-486a-496e-89d9-429c5cd99fa6": [
+    {
+      "text": "highway\\kepokepo_roadkill",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "1d2faa4d-366d-48d8-acea-93da048f6413": [
+    {
+      "text": "houses/Cosmo",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "acd9100f-96c6-43a9-8e6c-d29b1fef5511": [
+    {
+      "text": "houses/Lighthouse",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "092ec820-1ddd-4bac-8424-1ce8be101dfa": [
+    {
+      "text": "houses\\Server",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "2e1e6f9f-435d-4550-8567-2cd59f1000f2": [
+    {
+      "text": "houses\\mugs",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "080e4fe4-96f2-4047-9e7a-4ce16af064a8": [
+    {
+      "text": "houses\\mugs-roof",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "942be34d-6100-49f9-a15f-c28b1eb79c31": [
+    {
+      "text": "houses\\swamp_shack",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "e4a53ce5-962a-445f-a266-c0c336e7f5cf": [
+    {
+      "text": "neverway\\n-17-corpses_pile",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "1510362b-c22f-47fb-8774-f2938e317f80": [
+    {
+      "text": "neverway_wastes\\greed_outside_building_arch-1"
+    }
+  ],
+  "58afa8a1-1243-4e50-872c-dc108ffa6e33": [
+    {
+      "text": "objects\\computer_switch"
+    }
+  ],
+  "9b60fa44-f029-44bf-ae50-5d2c13ceb9c4": [
+    {
+      "text": "objects\\greed-lock"
+    }
+  ],
+  "b8df53a5-248a-44be-b9ed-30aa89cb81ba": [
+    {
+      "text": "objects\\greed-lock-bulb-eye"
+    }
+  ],
+  "9f68dcbe-2101-44a1-9ebe-286f365e7250": [
+    {
+      "text": "objects\\ground_button_puzzle_press"
+    }
+  ],
+  "430b2959-32ca-4f52-bc5f-e56d1e352ee0": [
+    {
+      "text": "objects\\misplaces_stones"
+    }
+  ],
+  "1f059c05-7b05-4d78-aa5c-64ceeb5124cc": [
+    {
+      "text": "objects\\security-block_horizontal_stripe"
+    }
+  ],
+  "2020f9f2-4a73-4ba8-ae3d-a38eec9fc619": [
+    {
+      "text": "objects\\security-block_vertical_stripe"
+    }
+  ],
+  "dd216ce6-5231-40e8-85ea-ecfa572321ce": [
+    {
+      "text": "objects\\sword-floor-button"
+    }
+  ],
+  "16c3464a-bffb-4899-9e68-f8138a704eb1": [
+    {
+      "text": "objects\\tree-banana"
+    }
+  ],
+  "dafed906-7409-4b9e-9226-b8b9f65085d5": [
+    {
+      "text": "placeholder/drop_down",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "70f60ed6-868f-41bb-8f3b-cd5be0ed7cb1": [
+    {
+      "text": "placeholder/drop_down_up",
+      "notes": null,
+      "file": "data1"
+    }
+  ],
+  "81e4cd3c-8e82-431f-b54b-6feb5572da01": [
+    {
+      "text": "props/fx/spider-web-1",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "0bce3cc9-de69-4e4b-bea6-50ccb02c8fb8": [
+    {
+      "text": "props/large-bush",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "cb304312-83ff-47f5-bdff-0778a4ec2131": [
+    {
+      "text": "props/sink",
+      "notes": null,
+      "file": "data2"
+    }
+  ],
+  "905c8934-3839-4033-b558-9fb650c3b585": [
+    {
+      "text": "props/village/warehouse",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "78ab3cc7-fa83-4d92-b794-8d9801fa0f24": [
+    {
+      "text": "props/village\\house-medic",
+      "notes": null,
+      "file": "data4"
+    }
+  ],
+  "29474588-0609-448d-99d2-ad9fc87bbde0": [
+    {
+      "text": "props\\Kick\\paper_1"
+    }
+  ],
+  "c8473f54-1c80-4bf2-b5a0-ccc0dc5e107c": [
+    {
+      "text": "props\\SRU_computer-broken-1"
+    }
+  ],
+  "13afd32c-d982-4a04-8c1f-7ca567035549": [
+    {
+      "text": "props\\airlock-smoke"
+    }
+  ],
+  "d8d1688f-1467-4144-8138-6a05f789bf1e": [
+    {
+      "text": "props\\archives-props_blackboard-3"
+    }
+  ],
+  "f2dcef17-1e97-4b97-80a8-b9fe8135b691": [
+    {
+      "text": "props\\archives-props_blackboard-4"
+    }
+  ],
+  "94375636-1599-41d9-b9f4-ed44e3e21535": [
+    {
+      "text": "props\\archives-props_cable_long_v1"
+    }
+  ],
+  "400e0d3d-83f4-4a37-8bcc-532db059ca3c": [
+    {
+      "text": "props\\archives-props_corpse-1"
+    }
+  ],
+  "b77322d9-739c-4d5b-8da4-68843a7eba67": [
+    {
+      "text": "props\\archives-props_corpse-2"
+    }
+  ],
+  "0efe790b-a668-4fd3-be76-10dc3a7bd0ff": [
+    {
+      "text": "props\\archives-props_corpse-3"
+    }
+  ],
+  "2f77073d-b2a6-484f-805d-1fcda9e495f0": [
+    {
+      "text": "props\\archives-props_corpse-4"
+    }
+  ],
+  "8f9de99c-32c4-4b56-ab03-80f32a4edf55": [
+    {
+      "text": "props\\archives-props_glass-1"
+    }
+  ],
+  "469e86c4-097c-4c35-a471-be1b2dac488c": [
+    {
+      "text": "props\\archives-props_papers-1"
+    }
+  ],
+  "4c8ab356-5883-4b53-98aa-c0082f572ccb": [
+    {
+      "text": "props\\archives-props_papers-2-flipped"
+    }
+  ],
+  "617da6f1-2bb5-409b-8de1-7f763ac908f0": [
+    {
+      "text": "props\\archives-props_pod-open"
+    }
+  ],
+  "3198d930-ef4f-41c7-bb10-0746506ce294": [
+    {
+      "text": "props\\archives-props_tech-1"
+    }
+  ],
+  "eff12b5c-4526-4cf4-bfb3-8086e8e0bded": [
+    {
+      "text": "props\\archives-props_vending-machine-1"
+    }
+  ],
+  "25c89568-bf92-4e58-9c5e-d9b481cc5c75": [
+    {
+      "text": "props\\archives-props_vending-machine-2"
+    }
+  ],
+  "e52712d7-3089-49f2-9378-b5b48309e6a7": [
+    {
+      "text": "props\\archives_room_props_office-chair-1"
+    }
+  ],
+  "552d3d5a-7c8f-43b5-b312-f3d1e6bcbd7c": [
+    {
+      "text": "props\\archives_room_props_office-chair-2"
+    }
+  ],
+  "214f790c-1724-4aa7-adbf-2980d412d935": [
+    {
+      "text": "props\\bathtub"
+    }
+  ],
+  "4b1dc228-26d3-4d54-bf5e-0d4acf5d7c75": [
+    {
+      "text": "props\\beach_ball"
+    }
+  ],
+  "4dd4b17f-e0fa-40df-bfed-902d0fb1d52f": [
+    {
+      "text": "props\\beach_trash"
+    }
+  ],
+  "cc44a6ab-c5d3-4f41-b957-5410288b6b24": [
+    {
+      "text": "props\\book_book-open-1"
+    }
+  ],
+  "9cf1d5cf-9daf-4b9b-992c-2f9577bd8c9c": [
+    {
+      "text": "props\\book_pile-books-5"
+    }
+  ],
+  "118128c9-5930-460e-808a-b513ecea4f51": [
+    {
+      "text": "props\\book_pile-books-7"
+    }
+  ],
+  "f5e4399b-ad7d-4c1b-9a4d-ef5de4bd9177": [
+    {
+      "text": "props\\broken-stone-bridge-h"
+    }
+  ],
+  "3b85b177-faf2-453b-a543-218ab0fbe912": [
+    {
+      "text": "props\\broken_old_teleporter"
+    }
+  ],
+  "2aa45ba2-05e6-4583-a149-0046182e0a87": [
+    {
+      "text": "props\\bug-temple_church_bench"
+    }
+  ],
+  "c9c6b34d-61bc-4da3-91bc-d426f9a60f98": [
+    {
+      "text": "props\\bug-temple_church_bench(no-sit)"
+    }
+  ],
+  "3e4109da-334e-4402-b728-7fef9f42f304": [
+    {
+      "text": "props\\bug-temple_church_bench_destroyed"
+    }
+  ],
+  "fd6bdcb5-b186-4b51-a2a0-b20972ddd757": [
+    {
+      "text": "props\\bureau_mortuary_shelves"
+    }
+  ],
+  "bf82c5e0-3925-416b-87fa-9f05eeb7cb1a": [
+    {
+      "text": "props\\bureau_table_corpse_1"
+    }
+  ],
+  "57c732a0-82d3-45a4-8273-25fc54c6a653": [
+    {
+      "text": "props\\candles-1"
+    }
+  ],
+  "5ef07e87-2830-40b7-8bf3-eb25d1a89a43": [
+    {
+      "text": "props\\candles-2"
+    }
+  ],
+  "7902d705-c102-4906-9b6f-176e3cc17201": [
+    {
+      "text": "props\\candles-3"
+    }
+  ],
+  "f3620f23-12e9-4616-97ec-2b2af3cdd00b": [
+    {
+      "text": "props\\candles-4"
+    }
+  ],
+  "a66346f7-5862-4ef2-bb1e-09c7d9e44c23": [
+    {
+      "text": "props\\deep-mines-3_chopped-mushroom-1"
+    }
+  ],
+  "5dbd8a7d-c998-4426-bdf8-eaf889c8f677": [
+    {
+      "text": "props\\deep-mines-3_mushroom-grass-1"
+    }
+  ],
+  "ddc111da-835a-4ca7-a3cb-dc0ccf4fb5a2": [
+    {
+      "text": "props\\digital_props_cross"
+    }
+  ],
+  "09069843-b71c-4183-9e68-ca5d85713454": [
+    {
+      "text": "props\\digital_props_lines1"
+    }
+  ],
+  "9bd77fbe-4d4a-475e-9659-d20c1ab8eb34": [
+    {
+      "text": "props\\digital_props_lines2"
+    }
+  ],
+  "193f4891-b74b-40b0-9573-564e099980da": [
+    {
+      "text": "props\\digital_props_square2"
+    }
+  ],
+  "e934ae2e-1616-4cd2-9dd4-5115a0de207c": [
+    {
+      "text": "props\\door-side-thin"
+    }
+  ],
+  "90a68616-5f30-4fb5-bb76-dc2ef618860e": [
+    {
+      "text": "props\\electronic_monitor_breakable"
+    }
+  ],
+  "a0e905f9-14b7-4621-8347-553a060ab54e": [
+    {
+      "text": "props\\fg_leves_large_fg_crosshatch"
+    }
+  ],
+  "855aa415-f8bb-45fc-90a1-1985f73f7238": [
+    {
+      "text": "props\\flowers_spread"
+    }
+  ],
+  "24028220-8520-4fcb-84b4-52f214703a56": [
+    {
+      "text": "props\\garden_bush-small-1"
+    }
+  ],
+  "6fef3074-2ca3-4b4a-93ed-5ca1418d1cec": [
+    {
+      "text": "props\\gazebo"
+    }
+  ],
+  "3a3705da-23ae-499b-a57b-a9a95821f58f": [
+    {
+      "text": "props\\golden_city_player_house"
+    }
+  ],
+  "b4e45f71-9f68-4b48-bbdd-dc657642291d": [
+    {
+      "text": "props\\greed_blocking_1"
+    }
+  ],
+  "5ceeb3b8-b663-4c95-8a9d-54ed4974d9d9": [
+    {
+      "text": "props\\greeds-harem_bed-1"
+    }
+  ],
+  "24a2b77c-a7c6-484a-a542-b37da33425ef": [
+    {
+      "text": "props\\greeds-harem_carpet-2"
+    }
+  ],
+  "e2f81097-e70b-4ecf-80a0-10b8766e1090": [
+    {
+      "text": "props\\greeds-harem_curtains-1"
+    }
+  ],
+  "66fbe78a-2bbc-4681-aa1b-9e57e55c33a4": [
+    {
+      "text": "props\\greeds-harem_curtains-2"
+    }
+  ],
+  "78c9ef34-c2a0-4456-8c97-8503e4f6a694": [
+    {
+      "text": "props\\greeds-harem_hookah"
+    }
+  ],
+  "2fa0488e-2b4a-4c8b-806c-3d7d3ab971fc": [
+    {
+      "text": "props\\greeds-harem_pillows-1"
+    }
+  ],
+  "596b967a-3fa5-4eab-84a1-df5e9d6cbc92": [
+    {
+      "text": "props\\greeds-harem_statue-greed-1"
+    }
+  ],
+  "6413e73e-b354-4875-bcbf-7ed5cf062d25": [
+    {
+      "text": "props\\house_helena"
+    }
+  ],
+  "ca9a3948-8d93-4999-b3dd-652af7db9f20": [
+    {
+      "text": "props\\house_medic_roof"
+    }
+  ],
+  "4b7b0c0b-3028-464c-ab90-c8257f2568d0": [
+    {
+      "text": "props\\house_props_painting-3"
+    }
+  ],
+  "a58f0758-5381-4779-8106-a83a243a1a1c": [
+    {
+      "text": "props\\house_thomas_props_office-chair-broken"
+    }
+  ],
+  "da1a392b-36a5-43d5-a9d8-7d91f8c3f2bf": [
+    {
+      "text": "props\\kick\\small_leaf"
+    }
+  ],
+  "a9e77ef7-f04f-41ad-a6ed-fac454d363b8": [
+    {
+      "text": "props\\mine_props_Rock-2"
+    }
+  ],
+  "f82eafa2-92ab-4a05-8e14-91abd1baa570": [
+    {
+      "text": "props\\mine_props_Rock-3"
+    }
+  ],
+  "9e89ed00-6080-4a1f-b63d-6b96710309e6": [
+    {
+      "text": "props\\mine_props_Rock-4"
+    }
+  ],
+  "c2e4da33-2d1d-4db8-9e78-399fa48de605": [
+    {
+      "text": "props\\mine_props_Rock-5"
+    }
+  ],
+  "e2a999af-a207-4d21-9b91-74d5bf9d9b7c": [
+    {
+      "text": "props\\mine_props_Rock-6"
+    }
+  ],
+  "eae0129d-5b38-4dfd-aaf2-30cc1bdb87fc": [
+    {
+      "text": "props\\mine_props_Rock-7"
+    }
+  ],
+  "da80bfe7-bb0f-4aca-9a37-aa3e2c3bf33f": [
+    {
+      "text": "props\\mine_props_Rock-8"
+    }
+  ],
+  "f9b29120-da93-429c-82cf-d45fc4e4a569": [
+    {
+      "text": "props\\misplace-damage_floor_marks_1"
+    }
+  ],
+  "faacb270-b482-48e6-95d0-c7ab1befe28d": [
+    {
+      "text": "props\\misplace-damage_floor_marks_2"
+    }
+  ],
+  "c8414bf9-a5d7-47eb-9ccc-e038c840e7a0": [
+    {
+      "text": "props\\misplace-damage_floor_marks_3"
+    }
+  ],
+  "17f99e84-d328-42e7-885f-fc494819b49d": [
+    {
+      "text": "props\\misplace-damage_floor_marks_5"
+    }
+  ],
+  "db131a99-be89-4c4e-88a2-08da973a0516": [
+    {
+      "text": "props\\misplace-damage_floor_marks_6"
+    }
+  ],
+  "5c6cba9a-5d7e-4391-b695-2dea601cebfa": [
+    {
+      "text": "props\\neverway_arches_arch-1"
+    }
+  ],
+  "4dca45f5-8a12-4662-891b-285e1ca6663a": [
+    {
+      "text": "props\\neverway_arches_arch-high-1"
+    }
+  ],
+  "f2ef8b00-f2bc-4eb5-8469-1d96b8bdeee2": [
+    {
+      "text": "props\\neverway_arches_floor-stone-detail-1"
+    }
+  ],
+  "65bdfd37-b855-4667-b15d-a5d1b04cceae": [
+    {
+      "text": "props\\neverway_arches_floor-stone-detail-2"
+    }
+  ],
+  "1e3ccebd-3c2a-4c6a-8e54-277798562de4": [
+    {
+      "text": "props\\neverway_arches_floor-stone-detail-3"
+    }
+  ],
+  "d91c6427-d084-47dc-8f76-7997f02835b3": [
+    {
+      "text": "props\\neverway_cables_cable-1"
+    }
+  ],
+  "231e5492-4d7e-44b7-b612-a7f91800d4b3": [
+    {
+      "text": "props\\neverway_cables_cable-2"
+    }
+  ],
+  "bbf214ee-525a-487e-9e2c-51aee0470460": [
+    {
+      "text": "props\\neverway_cables_cable-3"
+    }
+  ],
+  "07b8246b-7b31-4459-9408-0513ea054a40": [
+    {
+      "text": "props\\neverway_cables_engine"
+    }
+  ],
+  "0def3e77-5a35-41bb-9f46-87558f662357": [
+    {
+      "text": "props\\neverway_cables_engine-blood-1"
+    }
+  ],
+  "3efec160-5883-4fa5-90df-5a618eb94a80": [
+    {
+      "text": "props\\neverway_cables_pod-1"
+    }
+  ],
+  "77269a11-ece5-468b-affc-49db0a4f7547": [
+    {
+      "text": "props\\neverway_cables_pod-blood-1"
+    }
+  ],
+  "d5ee9e6f-5491-4c96-8451-14aea1461a0a": [
+    {
+      "text": "props\\neverway_spines_ribcage-3"
+    }
+  ],
+  "cf77c433-fb65-4404-a241-66aa80f82378": [
+    {
+      "text": "props\\neverway_wastelands_blood-tree-1"
+    }
+  ],
+  "c140f1df-b5f5-48d3-9880-ef3430a51a70": [
+    {
+      "text": "props\\neverway_wastelands_grass-2"
+    }
+  ],
+  "58757604-f6b0-49e3-8108-d1fa6ac1c7da": [
+    {
+      "text": "props\\piano"
+    }
+  ],
+  "e8fa5fb9-73b4-4a42-917d-5b615b9a696f": [
+    {
+      "text": "props\\plant_tree"
+    }
+  ],
+  "a2a80dc7-226b-43e3-965f-cd9b09014738": [
+    {
+      "text": "props\\server-props_cables-floor-2"
+    }
+  ],
+  "0acf6141-f92d-46e9-b602-682f558c890d": [
+    {
+      "text": "props\\server-props_ruined_metal_shelf_1"
+    }
+  ],
+  "abe08c0b-3cda-4663-99d5-8c4d4df4f99e": [
+    {
+      "text": "props\\server-props_ruined_metal_shelf_3"
+    }
+  ],
+  "a050c7b8-ab78-406f-9ffd-c1fe3e3ba086": [
+    {
+      "text": "props\\shop-empty-shelf-md"
+    }
+  ],
+  "94de67d0-abe8-4b42-9ca1-9fb7d9825228": [
+    {
+      "text": "props\\shop-empty-shelf-sm"
+    }
+  ],
+  "39115994-0354-4c56-a346-9257d239cd76": [
+    {
+      "text": "props\\snow_bamboo-1"
+    }
+  ],
+  "b2dec36f-a894-4024-b25e-0c451ad9aa14": [
+    {
+      "text": "props\\snow_bamboo-1-break"
+    }
+  ],
+  "54654620-72b8-4afb-8d3d-c8edae740497": [
+    {
+      "text": "props\\snow_bamboo-2"
+    }
+  ],
+  "b4cdf8ae-63ba-47f5-a3aa-f7ad5578c395": [
+    {
+      "text": "props\\snow_bamboo-2-break"
+    }
+  ],
+  "b09ad1e9-8d55-4f2c-b953-212d0f977176": [
+    {
+      "text": "props\\snow_bench-1"
+    }
+  ],
+  "5603fe52-9e6b-4578-8844-38a4670ca9fd": [
+    {
+      "text": "props\\snow_bench-2"
+    }
+  ],
+  "a1330abd-3144-41bd-be4d-ec027b03453c": [
+    {
+      "text": "props\\snow_bush-1"
+    }
+  ],
+  "eb4c8224-70da-4bdc-b4b2-7edd0e10399a": [
+    {
+      "text": "props\\snow_bush-2"
+    }
+  ],
+  "f36d4729-696e-4062-aab1-bf8a921becbe": [
+    {
+      "text": "props\\snow_bush-4"
+    }
+  ],
+  "d11ecc03-a769-4058-b4e9-d98c5a795c2d": [
+    {
+      "text": "props\\snow_ornament-1"
+    }
+  ],
+  "c9671c9d-2dc7-43d4-88e6-8f700199fc28": [
+    {
+      "text": "props\\snow_rocks-1"
+    }
+  ],
+  "434d50f4-56c1-478b-a143-c18c9fe6798d": [
+    {
+      "text": "props\\snow_rocks-2"
+    }
+  ],
+  "edf1db7a-f06d-4530-ab82-06c4ff647898": [
+    {
+      "text": "props\\soda_can"
+    }
+  ],
+  "d8f16739-6a87-4af3-a572-667de8774208": [
+    {
+      "text": "props\\spider-webs_diagonal-web"
+    }
+  ],
+  "91c3c1b9-479d-4846-b5c5-2f1927542303": [
+    {
+      "text": "props\\spider-webs_vertical-web"
+    }
+  ],
+  "3ee73fa2-1199-4cf1-8073-c2c24f898435": [
+    {
+      "text": "props\\start_village_baloons-1"
+    }
+  ],
+  "54de327f-e989-413d-a264-22113904255d": [
+    {
+      "text": "props\\start_village_bean-bag"
+    }
+  ],
+  "34968009-82d2-4c77-8668-f188ec995f81": [
+    {
+      "text": "props\\start_village_bean-bag-right"
+    }
+  ],
+  "e0332f92-6047-4b17-a398-82c9e236dad3": [
+    {
+      "text": "props\\start_village_decoration-flowers"
+    }
+  ],
+  "1cd413a6-c395-446b-a90b-67336601b1cf": [
+    {
+      "text": "props\\start_village_dumbell"
+    }
+  ],
+  "03cd95e0-3ff8-4d39-a1ad-095bafbd1b18": [
+    {
+      "text": "props\\start_village_fridge-3"
+    }
+  ],
+  "c2fe0ba1-72e4-46ba-b6cb-962270de66a0": [
+    {
+      "text": "props\\start_village_large_cable"
+    }
+  ],
+  "568389f6-f03f-4ef9-b0ee-89243fbca742": [
+    {
+      "text": "props\\start_village_painting-1"
+    }
+  ],
+  "85f4dc15-4e2e-435b-b68b-384221b41f7d": [
+    {
+      "text": "props\\start_village_painting-2"
+    }
+  ],
+  "77af6087-da0c-4fe1-8ec6-5b9cf8a51b1d": [
+    {
+      "text": "props\\start_village_shower-box"
+    }
+  ],
+  "9f64f046-b853-4a19-ad12-d00c251b8eaa": [
+    {
+      "text": "props\\start_village_stool-1"
+    }
+  ],
+  "5e78f3ae-3a9d-402f-9d88-2d20ee05e707": [
+    {
+      "text": "props\\swamp_props_boat_pile"
+    }
+  ],
+  "fe7f9ddd-7659-45b9-88be-c35b6c594d1f": [
+    {
+      "text": "props\\swamp_tree"
+    }
+  ],
+  "dabbae38-61a7-43c8-a5fa-175575926b96": [
+    {
+      "text": "props\\swamp_tree_mushrooms_3"
+    }
+  ],
+  "b47aa38c-cc13-4c93-bf3c-50b893a93e44": [
+    {
+      "text": "props\\table-counter-kitchen"
+    }
+  ],
+  "f6ff4917-307c-4d5e-9be8-aca19da68fde": [
+    {
+      "text": "props\\urn-1"
+    }
+  ],
+  "ddaba98c-08b7-4c9a-852f-f2c4ca44f373": [
+    {
+      "text": "props\\urn-2"
+    }
+  ],
+  "2171ffa3-6ac4-49e1-9c47-242e2c3f579f": [
+    {
+      "text": "props\\urn-3"
+    }
+  ],
+  "9a9736ae-99d3-45ad-a378-e04c1ed01772": [
+    {
+      "text": "props\\ventilation_fan"
+    }
+  ],
+  "f759174d-9edf-4d1b-8ce7-9982b8f7a058": [
+    {
+      "text": "props\\vilage_lamp_broken"
+    }
+  ],
+  "b38e6679-ae31-4758-ba26-1c27c9a01cf1": [
+    {
+      "text": "props\\warehouse_props_shelves-1"
+    }
+  ],
+  "48c00c99-21a4-4ae1-bafb-d24566aa95fb": [
+    {
+      "text": "props\\warehouse_props_shelves-2"
+    }
+  ],
+  "089f0d4a-deeb-44c2-b660-ec8621b5f4cf": [
+    {
+      "text": "props\\warehouse_props_shelves-3"
+    }
+  ],
+  "edab2f01-39fa-41c4-be2c-fe9e7d75c296": [
+    {
+      "text": "props\\warehouse_props_shelves-4"
+    }
+  ],
+  "d2115fb6-4dac-4b9a-b818-2f689c7f27ab": [
+    {
+      "text": "props\\warning_sign_w_img"
+    }
+  ],
+  "e3f220a3-51d8-4e06-ac87-2dad6ad69462": [
+    {
+      "text": "props\\wip-sign"
+    }
+  ],
+  "48950f02-7781-490d-b6bc-a2a593a4aaa0": [
+    {
+      "text": "road\\edgar_room_center_table"
+    }
+  ],
+  "3311775f-b051-4586-9f1c-e9ec3575cde5": [
+    {
+      "text": "road\\edgar_room_confy_chair"
+    }
+  ],
+  "f8516ab8-b95f-4003-bedb-4e27ab82c3b0": [
+    {
+      "text": "road\\edgar_room_smalltrash"
+    }
+  ],
+  "062fd7b7-294f-40d4-8063-9759cb968a42": [
+    {
+      "text": "road\\edgar_room_towels"
+    }
+  ],
+  "d64a73dd-dad1-4663-8157-4b591c8e17fa": [
+    {
+      "text": "sign-misplace"
+    }
+  ],
+  "4a8d8235-e973-4211-89e2-54be9b38bd96": [
+    {
+      "text": "temple/danger_gate"
+    }
+  ],
+  "87398663-67ed-4e4e-96c9-6926377788a1": [
+    {
+      "text": "tiles\\ocean_large_tile"
+    }
+  ],
+  "099accfa-51be-3c6f-65fc-281c4642ca01": [
+    {
+      "text": "ui\\3slice-bar-simple",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bfcf4ecb-0bd6-a222-d536-0223e83e4773": [
+    {
+      "text": "ui\\3slice-box-item",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e06f3f5c-8c08-b8a7-5faf-e53d1d81e65f": [
+    {
+      "text": "ui\\3slice-tab-simple",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "598d23c8-99cc-83af-5ab1-17f1e6085744": [
+    {
+      "text": "ui\\9slice-box-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5dd57df7-1878-5050-bea7-d7f4ee13cce2": [
+    {
+      "text": "ui\\9slice-box-2",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fd1f7121-4459-031e-1961-32cc5de07dd5": [
+    {
+      "text": "ui\\9slice-box-selectable",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e1745db3-2722-d7cf-1002-4811dda66cdd": [
+    {
+      "text": "ui\\9slice-button-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c1228d14-943c-ab56-e40b-ae0a9d54b187": [
+    {
+      "text": "ui\\CraftingIcons",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a08d5d34-f6fa-deeb-6fae-5f24846f818b": [
+    {
+      "text": "ui\\arrow-right_Long",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7ecc0d64-6ff4-461e-8724-906e8d07b8cb": [
+    {
+      "text": "ui\\arrow-right_Simple",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "74e8c849-ac3f-ce1d-b449-0b4272a85669": [
+    {
+      "text": "ui\\arrow_equip",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "05f6adc8-08fb-4f71-8b34-23ce5bb21745": [
+    {
+      "text": "ui\\aurora_books_header",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "26693360-a969-43dd-a1b2-2d71c43b6885": [
+    {
+      "text": "ui\\back_button",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a011de5e-1186-465c-a3f4-194676d08a3b": [
+    {
+      "text": "ui\\barn_border",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f79ad7da-b2c4-dbfc-474d-6a5016861e98": [
+    {
+      "text": "ui\\box-title-box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f78f2def-883d-48f9-80d3-f332a2c45ee2": [
+    {
+      "text": "ui\\buff_cooldown",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "58ffe08b-6645-7fa5-96e5-d0ba6720aea2": [
+    {
+      "text": "ui\\buff_simple",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e6e32651-73d1-55e7-0382-01e19ee5a8ad": [
+    {
+      "text": "ui\\building_area",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a71d34be-e974-499c-be80-6a5ef1d20579": [
+    {
+      "text": "ui\\calendar_boat",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2e472b43-f950-4cd9-bd1c-e2e2e0676639": [
+    {
+      "text": "ui\\calendar_calendar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4ec985a8-54e1-4c92-9413-c67433ab43f5": [
+    {
+      "text": "ui\\calendar_death",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "289e7d26-4bd0-4c46-87f0-bfa154a2c7d2": [
+    {
+      "text": "ui\\calendar_experience_paper",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "82e99060-d393-41c5-b07b-2b68892426eb": [
+    {
+      "text": "ui\\calendar_generic-dot",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d6549de6-6bbd-4ec2-87ef-a6a60653f4e1": [
+    {
+      "text": "ui\\calendar_home",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cd938067-7227-417c-8132-537746e070f8": [
+    {
+      "text": "ui\\calendar_luna",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "846f23dd-fc52-414b-978e-5903947b48ba": [
+    {
+      "text": "ui\\calendar_luna_small",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "88ff18e3-7cef-2f54-4564-20ecb57d63f7": [
+    {
+      "text": "ui\\calendar_mark",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3ac474eb-bc8b-4b53-905e-2c65c33a3447": [
+    {
+      "text": "ui\\calendar_mortgage",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8c591054-f7dc-446e-9ec3-5e879fb6f7ce": [
+    {
+      "text": "ui\\calendar_mortgage-fail",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4779949c-afaf-4406-bf4c-14658076ad5e": [
+    {
+      "text": "ui\\calendar_mortgage-paid",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f8f288f3-03e4-411a-a346-5b3c92dc4ce3": [
+    {
+      "text": "ui\\calendar_mortgage-sketch",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6091c796-5977-43d6-b361-8853feabfbc6": [
+    {
+      "text": "ui\\calendar_mortgage_fail",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1c21f7f3-4de6-44c7-a388-b2c7e180e8a4": [
+    {
+      "text": "ui\\calendar_mortgage_success",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b9963c4-c441-494e-a2d5-4a65516b8a6b": [
+    {
+      "text": "ui\\calendar_moth",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fc449d1a-de0c-4ce8-91e3-2551541309ef": [
+    {
+      "text": "ui\\calendar_moth_small",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8e49d331-00ef-42aa-8023-9c411cb70bad": [
+    {
+      "text": "ui\\calendar_printer_base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b2ed89c1-f6c9-4ff5-8843-4265c9920dba": [
+    {
+      "text": "ui\\calendar_printer_paper",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c9f6b1a0-bbe7-4c98-854d-8cadf617e198": [
+    {
+      "text": "ui\\calendar_scratch",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3511683c-a333-401e-b308-4e8c0649e03c": [
+    {
+      "text": "ui\\calendar_skull",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5263d026-616a-41ce-a4ea-a4c6f0be29e7": [
+    {
+      "text": "ui\\calendar_timer",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e64e88f4-35ee-4565-8d49-46cf23f2d9f5": [
+    {
+      "text": "ui\\calendar_today",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "88dda42f-d3d5-fd44-2136-554c63cc3339": [
+    {
+      "text": "ui\\chain_vertical",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d1a3afbb-490d-4a2c-a189-855107a3e5a1": [
+    {
+      "text": "ui\\containers_basic-arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "85fe7f92-043d-4750-955f-f63f38a049ba": [
+    {
+      "text": "ui\\containers_beveled",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "80d16880-0e44-8e7d-243c-0f37187370a4": [
+    {
+      "text": "ui\\containers_box_item",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f171a6db-a36c-4b2c-8ed0-c8fdf2aae0e4": [
+    {
+      "text": "ui\\containers_calendar-base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e3bc896b-c8a3-43eb-8bfe-1fdd8eb4d1ad": [
+    {
+      "text": "ui\\containers_calendar_interior",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5295cf55-6732-4885-8963-a8b4ce00537f": [
+    {
+      "text": "ui\\containers_choices_box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c9781677-d369-3426-94ad-3a95f4c6a49d": [
+    {
+      "text": "ui\\containers_choices_choices",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3aa1b272-31c9-40e1-bba2-6e67e1538602": [
+    {
+      "text": "ui\\containers_computer_window",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a25c406f-39b6-4f5b-b11a-779aa5c5b33c": [
+    {
+      "text": "ui\\containers_computer_window_1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1ec7e066-5b7b-47b1-a6e2-c574eb0ce93c": [
+    {
+      "text": "ui\\containers_computer_window_error",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "67845c8d-caf7-4880-986f-e18edc1a4718": [
+    {
+      "text": "ui\\containers_currency_box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1f564c47-6275-428a-b1d1-200714fd0467": [
+    {
+      "text": "ui\\containers_edge-ribbon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9c02464b-b80b-4989-8283-ff9179342be1": [
+    {
+      "text": "ui\\containers_edge-ribbon-simple",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "98ad2e65-c573-48a1-b639-cee5b7f2db33": [
+    {
+      "text": "ui\\containers_edge-ribbon-simple-edge",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5e5c0510-db14-430b-adde-6d993b8814fc": [
+    {
+      "text": "ui\\containers_eroded",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1dbfbc57-f62d-0d01-4181-6c012905835d": [
+    {
+      "text": "ui\\containers_gold",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e2d3c3c7-269a-4661-abf9-527b84e03ed6": [
+    {
+      "text": "ui\\containers_hp_bar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7ff4bb6f-b577-4ce8-b4a7-b0907f2b665b": [
+    {
+      "text": "ui\\containers_hp_bar_faded",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f1f4f85d-bd36-4ca9-4d9b-85ee0254b80b": [
+    {
+      "text": "ui\\containers_interaction_arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "53baff29-951c-854d-6eb3-fdd2a48e1062": [
+    {
+      "text": "ui\\containers_interaction_box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "341993ad-2f2a-1d5d-94ab-a862a3b8e383": [
+    {
+      "text": "ui\\containers_label-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "984ba65b-9f9d-d936-7ea4-ddc3306f8b2c": [
+    {
+      "text": "ui\\containers_level-container",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f6e9103d-e9be-49db-a5c1-672a49521910": [
+    {
+      "text": "ui\\containers_msgbox_give_item",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bd0d852f-454d-4b9e-b2f2-3cc7c13dd81c": [
+    {
+      "text": "ui\\containers_msgbox_give_item_icon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c211c3c9-8c53-45a3-b6e0-6f0d6c0035f5": [
+    {
+      "text": "ui\\containers_note-paper",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a181cc51-8a5e-4753-b84d-69e422e97072": [
+    {
+      "text": "ui\\containers_npc-menu",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7b89533f-2140-4012-8933-dae780c3193c": [
+    {
+      "text": "ui\\containers_npc-menu-arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b787e996-603b-41c6-9eb7-5c84faaba6ff": [
+    {
+      "text": "ui\\containers_npc-menu-hearts-base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "36f46fc5-10d7-4001-9359-a128df297dbe": [
+    {
+      "text": "ui\\containers_npc-menu-title",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8a46730f-08a7-f6bc-969a-1b27d9b98558": [
+    {
+      "text": "ui\\containers_paper",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ae9e8443-fe51-4c8a-b5c7-a49d2a97df6a": [
+    {
+      "text": "ui\\containers_paper-faded",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0316f9a8-912e-bb74-2fa5-babaf3755301": [
+    {
+      "text": "ui\\containers_paper-selected",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9f3f143a-d3bf-40e6-b8c8-61cbf56d6364": [
+    {
+      "text": "ui\\containers_pin-baloon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f056bbed-f4f7-4dc5-93b7-1badf76dc9d7": [
+    {
+      "text": "ui\\containers_plaque-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d1f3e594-92a1-478c-b97d-3bfeaf3fb281": [
+    {
+      "text": "ui\\containers_plaque-hollow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c6f3e23a-4210-4a3f-bb26-ddede4460c19": [
+    {
+      "text": "ui\\containers_price_tag_vertical",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "21903c7b-d8dd-6be7-8143-e932a7c7594d": [
+    {
+      "text": "ui\\containers_progress-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7946272e-0cde-4ead-b71d-cd2ca50b9b44": [
+    {
+      "text": "ui\\containers_question",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "65192df1-19bb-595f-2258-e1e874a0193c": [
+    {
+      "text": "ui\\containers_rounded-bottom",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c4793cf2-42e9-cfe1-06fd-7c3664f7abe3": [
+    {
+      "text": "ui\\containers_scroll_h",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0ace4721-3723-5e9d-5cbb-ea989d15622f": [
+    {
+      "text": "ui\\containers_scroll_h_item",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b809426-4114-4efa-8959-93fa13dee50b": [
+    {
+      "text": "ui\\containers_scroll_h_title",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c84adbcd-66a0-808a-07d6-4138cd88e9e4": [
+    {
+      "text": "ui\\containers_scroll_title",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cb7c94d3-b650-95ff-f586-3eb2702f1f8f": [
+    {
+      "text": "ui\\containers_scroll_zig_zag_left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "dc82c298-7693-8fa7-0d12-c473c6d409c7": [
+    {
+      "text": "ui\\containers_simplest",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5c8a1fa8-8100-7c37-a28a-1f43d9a5aded": [
+    {
+      "text": "ui\\containers_unlock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "db3766e7-4774-401a-89b4-89ad122f2e8d": [
+    {
+      "text": "ui\\demo_selection",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bdec27a4-638a-b767-cd4b-dfa3cee65f86": [
+    {
+      "text": "ui\\dialog-baloon_left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2e2621f8-adee-ffac-7e7f-ef57b8718b41": [
+    {
+      "text": "ui\\dialog-baloon_right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2a4cf394-dce0-48b8-b857-9000431ede9e": [
+    {
+      "text": "ui\\dialogue_icons_back",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5cfdcbbd-5400-fa38-d92a-de81f19c9150": [
+    {
+      "text": "ui\\dialogue_icons_bye",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e6f940b0-8330-4cca-bd01-64d445087847": [
+    {
+      "text": "ui\\dialogue_icons_cancel",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cf5a9216-a192-b0bf-3081-9654b5a7a6f6": [
+    {
+      "text": "ui\\dialogue_icons_gift",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5d1aaccf-b2b5-4f9e-b593-2d32437166a5": [
+    {
+      "text": "ui\\dialogue_icons_gift_empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "56587870-efce-45cf-8525-0dbd67b5948a": [
+    {
+      "text": "ui\\dialogue_icons_give",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b169a1fe-a7ea-44f7-bb99-bd926e1a840b": [
+    {
+      "text": "ui\\dialogue_icons_give_quest",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a94f7786-f34c-490f-a595-cb24bd472bc3": [
+    {
+      "text": "ui\\dialogue_icons_heart",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ff5599d4-4964-4ea9-a183-f1f28ff0a7b0": [
+    {
+      "text": "ui\\dialogue_icons_heart_empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "260b3008-8fe3-4388-a036-08c9e63a75e7": [
+    {
+      "text": "ui\\dialogue_icons_hold",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "51766073-916f-77a5-804e-2dc8f92b5148": [
+    {
+      "text": "ui\\dialogue_icons_info",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "85fe9cc5-fda5-5f29-10a8-35ca28877ac6": [
+    {
+      "text": "ui\\dialogue_icons_job",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fae570cb-49e3-407d-b512-b1bd14f0a6a0": [
+    {
+      "text": "ui\\dialogue_icons_lock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a306cb7f-94e9-1abd-139e-bc56d4d0ff92": [
+    {
+      "text": "ui\\dialogue_icons_quest_complete",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "55260236-2eaa-10dd-4ba2-6fc9cd361eba": [
+    {
+      "text": "ui\\dialogue_icons_sell",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "57dff6dd-a116-4c7f-969f-c0c945ae8922": [
+    {
+      "text": "ui\\dialogue_icons_study",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2b410d95-b593-4fa6-bff4-5f1a4bfcf2b6": [
+    {
+      "text": "ui\\dynamic_inventory_cool-robot-dance",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "96d60c2f-bf5d-4398-b19e-eb95cd7577d7": [
+    {
+      "text": "ui\\dynamic_inventory_item_selector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "dcea328f-d20f-46c1-89d8-61e3075b6e6e": [
+    {
+      "text": "ui\\dynamic_inventory_no-items",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e58aac86-e651-881e-13d1-f2533a724b41": [
+    {
+      "text": "ui\\emote-hearts",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9a803edf-e351-de43-468d-a36ea53d2c55": [
+    {
+      "text": "ui\\equip_modal",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "15b25228-e4f5-4519-8d57-ff4905b9a932": [
+    {
+      "text": "ui\\fang_comms",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e2b1bf0c-b56d-047e-e41f-7086bdb6d564": [
+    {
+      "text": "ui\\fiona-pause",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "86c0bfe8-be8d-62f2-9ecf-97bb1338093c": [
+    {
+      "text": "ui\\fish",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "de7458a1-1568-01a8-e731-78298a733cf5": [
+    {
+      "text": "ui\\fishing-pole",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "24980783-dd66-4e3e-bff7-e2541fafe0b6": [
+    {
+      "text": "ui\\fishing_arrow_down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b27cbf9-1531-4dc1-bf0d-d25d9a357567": [
+    {
+      "text": "ui\\fishing_arrow_up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f99681f2-a474-5128-2ed3-41ac9aaec537": [
+    {
+      "text": "ui\\fishing_base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b60c1e4d-ebcc-4969-b396-3df6a2083958": [
+    {
+      "text": "ui\\fishing_distance",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ae1f58c4-7866-aa99-8693-9ca8e6297ccf": [
+    {
+      "text": "ui\\fishing_rod-selector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ade2bc98-a913-2d82-30e0-dd38956e7bf3": [
+    {
+      "text": "ui\\heart_container",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9927bb4b-d469-4599-8abe-38d1c52a0310": [
+    {
+      "text": "ui\\hoe_skill_icon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3087c717-3e14-991b-8284-adf08ac94075": [
+    {
+      "text": "ui\\hp_bar_back",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "725f5270-8841-4c0a-9d8d-b264dabebea6": [
+    {
+      "text": "ui\\icon_ready_check",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "28c0c377-10c8-44d7-a188-2ec1b2036f49": [
+    {
+      "text": "ui\\info-bookmark_info",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c2434f19-0a62-cd16-9117-760ec41f15bf": [
+    {
+      "text": "ui\\info-bookmark_return-all",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "18de1faa-9adf-4c6d-9217-41a58656848f": [
+    {
+      "text": "ui\\inputs_Button_Down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0ceb2c30-9eed-48a2-80f7-de1171c7eb26": [
+    {
+      "text": "ui\\inputs_Button_Left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e9302e89-d187-4d86-8f0e-d6b24fff3e99": [
+    {
+      "text": "ui\\inputs_Button_Right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "177e7a96-f7ca-4887-9a26-73fbabe49f5d": [
+    {
+      "text": "ui\\inputs_Button_Up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "94870a67-c690-4a98-9b1a-eec1d82a3acd": [
+    {
+      "text": "ui\\inputs_D-Pad-down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "56db8d35-0ced-44fd-a41b-accb1acc35d4": [
+    {
+      "text": "ui\\inputs_D-Pad-left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bca0cd61-4c65-4f6e-9704-d5634a22a6ab": [
+    {
+      "text": "ui\\inputs_D-Pad-right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9b318b0e-105d-44f9-9c34-01e1859e89db": [
+    {
+      "text": "ui\\inputs_D-Pad-up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "eece763e-b6b4-4d4b-b10c-34d880016642": [
+    {
+      "text": "ui\\inputs_L-thumb-move-Down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1eb9c759-f55e-4a4c-9aba-0f442eca89cb": [
+    {
+      "text": "ui\\inputs_L-thumb-move-Left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "923c60f5-9af8-43a0-8d80-d7436446e3d2": [
+    {
+      "text": "ui\\inputs_L-thumb-move-Right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5e3d967c-ac37-4257-9c3f-37f88c4c1373": [
+    {
+      "text": "ui\\inputs_L-thumb-move-Up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8fe9cfbf-0f86-4dca-a0c7-902dbe0cf554": [
+    {
+      "text": "ui\\inputs_LeftSholder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f423ff4f-6ee0-43e0-93c4-ca1b428f1486": [
+    {
+      "text": "ui\\inputs_R-thumb-move-Down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "12f2cde0-5d87-4dfd-8bcd-ca33ad5a3b50": [
+    {
+      "text": "ui\\inputs_R-thumb-move-Left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "aa881ff8-3ca4-4066-a897-6524ddd8d1bd": [
+    {
+      "text": "ui\\inputs_R-thumb-move-Right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "11ab9bdb-863b-464c-981d-d9e0dd018667": [
+    {
+      "text": "ui\\inputs_R-thumb-move-Up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7ae7127b-206b-4460-a97a-3e2ed1deae9f": [
+    {
+      "text": "ui\\inputs_RightSholder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9febf7e5-63b5-448f-92fb-0af014ff58e2": [
+    {
+      "text": "ui\\inputs_axis-default",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d6dee7b4-db7e-89f2-bce2-b297165cee91": [
+    {
+      "text": "ui\\inputs_button_special",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "11c66fd5-3561-4e7b-8b09-90aea3527c5b": [
+    {
+      "text": "ui\\inputs_click-left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d0c2b58d-d188-4f46-941d-5ac8a8d0ed3a": [
+    {
+      "text": "ui\\inputs_click-right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "067e1d2b-63a5-4ce9-9d27-6137053433d8": [
+    {
+      "text": "ui\\inputs_down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2ff5522c-b3a6-6062-6095-e9fc083374da": [
+    {
+      "text": "ui\\inputs_dpad",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "35fe1013-abb3-3dd2-695b-c43e7927a595": [
+    {
+      "text": "ui\\inputs_generic_button",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a8aeb7a4-20e2-1e9c-5ccb-cc8b4bc2005c": [
+    {
+      "text": "ui\\inputs_key",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f84f6a42-1ad5-3b71-a96f-db875b9ee95e": [
+    {
+      "text": "ui\\inputs_key_long",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b8ee8993-e61c-493e-9d58-52cc8a4bbfd7": [
+    {
+      "text": "ui\\inputs_left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "943509ae-a5a1-404c-b182-def53254723f": [
+    {
+      "text": "ui\\inputs_mouse",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fb24a046-9d97-4319-910a-a78fbb0612ba": [
+    {
+      "text": "ui\\inputs_mouse4",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2f12478d-b65b-41d8-986c-8752aa0e594a": [
+    {
+      "text": "ui\\inputs_mouse5",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ba989e14-e360-4bc2-9c05-9b893d0f6c56": [
+    {
+      "text": "ui\\inputs_mouse_left",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e348023f-1d0f-48b7-9e6b-a796aa841bf5": [
+    {
+      "text": "ui\\inputs_mouse_middle",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "951a494f-5f4c-44c6-bc8e-cf06296bb717": [
+    {
+      "text": "ui\\inputs_mouse_right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2b39ecc9-b8f3-404a-8093-ec185e377674": [
+    {
+      "text": "ui\\inputs_right",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a0724a40-c272-e835-9b29-edbbd9c6f57c": [
+    {
+      "text": "ui\\inputs_stick",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d7188829-24ab-4aa1-a248-8ac9dc899019": [
+    {
+      "text": "ui\\inputs_up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ddaee4ce-d182-b47b-1ec2-6608c07aa8cb": [
+    {
+      "text": "ui\\interact_icon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6f4b20dd-750c-c6b3-19c9-26ab321d52cc": [
+    {
+      "text": "ui\\item-notification",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "74063d39-25b0-9b6c-f9c4-2c323d15a354": [
+    {
+      "text": "ui\\item-notification-holder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3bbebf08-e03b-ee3e-4215-c2cb802f7fa2": [
+    {
+      "text": "ui\\item_icon_small",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4090d729-e126-3f10-9964-9146600b0657": [
+    {
+      "text": "ui\\key_items",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "dd2d58c4-8ad3-40be-83c4-0dcaf9e905fb": [
+    {
+      "text": "ui\\keyboard",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "becfe4e7-acf8-4266-9c1f-f9d4db3b4de3": [
+    {
+      "text": "ui\\keyboard_keys_Single",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c82a0ee0-8541-4e96-a6ed-4e004bd0eb73": [
+    {
+      "text": "ui\\keyboard_keys_backspace",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "18fbba15-fc42-4352-bfe4-e574733c4023": [
+    {
+      "text": "ui\\keyboard_keys_space",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "25daf95c-945b-456d-ba95-07d3e93642df": [
+    {
+      "text": "ui\\keyboard_keys_submit",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8845b3f2-6601-2d28-eb74-a9d712cf92bb": [
+    {
+      "text": "ui\\level_up_banner",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bce33eae-11dd-5e4f-b900-dcfd93a8adf6": [
+    {
+      "text": "ui\\level_up_bar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e602db34-93e2-ce03-d499-19caca071d75": [
+    {
+      "text": "ui\\level_up_bg",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "af8690bc-59ae-d6f7-cc56-f1a23adf0f24": [
+    {
+      "text": "ui\\level_up_selector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d6873f50-07ce-eb6c-6e17-061d3c3bf721": [
+    {
+      "text": "ui\\level_up_warning",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "afe7e0d8-f4fa-6a63-63ce-90ca5f1996c7": [
+    {
+      "text": "ui\\level_up_wings",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d6470a5e-cfa9-896e-2c84-58a913e1a59e": [
+    {
+      "text": "ui\\level_up_wings_container",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2fe0e6e0-dd39-4e60-a531-16a5b8752795": [
+    {
+      "text": "ui\\main_menu_connector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4bddbc25-b403-6ecf-41ff-c20bd64beffc": [
+    {
+      "text": "ui\\map_arrows_down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "eecd01f2-c915-fafd-3e62-194731dc9eff": [
+    {
+      "text": "ui\\map_arrows_up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c99bbbf7-46d9-c694-b97d-25352ece8814": [
+    {
+      "text": "ui\\map_icon_point",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ba449198-1fea-456f-8200-e6846521f88b": [
+    {
+      "text": "ui\\map_icon_point_center",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c2bc1f05-3c27-5cd3-c2ab-0b78fabf15ae": [
+    {
+      "text": "ui\\map_icons_checkpoint",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fc23d880-37dc-4fe7-814a-051ac3adcc7d": [
+    {
+      "text": "ui\\map_icons_cursor",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b8c154e0-e014-c25f-a504-b94595353851": [
+    {
+      "text": "ui\\map_icons_flame",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "114aab56-b68c-2ebd-b815-b9366e48abdb": [
+    {
+      "text": "ui\\map_icons_key",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "882ec8b3-fccd-9976-6250-d07331e6d2f3": [
+    {
+      "text": "ui\\map_icons_lamp",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c134a3f2-09e4-d7d5-d7f8-6033b3e4462d": [
+    {
+      "text": "ui\\map_icons_npc",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "daa303b7-5226-4a39-0a14-39f5583e2ba0": [
+    {
+      "text": "ui\\map_icons_player",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5cfaf964-1280-4816-81e3-3acb53918234": [
+    {
+      "text": "ui\\map_icons_schedulle",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8803e7f5-a049-c673-51fb-0070a81743a8": [
+    {
+      "text": "ui\\menu_selector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "570e61f3-cb8a-49e8-bea0-51dfd6d486b8": [
+    {
+      "text": "ui\\message-box-ornaments",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1a30d158-a799-4a7b-9ae7-43f6eb87f7fa": [
+    {
+      "text": "ui\\message_box_advance_bottom",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fb3bd4dc-09dd-4b75-b6ea-df6858d4d927": [
+    {
+      "text": "ui\\message_box_time_advance",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4b70ec6d-9a4a-014a-f90e-13ffa21ea6af": [
+    {
+      "text": "ui\\message_prompt_icons",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ba268569-8a23-4b7c-bc43-35e0725b007c": [
+    {
+      "text": "ui\\metal_shelf",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d6411626-45b8-e0de-5742-cbc3865b278d": [
+    {
+      "text": "ui\\npc-emotes",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ee858207-55f7-48f9-834b-56202a7d5419": [
+    {
+      "text": "ui\\npc-pet",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "26720ab0-fef0-334a-8df1-ecdd977e6de5": [
+    {
+      "text": "ui\\ornament-1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5da04a6c-ee5a-4622-8de8-4eed7cbf5e67": [
+    {
+      "text": "ui\\other_icons_artist",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c816d104-e7c7-467f-bbf3-2f4ce1a55607": [
+    {
+      "text": "ui\\other_icons_aurora",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "15ceb341-c892-4ef3-90fb-91c7c9e7c0ed": [
+    {
+      "text": "ui\\other_icons_aurora-seal",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "762277f7-1c10-4e47-ac84-1ce2c8f2ee47": [
+    {
+      "text": "ui\\other_icons_aurora-seal-lock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b80649a-e567-4232-afa7-e4d63bc57160": [
+    {
+      "text": "ui\\other_icons_aurora-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "976545e5-2134-4d5f-a037-a868502fd3a8": [
+    {
+      "text": "ui\\other_icons_backpack",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a9724f56-1f8a-4061-9f79-45950eeeda84": [
+    {
+      "text": "ui\\other_icons_baleos",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "582471c3-1339-4edc-8b8f-de6aa1d031d5": [
+    {
+      "text": "ui\\other_icons_bath",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "21ded19f-204a-4ca4-9053-93eb4bacd4fa": [
+    {
+      "text": "ui\\other_icons_bed",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a48c7918-95e3-43b0-ae99-48aecbde3fc1": [
+    {
+      "text": "ui\\other_icons_bed-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4fc617af-c22e-4c69-9a5c-10e1d3d5a3d4": [
+    {
+      "text": "ui\\other_icons_bianca",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fa36c054-189e-44d6-928b-60f08d87485f": [
+    {
+      "text": "ui\\other_icons_calendar-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d958ee56-b946-43ca-b58e-748bd5bb8bf9": [
+    {
+      "text": "ui\\other_icons_carpenter-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a824f256-a75f-4e26-98ca-e618d3ec61a0": [
+    {
+      "text": "ui\\other_icons_carpenters",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d1fb8667-eab5-4acf-857b-d121bef1bcc4": [
+    {
+      "text": "ui\\other_icons_checkbox_checked",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "90b99214-c0b9-44bc-9f5b-141035baf3e7": [
+    {
+      "text": "ui\\other_icons_checkbox_empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "415469bb-2da3-4148-ac5e-e5873e24d583": [
+    {
+      "text": "ui\\other_icons_chemistry",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1740452a-15c8-4432-ae0e-29b17802171b": [
+    {
+      "text": "ui\\other_icons_city",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ffaed2a7-0359-4820-acc1-672cc956b930": [
+    {
+      "text": "ui\\other_icons_comma",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "adde6f79-512d-4ace-96ea-1cfc4e6a78fa": [
+    {
+      "text": "ui\\other_icons_compost",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5a64d7ab-d768-4223-8f49-5bc447b89e66": [
+    {
+      "text": "ui\\other_icons_compost-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "65c0faa1-9485-4c00-99e8-be5fcee991ed": [
+    {
+      "text": "ui\\other_icons_cosmo",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e1fd084c-9d47-4d6d-bf1e-b01f17ec089e": [
+    {
+      "text": "ui\\other_icons_cross",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fadcd511-0878-42fa-bc64-5948d2e493c5": [
+    {
+      "text": "ui\\other_icons_crossed-out",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "035a0cf0-776c-439c-9119-0f2d9be863fa": [
+    {
+      "text": "ui\\other_icons_dinner",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1dc2e6db-d278-4eb3-831a-695437fa286c": [
+    {
+      "text": "ui\\other_icons_dinner-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9ed145cf-fb88-4d9c-819b-df2d00f23cb0": [
+    {
+      "text": "ui\\other_icons_divider_complete",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "aa994d29-6af5-4383-b4a0-d989886e0b74": [
+    {
+      "text": "ui\\other_icons_divider_locked",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1efb3533-6eb0-4edd-8308-680080e98c08": [
+    {
+      "text": "ui\\other_icons_divider_lost",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "dc16738a-faab-4acd-90b0-0324845f2bdd": [
+    {
+      "text": "ui\\other_icons_divider_unlocked",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9d2ca2b9-e434-49fe-89d6-2cbed568752d": [
+    {
+      "text": "ui\\other_icons_dots",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "99b27aa1-bac3-409d-b1ad-52af7d0f78a1": [
+    {
+      "text": "ui\\other_icons_edgar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5c035577-f6ef-4a4d-b46f-c9f6e38d9b1c": [
+    {
+      "text": "ui\\other_icons_fang",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a2934535-015c-458a-84d8-e90547c921ee": [
+    {
+      "text": "ui\\other_icons_folder-arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2c8e2de1-b293-4581-989e-d2172623c887": [
+    {
+      "text": "ui\\other_icons_food_good",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f1e9a488-a557-4efa-aef7-a2dcbbfca012": [
+    {
+      "text": "ui\\other_icons_food_great",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7a178763-5356-45fe-bc2d-1d20c961846d": [
+    {
+      "text": "ui\\other_icons_food_slop",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7f61b982-ba98-4d96-9d9b-76b393f673c4": [
+    {
+      "text": "ui\\other_icons_furnace",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "92510ea8-2c28-48fb-a08f-ffc40db7b229": [
+    {
+      "text": "ui\\other_icons_furnace-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cebfa61f-76bd-428b-8453-3de0795af65f": [
+    {
+      "text": "ui\\other_icons_gunther",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "60b05296-a39d-418a-9a08-cce3eeb03178": [
+    {
+      "text": "ui\\other_icons_hand_cursor",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4a8bc787-7e38-41c8-9cf9-03ba52394293": [
+    {
+      "text": "ui\\other_icons_hand_cursor_down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "81434a39-34ad-40c6-9943-e6c656ab549b": [
+    {
+      "text": "ui\\other_icons_heart",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cdf8c89e-60cc-49e7-8f49-ec6e53cd97c6": [
+    {
+      "text": "ui\\other_icons_helena",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "73c00056-8c22-49e5-b3ee-b0c3af879536": [
+    {
+      "text": "ui\\other_icons_high-pressure-cooker",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "29d9476c-a2eb-41d1-a944-4d00f44c2a38": [
+    {
+      "text": "ui\\other_icons_house",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d3b32f0d-fd0c-4857-9287-4981df968427": [
+    {
+      "text": "ui\\other_icons_house-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e3a12b35-b707-4c7b-b765-2e3536c2a37f": [
+    {
+      "text": "ui\\other_icons_hunter",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b20b8ba-dde4-4f29-bb49-1821e2c87d0a": [
+    {
+      "text": "ui\\other_icons_inventory",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cb3e6805-3437-47ec-a7e3-2bba6187b03b": [
+    {
+      "text": "ui\\other_icons_jacques",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9c0a8d86-54cb-4fb4-b6e6-6d4a1e427590": [
+    {
+      "text": "ui\\other_icons_job_admin",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0fc83b52-a968-4ab9-91b7-2350f76e15ba": [
+    {
+      "text": "ui\\other_icons_job_computer",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "560becdd-1ff6-4ff4-9c00-8ffa372c1b41": [
+    {
+      "text": "ui\\other_icons_job_gardener",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7413b086-8865-4400-980c-a71dec882361": [
+    {
+      "text": "ui\\other_icons_job_guard",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ed351552-ef6c-49d8-9c08-6a345706d008": [
+    {
+      "text": "ui\\other_icons_job_soldier",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d3897497-a966-4e9e-a598-1ac5e053012b": [
+    {
+      "text": "ui\\other_icons_laika",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4c64a27c-77a2-44c5-afb4-ee19bc6a1a23": [
+    {
+      "text": "ui\\other_icons_luna",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1477cbf0-58d2-4d53-8ca9-5e44766b3085": [
+    {
+      "text": "ui\\other_icons_medic",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "93b635f2-6f04-4561-be2c-865c6c7990fe": [
+    {
+      "text": "ui\\other_icons_money",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "834358e3-b5d1-4acb-a37e-876bb86a7e0c": [
+    {
+      "text": "ui\\other_icons_monica",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "367d8003-84b3-4461-8902-b0ea03c66475": [
+    {
+      "text": "ui\\other_icons_montgomery_points",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "42043ab5-617d-4f3e-8618-186c0869b81a": [
+    {
+      "text": "ui\\other_icons_neverway",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2f0c1405-b4a2-421a-9538-8d5228d2ca29": [
+    {
+      "text": "ui\\other_icons_npc_pending_quest",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bda04da3-3f60-4542-bd2c-f83ea0684e2b": [
+    {
+      "text": "ui\\other_icons_npc_quest_important",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8fa69efc-d4dc-4f86-b649-ab627d2098f8": [
+    {
+      "text": "ui\\other_icons_oven",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "81454575-4da8-4fba-9295-c9551b5fdc84": [
+    {
+      "text": "ui\\other_icons_oven-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ed234f93-3954-41fb-96d6-afbf9f16aef7": [
+    {
+      "text": "ui\\other_icons_pause_calendar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ee432604-0315-4832-8c5d-9765174a6f10": [
+    {
+      "text": "ui\\other_icons_pause_fiona",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ee9bde96-153d-467d-9056-7b4c858b7357": [
+    {
+      "text": "ui\\other_icons_pause_inventory",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d99256b0-3a2a-4201-be89-040d542a2ba8": [
+    {
+      "text": "ui\\other_icons_pause_map",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8ba0a47e-8c4d-400c-ab1d-356a65810746": [
+    {
+      "text": "ui\\other_icons_pause_settings",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ea8446a3-8434-4610-a8e1-abe2c50f8b7f": [
+    {
+      "text": "ui\\other_icons_pause_skills",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ed0096b7-a313-4756-8254-b820399ba20a": [
+    {
+      "text": "ui\\other_icons_pause_social",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bcb80848-aa26-4573-8ba2-751c2048f41a": [
+    {
+      "text": "ui\\other_icons_pause_soulbond",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0d10470b-d323-49fa-8fb5-2d68b0b7c552": [
+    {
+      "text": "ui\\other_icons_pause_tasks",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "12b8f787-f0a7-46c2-9c92-d06cdbb2705e": [
+    {
+      "text": "ui\\other_icons_pin_down",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7be320c3-77d9-4773-b815-06aaf475e9aa": [
+    {
+      "text": "ui\\other_icons_pin_up",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e6cc743d-50e3-458a-89b8-5bb0c3fbe57b": [
+    {
+      "text": "ui\\other_icons_point_empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ef571ba9-a206-41fa-807d-911c9abf1424": [
+    {
+      "text": "ui\\other_icons_point_full",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "7803992b-d819-4432-9272-c3b552b0e326": [
+    {
+      "text": "ui\\other_icons_poison",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "96ee3379-2ce1-433f-9007-e2d981b66e9c": [
+    {
+      "text": "ui\\other_icons_press-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5133272d-d156-46d9-8fd5-aadafcd378c3": [
+    {
+      "text": "ui\\other_icons_renew",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5f0a8c08-a81e-499f-ae11-f328e0215f0a": [
+    {
+      "text": "ui\\other_icons_sawmill",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3f07af10-5efd-4b0e-a5e9-114831333466": [
+    {
+      "text": "ui\\other_icons_sawmill-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "689f13e8-2336-4ccd-8511-faaf4b55ce57": [
+    {
+      "text": "ui\\other_icons_simple_arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e2569089-29c0-4d13-9f6b-b2067d204027": [
+    {
+      "text": "ui\\other_icons_skip",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ab96752e-85d6-4f90-9ddb-587b3da5cefa": [
+    {
+      "text": "ui\\other_icons_skull_hp",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "20e24eca-edf9-4d83-ba54-cc7a74975a22": [
+    {
+      "text": "ui\\other_icons_soul-heart-empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6f1d7c8c-8b46-458e-b49f-d5c9f0481734": [
+    {
+      "text": "ui\\other_icons_soul-heart-full",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d51493f5-2645-4e5a-8be5-6107f92439cd": [
+    {
+      "text": "ui\\other_icons_soul_bond",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9353900b-be4f-4f56-bb43-10f6ce8aa0cb": [
+    {
+      "text": "ui\\other_icons_stamina_drop",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3d57937a-3aa2-4cb9-93f4-4a726d87889b": [
+    {
+      "text": "ui\\other_icons_star",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cc0e5a4a-ba33-474a-9347-d22ffe8575a0": [
+    {
+      "text": "ui\\other_icons_star_check",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "24694baa-d160-4de7-b7ba-98a98bbefa37": [
+    {
+      "text": "ui\\other_icons_status_sad",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c1634b17-ac6c-402d-a610-c09043150862": [
+    {
+      "text": "ui\\other_icons_status_unhappy",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "070cae13-a0aa-498a-b1a2-96cc1829d949": [
+    {
+      "text": "ui\\other_icons_study",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "720b851c-ee73-42ca-910d-d25b3fa695f1": [
+    {
+      "text": "ui\\other_icons_study-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e82559bc-27d5-44e4-807a-b673316004c3": [
+    {
+      "text": "ui\\other_icons_tailor",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d1da184a-a376-4ef7-8c5b-dc707cfed504": [
+    {
+      "text": "ui\\other_icons_tailor-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fc202b20-d96b-49e1-905e-e693fb7dbb92": [
+    {
+      "text": "ui\\other_icons_thaumerian",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "8ef6a41e-5293-428d-aa8c-178645d7cb37": [
+    {
+      "text": "ui\\other_icons_thomas",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "69ef3e13-0ca8-49e4-9727-44f54eadb469": [
+    {
+      "text": "ui\\other_icons_tigela",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "9f088214-b492-4448-8b48-99dc47ae1695": [
+    {
+      "text": "ui\\other_icons_tinkerer",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f7e18fa7-794d-4a27-913d-4f8264dc8a38": [
+    {
+      "text": "ui\\other_icons_tinkerer-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b92c2e13-8503-4b7d-b102-9385ca04b9cf": [
+    {
+      "text": "ui\\other_icons_unknown",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2aa66507-3ac5-47e0-848f-0a93b43c8e08": [
+    {
+      "text": "ui\\other_icons_unpin",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3c7c3f88-6243-4cb2-9b3c-872869834db7": [
+    {
+      "text": "ui\\other_icons_villager",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1354386a-9935-4099-8ff4-0fd6467e326e": [
+    {
+      "text": "ui\\other_icons_water_plants",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cfdcb7f0-421a-4ce2-926c-c25c4bc36c8a": [
+    {
+      "text": "ui\\other_icons_workbench",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5d12280d-8630-4c7f-9c4d-ca3c26510ba9": [
+    {
+      "text": "ui\\other_icons_workbench-sm",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a55a1db0-abec-4809-acfc-566852f1a3fa": [
+    {
+      "text": "ui\\other_icons_ykros",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "23e44eb7-fc62-4efa-af9f-4a62a8c0e39d": [
+    {
+      "text": "ui\\other_icons_zealot",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a97a4e1b-ff5d-affc-71f2-4d6c20cc38d4": [
+    {
+      "text": "ui\\pause_menu",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "509099cf-0127-4905-95de-e38f90952333": [
+    {
+      "text": "ui\\portrait_notifications",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "87eadec8-59cc-455a-814b-8377e17aedd8": [
+    {
+      "text": "ui\\price_tag",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ded6a7cb-0b6b-4ce7-bf88-8465c3888443": [
+    {
+      "text": "ui\\seasons_header_fall",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2dd2bc66-2207-4bd8-99af-b7d7f4eaadfd": [
+    {
+      "text": "ui\\seasons_header_spring",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "90d6140b-d8f2-4e28-9c52-4499e61f809b": [
+    {
+      "text": "ui\\seasons_header_summer",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fa6cf4c5-3c9a-4a9e-a74d-965a1bb8ab8b": [
+    {
+      "text": "ui\\seasons_header_winter",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6dd58649-de64-455c-9c49-ace5cee1ff16": [
+    {
+      "text": "ui\\sell-box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1a4b46f5-e151-f8c4-aac9-199c5c00f208": [
+    {
+      "text": "ui\\shop_icon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6665781d-fed4-57e1-034e-81cbbb933386": [
+    {
+      "text": "ui\\simple_rects_medium",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "71117b0b-6d82-6368-df11-bdcb1e2efa22": [
+    {
+      "text": "ui\\simple_rects_small",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "fa0ad9be-d7ce-6b9b-02a0-c14278436ef2": [
+    {
+      "text": "ui\\skill_1",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "df6fb792-e23f-c080-7c92-b166850a920b": [
+    {
+      "text": "ui\\skill_2",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "31576d64-897e-f970-646a-8aa38f4d7e6d": [
+    {
+      "text": "ui\\skill_3",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "22558f82-57a5-cab0-b87a-1ea59bd98471": [
+    {
+      "text": "ui\\skill_4",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ecd42424-16fc-5e81-ced1-3b013bf239b5": [
+    {
+      "text": "ui\\skill_base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3a9fd9f5-9eb6-e0db-680d-b2b92ab327c7": [
+    {
+      "text": "ui\\skill_icon_bg",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4f155da1-ee3b-512a-c115-c50530938305": [
+    {
+      "text": "ui\\skills_holder_base",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "70476cc7-1cd9-47e9-9c41-192beadd6200": [
+    {
+      "text": "ui\\skills_holder_interaction_holder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e5ee8ad0-55e2-4c26-adc9-eec258e49e61": [
+    {
+      "text": "ui\\skills_holder_items_directional",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "90a9a8e6-8e1f-4b9a-9fc7-5b7bf8394aaa": [
+    {
+      "text": "ui\\skills_holder_items_holder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c9c9f281-496b-4933-32e7-56ca1435082a": [
+    {
+      "text": "ui\\skills_holder_stamina_alert",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "c4569d5f-680a-e386-2e95-626d42f70c60": [
+    {
+      "text": "ui\\skills_holder_stamina_holder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d4765b68-8033-49ab-80f4-c6745689d3ea": [
+    {
+      "text": "ui\\skills_icons",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "2f5c5723-5328-6ef9-8114-10b185e5a68d": [
+    {
+      "text": "ui\\skills_level_holder",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3b853588-f98e-42e4-8108-8b2cc39de892": [
+    {
+      "text": "ui\\small-npc-baloons_dots",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "0f2a5c65-ef6b-440b-977d-64235f9a9d9c": [
+    {
+      "text": "ui\\small-npc-baloons_empty",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "eb1f67b5-5774-4c60-b163-9e73466556b7": [
+    {
+      "text": "ui\\small-npc-baloons_important",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "677c3f8f-622d-477f-bb7c-57360ac13bb7": [
+    {
+      "text": "ui\\social_unlock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "6a8ed519-7776-4114-a5d1-a30ce4ad3775": [
+    {
+      "text": "ui\\soul_bond",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5a20c220-73f4-495f-8fb5-60a6b51bd240": [
+    {
+      "text": "ui\\soul_bond_ui_bg",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "17285da4-0d8b-401f-aa34-1bd2bfc66f1e": [
+    {
+      "text": "ui\\soul_bond_ui_header",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "165431e6-4b55-4adb-82a1-cd4c5538d4ae": [
+    {
+      "text": "ui\\soul_bond_ui_slot",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "32142681-acd0-42ba-96fd-8469a72e5dca": [
+    {
+      "text": "ui\\soul_bond_ui_title",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "32040e25-de30-4e55-b9fa-b8d5dda84ffb": [
+    {
+      "text": "ui\\sword_selector",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "37f9c1a1-275a-4f68-47e6-97dad42f2541": [
+    {
+      "text": "ui\\sword_skill_icon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1ae6d2af-d859-c7da-896d-182ff32de68a": [
+    {
+      "text": "ui\\text_baloon_dialogue_box",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "40ca2c75-efe6-8c59-e5c7-79ccc86f0901": [
+    {
+      "text": "ui\\text_baloon_dialogue_box_cursed",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "55ecdb3a-69fc-4a44-9082-031dd88f6a48": [
+    {
+      "text": "ui\\text_baloon_dialogue_box_digital",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "45e657d9-f733-9d26-e435-b4e877311c2d": [
+    {
+      "text": "ui\\text_baloon_next",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "5b20094b-ff85-fe9c-7bf2-200daf7780b1": [
+    {
+      "text": "ui\\text_baloon_speaker_name",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e8af11ba-d52d-4e83-b51f-287e71c81b84": [
+    {
+      "text": "ui\\text_icons_aurora",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e9f690f0-2a77-430d-8629-876a81ef3987": [
+    {
+      "text": "ui\\text_icons_bath",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "73074996-ddc3-4d32-8487-00d07f3b7e0e": [
+    {
+      "text": "ui\\text_icons_bed",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "ab541e2a-e3c5-45cd-b8c6-a7778c0104e5": [
+    {
+      "text": "ui\\text_icons_experience",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "15b42424-b9c1-421c-ba14-f79a39601581": [
+    {
+      "text": "ui\\text_icons_lock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "64c9ade4-edc5-43e4-95d5-e6ffdb7a4d9f": [
+    {
+      "text": "ui\\text_icons_study",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e6792131-8aab-410f-91ea-72c44ada98cb": [
+    {
+      "text": "ui\\text_icons_table",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e0218ac1-490b-4c46-bed6-d28847afb2be": [
+    {
+      "text": "ui\\text_icons_time",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b8f26b76-8087-86e9-b0f6-f03ffe6f63ac": [
+    {
+      "text": "ui\\time_tracker_bg",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b1c42e36-3ea6-e718-5e71-3af08e9f2a87": [
+    {
+      "text": "ui\\time_tracker_calendar_day",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cccb8871-ad73-48d0-bf26-a7bc273d881c": [
+    {
+      "text": "ui\\time_tracker_clock-segmented",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "81978bb7-341c-4624-bb47-cc738f5189dc": [
+    {
+      "text": "ui\\time_tracker_clock_filled",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "df2f6e21-6dc6-47cc-a2b1-5fbacef02a4f": [
+    {
+      "text": "ui\\time_tracker_day_of_the_week",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "3ebced4f-aad5-4880-8ac1-1bd66b348970": [
+    {
+      "text": "ui\\time_tracker_display_clock",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "cf1cd1a5-c219-4eea-bcdb-954a582a3bc2": [
+    {
+      "text": "ui\\time_tracker_eye",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "e3572b05-56a6-18e4-6c80-de45cc127594": [
+    {
+      "text": "ui\\time_tracker_moon",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "eb4414ea-0597-46d2-a97d-bc73b5f08511": [
+    {
+      "text": "ui\\time_tracker_selector_day_past",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "869f3a90-afc3-8c5e-6e31-599cdfe79ab4": [
+    {
+      "text": "ui\\time_tracker_selector_event",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4ae20ffc-cee3-4f25-b5a2-188e49ac09c7": [
+    {
+      "text": "ui\\time_tracker_selector_week_current",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "4dc0b04a-a0a3-4ad0-b51a-a1868fc6b350": [
+    {
+      "text": "ui\\time_tracker_slot",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1aedd920-4e64-5bcb-03cf-1bfae8ecaad5": [
+    {
+      "text": "ui\\time_tracker_sun",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "b057386d-ca11-dac8-5bfb-d84a7f5a6d81": [
+    {
+      "text": "ui\\timer",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "bf73c6c3-62e8-de07-68dd-8b254eff4f9f": [
+    {
+      "text": "ui\\ui_scroll",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "d8368aa2-fbf7-0e42-e5de-283cf8358e57": [
+    {
+      "text": "ui\\work_progress_NoSeeds",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "72b97ddc-91af-7ce6-fc93-d24faa62a650": [
+    {
+      "text": "ui\\work_progress_encumbered",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "00f543cb-a9a8-43cf-a557-4a008e31a7f2": [
+    {
+      "text": "ui\\work_progress_hourglass",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "61c43f7d-dcc1-04b3-6def-423f518a56ed": [
+    {
+      "text": "ui\\work_progress_no",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "33dcf8be-96fa-61f7-0d07-0249b6768622": [
+    {
+      "text": "ui\\work_progress_progress",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "389a3b9d-400b-aad7-67df-50cd034d3292": [
+    {
+      "text": "ui\\work_progress_progress_bar",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "67c884d1-1083-a0e4-b9e6-9a9637fa72eb": [
+    {
+      "text": "ui\\work_progress_sleepy",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "f9427981-d8ee-449b-ad96-64eda4d58a5c": [
+    {
+      "text": "ui\\work_progress_time_small",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "a260d716-b22a-4f99-9737-aa5597450ede": [
+    {
+      "text": "ui\\work_progress_tiny-arrow",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "1a426806-58f4-420b-8d3c-01fda029ce73": [
+    {
+      "text": "ui\\world-map",
+      "notes": null,
+      "file": "data9"
+    }
+  ],
+  "de96ee10-5173-4ffc-a37e-bebe0613eb0c": [
+    {
+      "text": "ui\\world-map-neverway",
+      "notes": null,
+      "file": "data9"
+    }
+  ]
+}

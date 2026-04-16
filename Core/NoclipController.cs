@@ -1,7 +1,6 @@
 using System.Numerics;
 using Bang;
 using Bang.Entities;
-using ImGuiNET;
 using Microsoft.Xna.Framework.Input;
 using Murder.Core;
 using Murder.Utilities;
@@ -107,9 +106,6 @@ public static class NoclipController
             _deactivatedSystems.Clear();
             return;
         }
-
-        // Don't process movement if ImGui wants keyboard
-        if (ImGui.GetIO().WantCaptureKeyboard) return;
 
         var keyboard = Keyboard.GetState();
         var direction = Vector2.Zero;

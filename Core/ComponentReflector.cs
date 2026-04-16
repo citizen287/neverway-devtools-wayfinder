@@ -52,7 +52,7 @@ public static class ComponentReflector
         }
         catch (Exception ex)
         {
-            DevToolsMod.Logger?.Error($"Failed to set field {field.Name}: {ex.Message}");
+            DevToolsMod.LogError($"Failed to set field {field.Name}: {ex.Message}");
             return null;
         }
     }

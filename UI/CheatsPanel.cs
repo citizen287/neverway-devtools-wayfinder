@@ -121,12 +121,6 @@ public static class CheatsPanel
 
         if (ImGui.CollapsingHeader("Inventory"))
         {
-            if (ImGui.Button("Debug Inventory"))
-                RunCommand(world, "gimme");
-            ImGui.SameLine();
-            if (ImGui.Button("Sword"))
-                RunCommand(world, "sword");
-            ImGui.SameLine();
             if (ImGui.Button("Learn All Recipes"))
                 RunCommand(world, "learn all");
         }

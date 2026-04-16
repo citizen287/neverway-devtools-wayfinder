@@ -25,13 +25,13 @@ public static class GameDrawPatch
 
         if (draw == null)
         {
-            DevToolsMod.Logger?.Warning("Could not find Game.Draw");
+            DevToolsMod.LogWarning("Could not find Game.Draw");
             return;
         }
 
         harmony.Patch(draw, postfix: new HarmonyMethod(typeof(GameDrawPatch), nameof(AfterDraw)));
 
-        DevToolsMod.Logger?.Info("Patched Game.Draw - press F2 for DevTools overlay, F3 for noclip");
+        DevToolsMod.LogInfo("Patched Game.Draw - press F2 for DevTools overlay, F3 for noclip");
     }
 
     public static void AfterDraw(MurderGame __instance, GameTime gameTime)
@@ -43,7 +43,7 @@ public static class GameDrawPatch
         catch (Exception ex)
         {
             // Don't let mod crashes kill the game. Log and disable overlay.
-            DevToolsMod.Logger?.Error($"DevTools error: {ex}");
+            DevToolsMod.LogError($"DevTools error: {ex}");
             try { ConsoleEngine.AddInfo($"DevTools error: {ex.Message}"); } catch { }
             DevToolsMod.ShowOverlay = false;
         }
@@ -91,11 +91,11 @@ public static class GameDrawPatch
             {
                 _renderer = new ImGuiRenderer(__instance);
                 _renderer.RebuildFontAtlas();
-                DevToolsMod.Logger?.Info("ImGui initialized");
+                DevToolsMod.LogInfo("ImGui initialized");
             }
             catch (Exception ex)
             {
-                DevToolsMod.Logger?.Error($"ImGui init failed: {ex.Message}");
+                DevToolsMod.LogError($"ImGui init failed: {ex.Message}");
                 DevToolsMod.ShowOverlay = false;
                 return;
             }
