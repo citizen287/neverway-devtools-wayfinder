@@ -37,4 +37,14 @@
   <ItemGroup>
     <!-- entities.json previously powered SpawnPanel; now we enumerate PrefabAsset at runtime -->
   </ItemGroup>
+
+  <!--
+    Exclude local tooling projects from the mod build.
+    (The SDK-style default includes **/*.cs, which would otherwise pull in Tools/*/obj/* generated sources.)
+  -->
+  <ItemGroup>
+    <Compile Remove="Tools/**" />
+    <EmbeddedResource Remove="Tools/**" />
+    <None Remove="Tools/**" />
+  </ItemGroup>
 </Project>

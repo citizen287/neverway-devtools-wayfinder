@@ -69,6 +69,12 @@ public static class DevToolsOverlay
                     ImGui.EndTabItem();
                 }
 
+                if (ImGui.BeginTabItem("Pets"))
+                {
+                    PetsPanel.Render();
+                    ImGui.EndTabItem();
+                }
+
                 ImGui.EndTabBar();
             }
         }
