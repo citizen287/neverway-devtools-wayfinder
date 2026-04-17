@@ -35,7 +35,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="UI\entities.json" />
-    <EmbeddedResource Include="UI\items.json" />
+    <!-- entities.json previously powered SpawnPanel; now we enumerate PrefabAsset at runtime -->
   </ItemGroup>
 </Project>

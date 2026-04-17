@@ -1,5 +1,3 @@
-using System.Reflection;
-using System.Text.Json;
 using Bang;
 using DevTools.Core;
 using ImGuiNET;
@@ -12,8 +10,8 @@ namespace DevTools.UI;
 /// <summary>
 /// Item giver panel, adapted from the old SpawnMod terminal UI (<c>SpawnMod/ItemModule.cs</c>).
 ///
-/// Loads <c>items.json</c> from this assembly's embedded resources and allows granting items to the
-/// player's inventory.
+/// This panel used to load <c>items.json</c> from embedded resources. That list can become stale,
+/// so we now enumerate all <c>Road.Assets.ItemAsset</c> at runtime.
 /// </summary>
 public static class ItemsPanel
 {
@@ -96,55 +94,24 @@ public static class ItemsPanel
 
         try
         {
-            _all = LoadItemsFromEmbeddedJson();
+            _all = LoadItemsFromGameAssets();
             Filter();
         }
         catch (Exception ex)
         {
-            DevToolsMod.LogError($"ItemsPanel failed to load items.json: {ex.Message}");
+            DevToolsMod.LogError($"ItemsPanel failed to enumerate item assets: {ex.Message}");
             _all = [];
             _filtered = [];
         }
     }
 
-    private static List<(string Name, Guid Guid)> LoadItemsFromEmbeddedJson()
+    private static List<(string Name, Guid Guid)> LoadItemsFromGameAssets()
     {
-        var asm = Assembly.GetExecutingAssembly();
-        var resName = asm.GetManifestResourceNames().FirstOrDefault(n => n.EndsWith("items.json", StringComparison.OrdinalIgnoreCase));
-        if (resName is null)
-            throw new InvalidOperationException("items.json not found as an embedded resource.");
-
-        using var stream = asm.GetManifestResourceStream(resName);
-        if (stream is null)
-            throw new InvalidOperationException($"Failed to open embedded resource '{resName}'.");
-
-        using var doc = JsonDocument.Parse(stream);
-
-        // Schema matches SpawnMod: { "<guid>": [ { "text": "Some/Name" } ] }
-        var list = new List<(string Name, Guid Guid)>(capacity: 2048);
-        foreach (var prop in doc.RootElement.EnumerateObject())
-        {
-            if (!Guid.TryParse(prop.Name, out var guid))
-                continue;
-
-            var first = prop.Value.ValueKind == JsonValueKind.Array
-                ? prop.Value.EnumerateArray().FirstOrDefault()
-                : default;
-
-            if (first.ValueKind != JsonValueKind.Object)
-                continue;
-
-            if (!first.TryGetProperty("text", out var textElem))
-                continue;
-
-            var name = textElem.GetString();
-            if (string.IsNullOrWhiteSpace(name))
-                continue;
-
-            list.Add((name!, guid));
-        }
-
-        list.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
+        // Cache is handled by ItemCatalog; this method just adapts it to the panel's tuple type.
+        var all = ItemCatalog.GetAllItemsCached(refreshSeconds: 5f);
+        var list = new List<(string Name, Guid Guid)>(capacity: all.Length);
+        foreach (var (guid, name) in all)
+            list.Add((name, guid));
         return list;
     }
 

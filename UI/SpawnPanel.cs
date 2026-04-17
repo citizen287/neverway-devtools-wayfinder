@@ -1,5 +1,3 @@
-using System.Reflection;
-using System.Text.Json;
 using Bang;
 using Bang.Components;
 using DevTools.Core;
@@ -13,8 +11,8 @@ namespace DevTools.UI;
 /// <summary>
 /// ImGui-based spawner panel, adapted from SpawnModGui.
 ///
-/// It loads <c>entities.json</c> from this assembly's embedded resources and
-/// allows spawning an entry near the player.
+/// This panel used to load <c>entities.json</c> from embedded resources. That list can become
+/// stale, so we now enumerate all <c>Murder.Assets.PrefabAsset</c> at runtime.
 /// </summary>
 public static class SpawnPanel
 {
@@ -101,55 +99,24 @@ public static class SpawnPanel
 
         try
         {
-            _all = LoadEntitiesFromEmbeddedJson();
+            _all = LoadSpawnablesFromGameAssets();
             Filter();
         }
         catch (Exception ex)
         {
-            DevToolsMod.LogError($"SpawnPanel failed to load entities.json: {ex.Message}");
+            DevToolsMod.LogError($"SpawnPanel failed to enumerate prefab assets: {ex.Message}");
             _all = [];
             _filtered = [];
         }
     }
 
-    private static List<(string Name, Guid Guid)> LoadEntitiesFromEmbeddedJson()
+    private static List<(string Name, Guid Guid)> LoadSpawnablesFromGameAssets()
     {
-        var asm = Assembly.GetExecutingAssembly();
-        var resName = asm.GetManifestResourceNames().FirstOrDefault(n => n.EndsWith("entities.json", StringComparison.OrdinalIgnoreCase));
-        if (resName is null)
-            throw new InvalidOperationException("entities.json not found as an embedded resource.");
-
-        using var stream = asm.GetManifestResourceStream(resName);
-        if (stream is null)
-            throw new InvalidOperationException($"Failed to open embedded resource '{resName}'.");
-
-        using var doc = JsonDocument.Parse(stream);
-
-        var list = new List<(string Name, Guid Guid)>(capacity: 4096);
-        foreach (var prop in doc.RootElement.EnumerateObject())
-        {
-            if (!Guid.TryParse(prop.Name, out var guid))
-                continue;
-
-            // Schema: { "<guid>": [ { "text": "Some/Name" } ] }
-            var first = prop.Value.ValueKind == JsonValueKind.Array
-                ? prop.Value.EnumerateArray().FirstOrDefault()
-                : default;
-
-            if (first.ValueKind != JsonValueKind.Object)
-                continue;
-
-            if (!first.TryGetProperty("text", out var textElem))
-                continue;
-
-            var name = textElem.GetString();
-            if (string.IsNullOrWhiteSpace(name))
-                continue;
-
-            list.Add((name!, guid));
-        }
-
-        list.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
+        // Cache is handled by SpawnableCatalog; this method adapts it to the panel tuple type.
+        var all = SpawnableCatalog.GetAllPrefabsCached(refreshSeconds: 5f);
+        var list = new List<(string Name, Guid Guid)>(capacity: all.Length);
+        foreach (var (guid, name) in all)
+            list.Add((name, guid));
         return list;
     }
 
