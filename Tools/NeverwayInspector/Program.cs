@@ -168,3 +168,135 @@ foreach (var t in asm.GetTypes().OrderBy(t => t.FullName))
         }
     }
 }
+
+// ---- Map-related introspection -------------------------------------------------
+Console.WriteLine();
+Console.WriteLine("=== Map-related (RoadSaveData) ===");
+
+Type? roadSaveData = asm.GetType("Road.Assets.RoadSaveData", throwOnError: false);
+if (roadSaveData is null)
+{
+    Console.WriteLine("Road.Assets.RoadSaveData not found.");
+}
+
+if (roadSaveData is not null)
+{
+    static string FormatMethod(MethodInfo m)
+    {
+        string parms = string.Join(", ", m.GetParameters().Select(p => $"{p.ParameterType.Name} {p.Name}"));
+        return $"{m.ReturnType.Name} {m.Name}({parms})";
+    }
+
+    Console.WriteLine($"Type: {roadSaveData.FullName}");
+
+    Console.WriteLine("Fields containing 'Map':");
+    foreach (var f in roadSaveData.GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(f => f.Name.Contains("Map", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(f => f.Name))
+    {
+        Console.WriteLine($"- {f.FieldType.Name} {f.Name}");
+    }
+
+    Console.WriteLine("Fields containing 'Unlocked':");
+    foreach (var f in roadSaveData.GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(f => f.Name.Contains("Unlocked", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(f => f.Name))
+    {
+        Console.WriteLine($"- {f.FieldType.Name} {f.Name}");
+    }
+
+    Console.WriteLine("Properties containing 'Map':");
+    foreach (var p in roadSaveData.GetProperties(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(p => p.Name.Contains("Map", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(p => p.Name))
+    {
+        Console.WriteLine($"- {p.PropertyType.Name} {p.Name}");
+    }
+
+    Console.WriteLine("Properties containing 'Unlocked':");
+    foreach (var p in roadSaveData.GetProperties(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(p => p.Name.Contains("Unlocked", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(p => p.Name))
+    {
+        Console.WriteLine($"- {p.PropertyType.Name} {p.Name}");
+    }
+
+    Console.WriteLine("Methods containing 'Map':");
+    foreach (var m in roadSaveData.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(m => m.Name.Contains("Map", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(m => m.Name))
+    {
+        Console.WriteLine($"- {FormatMethod(m)}");
+    }
+
+    Console.WriteLine();
+    Console.WriteLine("=== Teleporter-related (RoadSaveData) ===");
+
+    Console.WriteLine("Fields containing 'Teleporter':");
+    foreach (var f in roadSaveData.GetFields(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(f => f.Name.Contains("Teleporter", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(f => f.Name))
+    {
+        Console.WriteLine($"- {f.FieldType.Name} {f.Name}");
+    }
+
+    Console.WriteLine("Properties containing 'Teleporter':");
+    foreach (var p in roadSaveData.GetProperties(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(p => p.Name.Contains("Teleporter", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(p => p.Name))
+    {
+        Console.WriteLine($"- {p.PropertyType.Name} {p.Name}");
+    }
+
+    Console.WriteLine("Methods containing 'Teleporter':");
+    foreach (var m in roadSaveData.GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+                 .Where(m => m.Name.Contains("Teleporter", StringComparison.OrdinalIgnoreCase))
+                 .OrderBy(m => m.Name))
+    {
+        Console.WriteLine($"- {FormatMethod(m)}");
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("=== Map-related (BuildingId enum guess) ===");
+
+// BuildingId type may be used by RoadSaveData.UnlockMapBuilding(BuildingId)
+Type? buildingId = asm.GetType("Road.Assets.BuildingId", throwOnError: false)
+    ?? asm.GetType("Road.BuildingId", throwOnError: false)
+    ?? asm.GetTypes().FirstOrDefault(t => string.Equals(t.Name, "BuildingId", StringComparison.Ordinal) && (t.Namespace?.StartsWith("Road", StringComparison.Ordinal) == true));
+
+if (buildingId is null)
+{
+    Console.WriteLine("BuildingId type not found.");
+}
+else
+{
+    Console.WriteLine($"Found: {buildingId.FullName}");
+    Console.WriteLine($"IsEnum: {buildingId.IsEnum}");
+    if (buildingId.IsEnum)
+    {
+        foreach (var name in Enum.GetNames(buildingId).Take(200))
+            Console.WriteLine($"- {name}");
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("=== Teleporter-related (MapPlaces enum guess) ===");
+
+Type? mapPlaces = asm.GetType("Road.Core.MapPlaces", throwOnError: false)
+    ?? asm.GetTypes().FirstOrDefault(t => string.Equals(t.Name, "MapPlaces", StringComparison.Ordinal) && (t.Namespace?.StartsWith("Road", StringComparison.Ordinal) == true));
+
+if (mapPlaces is null)
+{
+    Console.WriteLine("MapPlaces type not found.");
+}
+else
+{
+    Console.WriteLine($"Found: {mapPlaces.FullName}");
+    Console.WriteLine($"IsEnum: {mapPlaces.IsEnum}");
+    if (mapPlaces.IsEnum)
+    {
+        foreach (var name in Enum.GetNames(mapPlaces).Take(300))
+            Console.WriteLine($"- {name}");
+    }
+}

@@ -27,6 +27,7 @@ public static class DevToolsOverlay
         {
             if (ImGui.BeginTabBar("DevToolsTabs"))
             {
+
                 if (ImGui.BeginTabItem("Console"))
                 {
                     ConsolePanel.Render();
@@ -72,6 +73,12 @@ public static class DevToolsOverlay
                 if (ImGui.BeginTabItem("Pets"))
                 {
                     PetsPanel.Render();
+                    ImGui.EndTabItem();
+                }
+
+                                if (ImGui.BeginTabItem("Buffs"))
+                {
+                    BuffsPanel.Render();
                     ImGui.EndTabItem();
                 }
 

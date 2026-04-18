@@ -68,17 +68,9 @@ public class ModEntry
                 return;
             }
 
-            // Use the AssemblyLoadContext that actually loaded this mod.
-            // Many mod loaders use a custom ALC, and resolution events are scoped to that context.
+
             var modAlc = AssemblyLoadContext.GetLoadContext(typeof(ModEntry).Assembly) ?? AssemblyLoadContext.Default;
 
-            // Directories to probe for sibling DLLs.
-            // Primary is the directory containing this mod DLL.
-            //
-            // IMPORTANT: In Wayfinder/Neverway the mod may be loaded from /GameDir/Mods/<mod>/,
-            // while shared/native libs might live in the game root (e.g. /GameDir/).
-            // Some loaders also run with AppContext.BaseDirectory pointing at /GameDir/.modded/.
-            // So we probe a handful of "likely game root" locations derived from what we can see.
             var probeDirs = BuildProbeDirs(modDir);
 
             Assembly? Resolver(AssemblyLoadContext alc, AssemblyName name)
@@ -384,8 +376,7 @@ public class ModEntry
                         {
                             var handle = NativeLibrary.Load(fullPath);
 
-                            // Validate that this is a compatible cimgui build by checking for a known export.
-                            // If this export is missing, ImGui.NET will crash later with EntryPointNotFound.
+
                             try
                             {
                                 _ = NativeLibrary.GetExport(handle, "igGetIO");
@@ -406,14 +397,11 @@ public class ModEntry
                         }
                         catch
                         {
-                            // try next
+
                         }
                     }
                 }
 
-                // If we saw at least one cimgui binary but it was incompatible, do NOT fall back to
-                // the runtime's default native library resolution (which might load that incompatible
-                // binary anyway and then crash later with EntryPointNotFound).
                 if (sawIncompatibleCandidate)
                 {
                     throw new DllNotFoundException(
