@@ -58,6 +58,14 @@ Press **F2** to toggle the overlay. Press **F3** to toggle noclip.
 ### Item Giver
 - Give yourself any Item in the game
 
+### Pet Menu 
+- Look through all the pets in game
+- Spawn in/Adopt Pets ingame (fixed barn required)
+
+### Buffs
+- Browse all available status effects in game
+- Toggle status effects
+
 ## Requirements
 
 - [Neverway](https://store.steampowered.com/app/2318330/Neverway/)
