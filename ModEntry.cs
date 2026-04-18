@@ -26,7 +26,8 @@ public class ModEntry : IWayfinderMod
     private static bool _resolverInstalled;
     private static readonly HashSet<string> _resolverDebugOnce = new(StringComparer.OrdinalIgnoreCase);
     private static bool _loggedCimguiLoad;
-    private static bool _loggedImGuiProbe;
+    // ImGui.NET is ILRepacked into this mod DLL, so there is no external
+    // ImGui.NET.dll to probe for anymore.
 
     // IMPORTANT:
     // Wayfinder loads mods like this:
@@ -193,21 +194,10 @@ public class ModEntry : IWayfinderMod
                     }
                 }
 
-                if (!_loggedImGuiProbe && string.Equals(name.Name, "ImGui.NET", StringComparison.OrdinalIgnoreCase))
-                {
-                    _loggedImGuiProbe = true;
-                    try
-                    {
-                        Console.WriteLine($"[Neverway DevTools] Resolving ImGui.NET. Probed: {string.Join("; ", probeDirs)}");
-                    }
-                    catch { /* ignore */ }
-                }
-
                 // Fallback: some distributions place managed deps in subfolders.
-                // For critical deps (notably ImGui.NET), do a bounded recursive search.
+                // For critical deps (Harmony), do a bounded recursive search.
                 if (name.Name is not null &&
-                    (string.Equals(name.Name, "ImGui.NET", StringComparison.OrdinalIgnoreCase) ||
-                     string.Equals(name.Name, "0Harmony", StringComparison.OrdinalIgnoreCase)))
+                    string.Equals(name.Name, "0Harmony", StringComparison.OrdinalIgnoreCase))
                 {
                     // Also probe the NuGet global packages folder in case the loader doesn't
                     // include it in its default resolution paths.
@@ -255,76 +245,11 @@ public class ModEntry : IWayfinderMod
             if (!ReferenceEquals(modAlc, AssemblyLoadContext.Default))
                 AssemblyLoadContext.Default.Resolving += Resolver;
 
-            // Proactively load common managed dependencies if present.
-            // This avoids relying on the resolver event firing in some edge cases.
-            Assembly? imguiNetAsm = null;
-            foreach (var dll in new[] { "ImGui.NET.dll" })
-            {
-                // On Windows, the native loader + mod loader arrangement frequently expects managed
-                // dependencies to live next to the game executable.
-                // Ensure we try the game directory first.
-                try
-                {
-                    var mainModule = System.Diagnostics.Process.GetCurrentProcess().MainModule;
-                    var gameDir = Path.GetDirectoryName(mainModule?.FileName);
-                    if (!string.IsNullOrWhiteSpace(gameDir) && Directory.Exists(gameDir))
-                    {
-                        var depInGameDir = Path.Combine(gameDir, dll);
-                        if (File.Exists(depInGameDir))
-                        {
-                            try
-                            {
-                                imguiNetAsm = modAlc.LoadFromAssemblyPath(depInGameDir);
-                                Console.WriteLine($"[Neverway DevTools] Loaded managed dependency '{dll}' from game dir: {depInGameDir}");
-                            }
-                            catch
-                            {
-                                // ignore; we'll fall back to probeDirs below
-                            }
-                        }
-                    }
-                }
-                catch
-                {
-                    // ignore
-                }
-
-                if (imguiNetAsm is not null)
-                    break;
-
-                foreach (var dir in probeDirs)
-                {
-                    if (string.IsNullOrWhiteSpace(dir) || !Directory.Exists(dir))
-                        continue;
-
-                    string dep = Path.Combine(dir, dll);
-                    if (!File.Exists(dep))
-                    {
-                        dep = TryFindFileCaseInsensitive(dir, dll) ?? dep;
-                        if (!File.Exists(dep))
-                            continue;
-                    }
-
-                    try { imguiNetAsm = modAlc.LoadFromAssemblyPath(dep); }
-                    catch { /* ignore */ }
-                    if (imguiNetAsm is not null)
-                        Console.WriteLine($"[Neverway DevTools] Loaded managed dependency '{dll}' from: {dep}");
-                    break;
-                }
-            }
-
-            if (imguiNetAsm is null)
-            {
-                Console.WriteLine($"[Neverway DevTools] Warning: ImGui.NET.dll was not found in the game directory or probe paths. Probed: {string.Join("; ", probeDirs)}");
-            }
-
             // Ensure the ImGui.NET native library (cimgui) is resolved from our probe dirs.
             // Without this, the process may pick up an incompatible cimgui from elsewhere.
             //
-            // NOTE: We may have ILRepacked ImGui.NET into *this* assembly. In that case,
-            // the DllImport attributes live in our mod assembly and we must install a
-            // resolver on our assembly too.
-            InstallImGuiNativeResolver(imguiNetAsm, probeDirs);
+            // ImGui.NET is ILRepacked into this mod DLL, so the DllImport attributes live
+            // in *this* assembly. Install the resolver here.
             InstallImGuiNativeResolver(typeof(ModEntry).Assembly, probeDirs);
 
             // Some loaders still rely on AppDomain resolution in certain cases.
