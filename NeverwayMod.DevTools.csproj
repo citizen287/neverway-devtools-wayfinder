@@ -4,12 +4,46 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <!--
+      Wayfinder loads mods by dropping DLLs into <GameRoot>/Mods and using
+      AssemblyLoadContext.Default.LoadFromAssemblyPath().
+
+      For SDK-style *class library* projects, NuGet runtime dependencies are NOT
+      copied to bin/ by default, which means Wayfinder will throw
+      ReflectionTypeLoadException during modAssembly.GetTypes() if a referenced
+      dependency (e.g. ImGui.NET.dll) isn't next to the mod DLL.
+
+      This forces all runtime lock-file assemblies (managed + native assets) to
+      be copied alongside the mod output.
+    -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
+
+  <!-- Convenience: produce a ready-to-drop folder containing the mod + deps. -->
+  <Target Name="BuildModDist" AfterTargets="CustomILRepack">
+    <PropertyGroup>
+      <_DistDir>$(MSBuildProjectDirectory)/dist</_DistDir>
+    </PropertyGroup>
+
+    <MakeDir Directories="$(_DistDir)" />
+    <ItemGroup>
+      <_DistFiles Include="$(TargetDir)**/*"
+                  Exclude="$(TargetDir)ImGui.NET.dll;$(TargetDir)Costura.dll;$(TargetDir)FodyHelpers.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_DistFiles)" DestinationFiles="@(_DistFiles->'$(_DistDir)/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
+  </Target>
 
   <ItemGroup>
     <PackageReference Include="Lib.Harmony" Version="2.4.*" />
     <PackageReference Include="ImGui.NET" Version="1.91.*" />
+    <!-- Merge ImGui.NET into the mod DLL so Wayfinder doesn't need to resolve ImGui.NET.dll during GetTypes(). -->
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.*">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
+
+
 
   <PropertyGroup>
     <GameAssemblyPath Condition="'$(GameAssemblyPath)' == ''">..\..\lib</GameAssemblyPath>
@@ -30,6 +64,11 @@
     </Reference>
     <Reference Include="Neverway">
       <HintPath>/gay/neverway/nw-again/Neverway.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="Wayfinder.Core">
+      <HintPath>/gay/neverway/nw-again/Wayfinder.Core.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

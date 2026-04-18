@@ -1,0 +1,30 @@
+<Project>
+  <!--
+    Custom ILRepack config.
+
+    The ILRepack.Lib.MSBuild.Task package will, by default, merge *all* DLLs in
+    the output directory into the primary assembly on Release builds.
+
+    For Wayfinder mods we only want to merge ImGui.NET into our mod DLL, because
+    Wayfinder loads mods into the Default ALC and calls GetTypes() immediately.
+    If ImGui.NET stays external, GetTypes() fails.
+  -->
+
+  <Target Name="CustomILRepack" AfterTargets="Build" Condition="'$(Configuration)' == 'Release'">
+    <ItemGroup>
+      <InputAssemblies Include="$(TargetPath)" />
+
+      <!-- Merge only ImGui.NET. Keep other DLLs external. -->
+      <InputAssemblies Include="$(TargetDir)ImGui.NET.dll" Condition="Exists('$(TargetDir)ImGui.NET.dll')" />
+    </ItemGroup>
+
+    <ILRepack
+      Parallel="true"
+      DebugInfo="true"
+      AllowDuplicateResources="false"
+      InputAssemblies="@(InputAssemblies)"
+      TargetKind="SameAsPrimaryAssembly"
+      KeyFile="$(KeyFile)"
+      OutputFile="$(TargetPath)" />
+  </Target>
+</Project>

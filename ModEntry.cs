@@ -1,40 +1,95 @@
 using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Runtime.Loader;
 using HarmonyLib;
-
+using Wayfinder.API;
+using Wayfinder.Core;
 /// <summary>
 /// Entry point for the new mod loader.
 /// The loader looks for a public class named exactly <c>ModEntry</c> in the root namespace,
 /// with a public static <c>Start()</c> method.
 /// </summary>
-public class ModEntry
+public class ModEntry : IWayfinderMod
 {
+    public string Name => "DevTools";
+    public string Description => "Debug/Cheat menu with a lot of features";
+    public string Version => "0.3";
+    public string Author => "Citizen287";
+
     // Keep this ID stable across loads so UnpatchAll works reliably.
-    private const string HarmonyId = "neverway.devtools";
+    private const string HarmonyId = "com.citizen287.Devtools";
     private static Harmony? _harmony;
     private static bool _resolverInstalled;
     private static readonly HashSet<string> _resolverDebugOnce = new(StringComparer.OrdinalIgnoreCase);
     private static bool _loggedCimguiLoad;
+    private static bool _loggedImGuiProbe;
+
+    // IMPORTANT:
+    // Wayfinder loads mods like this:
+    //   1) AssemblyLoadContext.Default.LoadFromAssemblyPath(mod.dll)
+    //   2) modAssembly.GetTypes()  (this is where missing deps crash the load)
+    //
+    // .NET's Default ALC will NOT automatically probe the mod's folder for
+    // referenced assemblies (ImGui.NET.dll, 0Harmony.dll, etc). So we must install
+    // our resolver at *assembly load time*.
+#pragma warning disable CA2255
+    [ModuleInitializer]
+    internal static void Initialize()
+    {
+        InstallDependencyResolver();
+    }
+#pragma warning restore CA2255
+
+    void IWayfinderMod.Start() => Start();
+    void IWayfinderMod.Stop() => Stop();
 
     public static void Start()
     {
+        // Wayfinder calls modAssembly.GetTypes() before instantiating mods, so we
+        // cannot rely on this resolver for *managed* dependencies required for type
+        // loading (e.g. ImGui.NET.dll). Those must be shipped next to the mod DLL,
+        // AND we must install the resolver via ModuleInitializer so Default ALC can
+        // actually find them.
+        //
+        // We still keep this resolver for native libs (cimgui) and for any loader
+        // edge-cases where dependency search paths differ.
         InstallDependencyResolver();
-
-        Console.WriteLine("[Neverway DevTools] Loaded (new loader entrypoint)");
-
-        _harmony = new Harmony(HarmonyId);
 
         try
         {
+            _harmony = new Harmony(HarmonyId);
+
+            // If this mod uses Harmony attributes, apply them.
+            _harmony.PatchAll();
+
+            // This repo also uses explicit patch application.
             DevTools.GameDrawPatch.Apply(_harmony);
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"[Neverway DevTools] Harmony patch failed: {ex}");
+            try
+            {
+                LoaderCore.LogError("Failed to inject: " + ex);
+            }
+            catch
+            {
+                // If LoaderCore logging fails for any reason, fall back to the mod's logger.
+                DevTools.DevToolsMod.LogError("Failed to inject: " + ex);
+            }
         }
+    }
+
+    /// <summary>
+    /// Optional stop hook (only called if the loader supports unloading).
+    /// </summary>
+    public static void Stop()
+    {
+        _harmony?.UnpatchAll(_harmony.Id);
+        _harmony = null;
     }
 
     /// <summary>
@@ -62,6 +117,27 @@ public class ModEntry
             if (string.IsNullOrWhiteSpace(modDir) || !Directory.Exists(modDir))
                 modDir = AppContext.BaseDirectory;
 
+            // Prefer the actual process (game) directory when available.
+            // This is more reliable than Process.MainModule on some platforms.
+            string? processDir = null;
+            try
+            {
+                var processPath = Environment.ProcessPath;
+                if (!string.IsNullOrWhiteSpace(processPath))
+                    processDir = Path.GetDirectoryName(processPath);
+            }
+            catch { /* ignore */ }
+
+            // Also probe the Wayfinder.Core location if present.
+            string? wayfinderDir = null;
+            try
+            {
+                var wfPath = typeof(IWayfinderMod).Assembly.Location;
+                if (!string.IsNullOrWhiteSpace(wfPath))
+                    wayfinderDir = Path.GetDirectoryName(wfPath);
+            }
+            catch { /* ignore */ }
+
             if (string.IsNullOrWhiteSpace(modDir) || !Directory.Exists(modDir))
             {
                 Console.WriteLine("[Neverway DevTools] Warning: Could not determine a valid probe directory for dependency resolution.");
@@ -71,7 +147,7 @@ public class ModEntry
 
             var modAlc = AssemblyLoadContext.GetLoadContext(typeof(ModEntry).Assembly) ?? AssemblyLoadContext.Default;
 
-            var probeDirs = BuildProbeDirs(modDir);
+            var probeDirs = BuildProbeDirs(modDir, processDir, wayfinderDir);
 
             Assembly? Resolver(AssemblyLoadContext alc, AssemblyName name)
             {
@@ -114,6 +190,54 @@ public class ModEntry
                     catch
                     {
                         // keep probing
+                    }
+                }
+
+                if (!_loggedImGuiProbe && string.Equals(name.Name, "ImGui.NET", StringComparison.OrdinalIgnoreCase))
+                {
+                    _loggedImGuiProbe = true;
+                    try
+                    {
+                        Console.WriteLine($"[Neverway DevTools] Resolving ImGui.NET. Probed: {string.Join("; ", probeDirs)}");
+                    }
+                    catch { /* ignore */ }
+                }
+
+                // Fallback: some distributions place managed deps in subfolders.
+                // For critical deps (notably ImGui.NET), do a bounded recursive search.
+                if (name.Name is not null &&
+                    (string.Equals(name.Name, "ImGui.NET", StringComparison.OrdinalIgnoreCase) ||
+                     string.Equals(name.Name, "0Harmony", StringComparison.OrdinalIgnoreCase)))
+                {
+                    // Also probe the NuGet global packages folder in case the loader doesn't
+                    // include it in its default resolution paths.
+                    try
+                    {
+                        var nugetGlobal = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+                        var nugetPackages = Path.Combine(nugetGlobal, ".nuget", "packages");
+                        if (Directory.Exists(nugetPackages))
+                        {
+                            var nugetHit = TryFindFileRecursiveCaseInsensitive(nugetPackages, $"{name.Name}.dll", maxDepth: 6, maxCandidates: 50);
+                            if (nugetHit is not null)
+                            {
+                                try { return alc.LoadFromAssemblyPath(nugetHit); }
+                                catch { /* ignore and keep searching */ }
+                            }
+                        }
+                    }
+                    catch { /* ignore */ }
+
+                    foreach (var dir in probeDirs)
+                    {
+                        if (string.IsNullOrWhiteSpace(dir) || !Directory.Exists(dir))
+                            continue;
+
+                        var foundPath = TryFindFileRecursiveCaseInsensitive(dir, $"{name.Name}.dll", maxDepth: 8, maxCandidates: 5000);
+                        if (foundPath is null)
+                            continue;
+
+                        try { return alc.LoadFromAssemblyPath(foundPath); }
+                        catch { /* ignore and keep searching */ }
                     }
                 }
 
@@ -196,7 +320,12 @@ public class ModEntry
 
             // Ensure the ImGui.NET native library (cimgui) is resolved from our probe dirs.
             // Without this, the process may pick up an incompatible cimgui from elsewhere.
+            //
+            // NOTE: We may have ILRepacked ImGui.NET into *this* assembly. In that case,
+            // the DllImport attributes live in our mod assembly and we must install a
+            // resolver on our assembly too.
             InstallImGuiNativeResolver(imguiNetAsm, probeDirs);
+            InstallImGuiNativeResolver(typeof(ModEntry).Assembly, probeDirs);
 
             // Some loaders still rely on AppDomain resolution in certain cases.
             AppDomain.CurrentDomain.AssemblyResolve += (_, args) =>
@@ -220,7 +349,7 @@ public class ModEntry
         }
     }
 
-    private static string[] BuildProbeDirs(string modDir)
+    private static string[] BuildProbeDirs(string modDir, string? processDir, string? wayfinderDir)
     {
         var dirs = new List<string>(capacity: 8);
 
@@ -247,6 +376,14 @@ public class ModEntry
         Add(modDir);
         Add(AppContext.BaseDirectory);
         Add(Environment.CurrentDirectory);
+        Add(processDir);
+        Add(wayfinderDir);
+
+        // Common layout: <GameDir>/Mods/*.dll
+        try { Add(Path.Combine(AppContext.BaseDirectory, "Mods")); } catch { }
+
+        // Common layout: <GameDir>/Wayfinder/*.dll
+        try { Add(Path.Combine(AppContext.BaseDirectory, "Wayfinder")); } catch { }
 
         // Directory containing the game executable (when available).
         try
@@ -317,13 +454,64 @@ public class ModEntry
         return null;
     }
 
+    private static string? TryFindFileRecursiveCaseInsensitive(string dir, string fileName, int maxDepth, int maxCandidates)
+    {
+        try
+        {
+            if (maxDepth < 0 || maxCandidates <= 0)
+                return null;
+            if (!Directory.Exists(dir))
+                return null;
+
+            var queue = new Queue<(string path, int depth)>();
+            queue.Enqueue((dir, 0));
+
+            int seen = 0;
+            while (queue.Count > 0)
+            {
+                var (current, depth) = queue.Dequeue();
+                if (depth > maxDepth)
+                    continue;
+
+                IEnumerable<string> files;
+                try { files = Directory.EnumerateFiles(current); }
+                catch { continue; }
+
+                foreach (var f in files)
+                {
+                    if (string.Equals(Path.GetFileName(f), fileName, StringComparison.OrdinalIgnoreCase))
+                        return f;
+
+                    if (++seen >= maxCandidates)
+                        break;
+                }
+
+                if (seen >= maxCandidates)
+                    break;
+
+                if (depth == maxDepth)
+                    continue;
+
+                IEnumerable<string> subDirs;
+                try { subDirs = Directory.EnumerateDirectories(current); }
+                catch { continue; }
+
+                foreach (var sd in subDirs)
+                    queue.Enqueue((sd, depth + 1));
+            }
+        }
+        catch
+        {
+            // ignore
+        }
+
+        return null;
+    }
+
     private static void InstallImGuiNativeResolver(Assembly? imguiAssembly, string[] probeDirs)
     {
         try
         {
-            // IMPORTANT: ImGui.NET must be resolved in the *same* AssemblyLoadContext as the mod.
-            // Using Assembly.Load("ImGui.NET") can load it into the Default ALC, which means the
-            // DllImportResolver we install won't be used by the actual ImGui.NET instance.
             if (imguiAssembly is null)
                 return;
 
