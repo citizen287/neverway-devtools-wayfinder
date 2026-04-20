@@ -28,13 +28,16 @@
 
     <MakeDir Directories="$(_DistDir)" />
     <ItemGroup>
-      <_DistFiles Include="$(TargetDir)**/*"
-                  Exclude="$(TargetDir)ImGui.NET.dll;$(TargetDir)Costura.dll;$(TargetDir)FodyHelpers.dll" />
+      <_DistFiles Include="$(TargetDir)**/*" Exclude="$(TargetDir)ImGui.NET.dll;$(TargetDir)Costura.dll;$(TargetDir)FodyHelpers.dll" />
     </ItemGroup>
     <Copy SourceFiles="@(_DistFiles)" DestinationFiles="@(_DistFiles->'$(_DistDir)/%(RecursiveDir)%(Filename)%(Extension)')" SkipUnchangedFiles="true" />
   </Target>
 
   <ItemGroup>
+    <PackageReference Include="ILRepack" Version="2.0.44">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Lib.Harmony" Version="2.4.*" />
     <PackageReference Include="ImGui.NET" Version="1.91.*" />
     <!-- Merge ImGui.NET into the mod DLL so Wayfinder doesn't need to resolve ImGui.NET.dll during GetTypes(). -->
@@ -51,24 +54,24 @@
 
   <ItemGroup>
     <Reference Include="Murder">
-      <HintPath>/gay/neverway/nw-again/Murder.dll</HintPath>
+      <HintPath>/gay/nw-again/Murder.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Bang">
-      <HintPath>/gay/neverway/nw-again/Bang.dll</HintPath>
+      <HintPath>/gay/nw-again/Bang.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="FNA">
-      <HintPath>/gay/neverway/nw-again/FNA.dll</HintPath>
+      <HintPath>/gay/nw-again/FNA.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Neverway">
-      <HintPath>/gay/neverway/nw-again/Neverway.dll</HintPath>
+      <HintPath>/gay/nw-again/Neverway.dll</HintPath>
       <Private>false</Private>
     </Reference>
 
     <Reference Include="Wayfinder.Core">
-      <HintPath>/gay/neverway/nw-again/Wayfinder.Core.dll</HintPath>
+      <HintPath>/gay/nw-again/Wayfinder.Core.dll</HintPath>
       <Private>false</Private>
     </Reference>
   </ItemGroup>

@@ -15,6 +15,7 @@ using Wayfinder.Core;
 /// </summary>
 public class ModEntry : IWayfinderMod
 {
+    public string ID => "com.citizen287.Devtools";
     public string Name => "DevTools";
     public string Description => "Debug/Cheat menu with a lot of features";
     public string Version => "0.3";
