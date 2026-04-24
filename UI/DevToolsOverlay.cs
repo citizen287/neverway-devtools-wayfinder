@@ -64,6 +64,12 @@ public static class DevToolsOverlay
                     ImGui.EndTabItem();
                 }
 
+                if (ImGui.BeginTabItem("Sprite"))
+                {
+                    SpritePanel.Render();
+                    ImGui.EndTabItem();
+                }
+
                 if (ImGui.BeginTabItem("Items"))
                 {
                     ItemsPanel.Render();
@@ -73,6 +79,12 @@ public static class DevToolsOverlay
                 if (ImGui.BeginTabItem("Pets"))
                 {
                     PetsPanel.Render();
+                    ImGui.EndTabItem();
+                }
+
+                if (ImGui.BeginTabItem("Calender"))
+                {
+                    CalenderPanel.Render();
                     ImGui.EndTabItem();
                 }
 

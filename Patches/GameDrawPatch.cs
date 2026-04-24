@@ -76,6 +76,11 @@ public static class GameDrawPatch
                 NoclipController.Update(world, (float)gameTime.ElapsedGameTime.TotalSeconds);
         }
 
+        // Sprite cycling disabled for now; sprites just play their default animation on loop.
+
+        // Keep CalendarEvents toggle applied across world changes (even when overlay hidden).
+        CalendarEventsController.Update();
+
         if (!DevToolsMod.ShowOverlay) return;
 
         // Force cursor visible every frame while overlay is open.
