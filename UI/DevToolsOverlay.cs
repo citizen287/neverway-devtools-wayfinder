@@ -25,7 +25,8 @@ public static class DevToolsOverlay
         // Tab bar + content fills everything except the status bar
         if (ImGui.BeginChild("TabContent", new System.Numerics.Vector2(0, -statusBarHeight)))
         {
-            if (ImGui.BeginTabBar("DevToolsTabs"))
+            // Lots of tabs: make the tab bar scrollable so new panels don't become unreachable.
+            if (ImGui.BeginTabBar("DevToolsTabs", ImGuiTabBarFlags.FittingPolicyScroll))
             {
 
                 if (ImGui.BeginTabItem("Console"))
@@ -40,9 +41,9 @@ public static class DevToolsOverlay
                     ImGui.EndTabItem();
                 }
 
-                if (ImGui.BeginTabItem("Noclip"))
+                if (ImGui.BeginTabItem("Blackboard"))
                 {
-                    NoclipPanel.Render();
+                    BlackboardPanel.Render();
                     ImGui.EndTabItem();
                 }
 
