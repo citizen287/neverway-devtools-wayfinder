@@ -226,11 +226,67 @@ public static class CheatsPanel
             if (ImGui.Button("Quick Save"))
                 RunCommand(world, "save");
         }
+
+        if (ImGui.CollapsingHeader("Computer"))
+        {
+            RenderComputerTab();
+        }
     }
 
     private static void RunCommand(World world, string command)
     {
         ConsoleEngine.Execute(world, command);
+    }
+
+    private static readonly (string Name, Guid Guid)[] _computerApps =
+    [
+        ("Barduc", new Guid("868385a3-ed57-4896-a13e-2659c3db9e9f")),
+        ("CD", new Guid("b31a4801-261f-45af-a364-b09b55bff2bc")),
+        ("Cross Soul", new Guid("39176d3f-2254-4699-8e02-fd1d61bd4589")),
+        ("Email", new Guid("e6592d65-8c0d-4e75-92a3-5697602708e4")),
+        ("Exit", new Guid("6a8160c4-c313-4159-a491-a417aa21a223")),
+        ("Mortgage", new Guid("6bbb96fc-61e3-4c75-8b29-05c53d0b9e26")),
+        ("Training", new Guid("b43c3009-748b-43c6-8ac7-be71ec161082")),
+        ("Warning", new Guid("0e0044a2-0252-4676-8a07-f91bb1bd357b")),
+    ];
+
+    private static void RenderComputerTab()
+    {
+        var save = ComputerSoftwareSaveController.GetSaveOrNull();
+        if (save is null)
+        {
+            ImGui.TextColored(UIColors.Error, "No save loaded.");
+            return;
+        }
+
+        bool hasBackend = ComputerSoftwareSaveController.EnsureLoaded();
+        if (!hasBackend)
+        {
+            ImGui.TextColored(UIColors.Warning,
+                $"Backend not found: RoadSaveData.DownloadedSoftwareAtHome/DownloadSoftware/RemoveSoftware ({ComputerSoftwareSaveController.LastStatus})");
+            return;
+        }
+
+        ImGui.TextDisabled("These toggles modify save data (downloaded software at home). Changes persist.");
+        ImGui.Separator();
+
+        const int columns = 2;
+        if (ImGui.BeginTable("ComputerApps", columns, ImGuiTableFlags.SizingStretchSame))
+        {
+            for (int i = 0; i < _computerApps.Length; i++)
+            {
+                ImGui.TableNextColumn();
+
+                var (name, guid) = _computerApps[i];
+                bool unlocked = ComputerSoftwareSaveController.IsSoftwareUnlocked(save, guid);
+
+                // One checkbox with the human name as the visible label.
+                if (ImGui.Checkbox($"{name}##comp_{guid}", ref unlocked))
+                    ComputerSoftwareSaveController.SetSoftwareUnlocked(save, guid, unlocked);
+            }
+
+            ImGui.EndTable();
+        }
     }
 
 }
